@@ -1,0 +1,179 @@
+Log: Log file open, 05/15/22 18:31:53
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 400
+Init: Compiled: Apr 22 2022 03:39:04
+Init: Command line: 
+Init: Base directory: S:\October 26\System\
+Init: Character set: Unicode
+Init: Profile: DukeTemp
+Log: Bound to Engine.dll
+Init: Object subsystem initialized.
+Init: Computer: PAULPC
+Init: User: ErrorMacro
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=4275.035071 MHz
+Init: CPU Page size=4096, Processors=16
+Init: CPU Detected: Unknown processor (AuhenicAD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Localization: No localization: Startup.IDDIALOG_WizardDialog.IDC_WizardDialog (int)
+Log: Loading: Package Engine
+Init: Unreal engine initialized.  Lincoln is pleased.
+Init: DirectInput initialized successfully.
+Init: Win32 client initialized.
+Init: Lighting manager initialized.
+Init: Render core initialized.
+Log: LoadMap: Entry
+Log: Loading: Package Entry
+Log: Loading: Package dnWindow
+Log: Loading: Package UWindow
+Log: Loading: Package dnGame
+Log: Loading: Package hud_effects
+Log: Loading: Package dnParticles
+Log: Loading: Package t_generic
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Log: Loading: Package t_detail
+Log: Loading: Package t_firefx
+Log: Loading: Package a_impact
+Log: Loading: Package m_dnWeapon
+Log: Loading: Package palettes
+Log: Loading: Package m_vehicles
+Log: Loading: Package c_FX
+Log: Loading: Package t_explosionFx
+Log: Loading: Package dnModulation
+Log: Loading: Package afbproship
+Log: Loading: Package a_generic
+Log: Loading: Package mario
+Log: Loading: Package dnsWeapn
+Log: Loading: Package a_transport
+Log: Loading: Package t_test
+Log: Loading: Package m_generic
+Log: Loading: Package a_edf
+Log: Loading: Package c_generic
+Log: Loading: Package m_zone1_vegas
+Log: Loading: Package a_ambient
+Log: Loading: Package c_zone1_vegas
+Log: Loading: Package petalumahouse
+Log: Loading: Package powerpuzzle1
+Log: Loading: Package c_dnWeapon
+Log: Loading: Package a_dukevoice
+Log: Loading: Package circuitpuzzle1
+Log: Loading: Package ezmail
+Log: Loading: Package c_characters
+Log: Loading: Package ezvend
+Log: Loading: Package EZPhone
+Log: Loading: Package c_dukeitems
+Log: Loading: Package a_zone1_vegas
+Log: Loading: Package keypads
+Log: Loading: Package m_turretfx
+Log: Loading: Package m_characters
+Log: Loading: Package a_switch
+Log: Loading: Package a_inventory
+Log: Loading: Package c_hands
+Log: Loading: Package a_creatures
+Log: Loading: Package m_hands
+Log: Loading: Package dnsMaterials
+Log: Loading: Package SMK6
+Log: Loading: Package crane
+Log: Loading: Package ts01
+Log: Loading: Package dukeED_gfx
+Log: Loading: Package SMK5
+Log: Loading: Package SMK4
+Log: Loading: Package ShieldFX
+Log: Loading: Package vegas
+Log: Loading: Package canvasfx
+Log: Loading: Package arcadeFX
+Log: Loading: Package smk8
+Log: Loading: Package a_npcvoice
+Log: Loading: Package modelfx
+Log: Loading: Package c_vehicles
+Log: Loading: Package D3DSounds
+Log: Loading: Package UBrowser
+Log: Loading: Package SMK3
+Log: Loading: Package SMK7
+Log: EndLoadMap
+Log: LoadMap NumPreloads: 11978
+Log: LoadMap PreloadSize: 929644
+Log: LoadMap TexturePreloadSize: 413792
+Log: LoadMap SerializeTime: 0.114188
+Log: Setting Actor Collision.
+Log: Entered SetActorCollision.
+Log: Entering Actor collision loop 1.
+Log: Created new collision hash.
+Log: Exited SetActorCollision.
+Log: Setting up sound damping table.
+Log: Updating the level info's time.
+Log: Init the game info.
+Log: Get the GameInfo clas.
+Log: Game class is 'DukeIntro'
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: GameInfo::InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator___0
+ScriptLog: Using GameReplicationInfo class:GameReplicationInfo
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
+Log: DnExec: Seconds: 16352.740428 CrossfadeStart:16352.740428
+Log: LoadMap TotalTime: 0.273942
+Log: URL: Original URL: Entry.dnf
+Log: URL: Escaped URL: Entry.dnf
+Log: Browse: Entry.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
+Log: LoadMap: Entry.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
+Log: EndLoadMap
+Log: LoadMap NumPreloads: 0
+Log: LoadMap PreloadSize: 0
+Log: LoadMap TexturePreloadSize: 0
+Log: LoadMap SerializeTime: 0.000000
+Log: Setting Actor Collision.
+Log: Entered SetActorCollision.
+Log: Exited SetActorCollision.
+Log: Setting up sound damping table.
+Log: Updating the level info's time.
+Log: Init the game info.
+DevAudio: Galaxy SetViewport: NULL
+Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
+Log: DnExec: Seconds: 16352.742471 CrossfadeStart:16352.742471
+Log: LoadMap TotalTime: 0.001814
+ScriptLog: Console: Duke Nukem Forever
+ScriptLog: Console: Copyright 2000-2001 3D Realms, Inc.
+ScriptLog: Console:  
+ScriptLog: Console:  
+Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
+Log: DnExec: Seconds: 16352.878908 CrossfadeStart:16352.878908
+ScriptLog: GameInfo::Login: Duke Nukem
+ScriptLog: LOGIN:Spawning New Player Class dnGame.DukePlayer
+Log: Loading: Package p_portraiticons
+Init: Input system initialized for WindowsViewport___0
+Log: Trying D3DDrv.D3DRenderDevice
+Log: Bound to D3DDrv.dll
+Init: Direct3D adapters detected:
+Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Init: DukeForever Direct3D support initializing.
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: Rendertarget format: D3DFMT_X8R8G8B8
+Init: Clipper texture created
+DevAudio: Galaxy SetViewport: WindowsViewport___0
+Init: Game engine initialized
+Log: Startup time: 26.920626 seconds
+Log: DnExec: OpenNextMP3 NextJumpPattern:DukeNukemTheme.mp3 ChosenFilename:..\Music\DukeNukemTheme.mp3
+Log: Created 16 shadowcaster render targets
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: Rendertarget format: D3DFMT_X8R8G8B8
+Init: Clipper texture created
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: Rendertarget format: D3DFMT_X8R8G8B8
+Init: Clipper texture created
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
