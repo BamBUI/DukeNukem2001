@@ -1,17 +1,30 @@
 MegaPatch
-    Patch to fix various bugs and restore nonfunctioning content.
-    Combines all other patches where relevant.
+    Патч чинит очень много багов и доводид билд до более менее "рабочего" состояния.
+    Является комбинацией очень многих патчей 
+    Megapatch был уже с оригинальными файлами
+Установка: скопировать все файлы в папку October26
 
 EAX Emulation
-    Patch to enable surround sound through EAX emulation.
-
+    Патч включает surround звук через эмуляцию EAX
+    
 KNI Assembly
-    Patched assembly files to fix compilation issues.
+    Патчит assembly код (assembler), решает проблемы компиляции кода
 
 D3D8Wrapper
-    Patch that uses WineD3D and ForceD3D9On12 to fix rendering issues.
-    ForceD3D9On12 is used in DukeEd to avoid crashes caused by WineD3D.
+    Патч подключает WineD3D и ForceD3D9on12 - решает очень много проблем рендера
+    ForceD3D9on12 так же решает проблемы и краши DukeEd
+Установка: скопировать все файлы в папку October26
 
 AugustRenderHack
-    Patch to enable using the August build's Direct3D renderer with the October build.
-    Partially fixes rendering of hair, at the cost of breaking various other features.
+    Патч работает только после скидывания файлов из August в October.
+    Частично решает проблему рендера волос (которые проходят сквозь модель в October), за счёт других багов
+    
+Multiplayer
+    https://github.com/sirbaratusii/DNF01-MP-PatchPackage
+    Включает в себя смену модели, настройки профиля, добавляет текстуры для смены цвета модели Дюка
+Установка: скопировать все файлы в папку October26
+
+Renderers
+    https://github.com/sirbaratusii/DNF01-MP-PatchPackage
+    Включает в себя D3D8Wrapper и Vulcan (DXVK)
+Установка: скопировать все файлы в папку October26    
