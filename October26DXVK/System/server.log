@@ -1,0 +1,368 @@
+Log: Log file open, 05/11/22 20:38:02
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 400
+Init: Compiled: Apr 22 2022 03:39:04
+Init: Command line: DM-EDFTrainingGrounds.dnf?Game=dnGame.dnDeathmatchGame?Mutator=?Listen -server log=server.log
+Init: Base directory: C:\Duke.Nukem.Forever.2001-x0r\October 26 - working\October 26\System\
+Init: Character set: Unicode
+Init: Profile: Paul
+Log: Bound to Engine.dll
+Init: Object subsystem initialized.
+Init: Computer: PAULPC
+Init: User: ErrorMacro
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=4274.983762 MHz
+Init: CPU Page size=4096, Processors=16
+Init: CPU Detected: Unknown processor (AuhenicAD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Log: Loading: Package Engine
+Init: Unreal engine initialized.  Lincoln is pleased.
+Log: URL: Original URL: DM-EDFTrainingGrounds.dnf?Game=dnGame.dnDeathmatchGame?Mutator=?Listen
+Log: URL: Escaped URL: DM-EDFTrainingGrounds.dnf?Game=dnGame.dnDeathmatchGame?Mutator=?Listen
+Log: Browse: DM-EDFTrainingGrounds.dnf?Name=BamBUI?Class=dnGame.dnMalePlayer?team=0?Mesh=c_characters.General_Graves?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_thegeneral1?Spectate=?Game=dnGame.dnDeathmatchGame?Mutator=?Listen
+Log: LoadMap: DM-EDFTrainingGrounds.dnf?Name=BamBUI?Class=dnGame.dnMalePlayer?team=0?Mesh=c_characters.General_Graves?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_thegeneral1?Spectate=?Game=dnGame.dnDeathmatchGame?Mutator=?Listen
+Log: Loading: Package DM-EDFTrainingGrounds
+Log: Loading: Package grandcanyon
+Log: Loading: Package t_detail
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Log: Loading: Package airforcebase
+Log: Loading: Package Airforcebase2
+Log: Loading: Package EDF_1
+Log: Loading: Package hotel_gas
+Log: Loading: Package mineshaft
+Log: Loading: Package dnGame
+Log: Loading: Package hud_effects
+Log: Loading: Package dnParticles
+Log: Loading: Package t_generic
+Log: Loading: Package t_firefx
+Log: Loading: Package a_impact
+Log: Loading: Package m_dnWeapon
+Log: Loading: Package palettes
+Log: Loading: Package m_vehicles
+Log: Loading: Package c_FX
+Log: Loading: Package t_explosionFx
+Log: Loading: Package dnModulation
+Log: Loading: Package afbproship
+Log: Loading: Package a_generic
+Log: Loading: Package mario
+Log: Loading: Package dnsWeapn
+Log: Loading: Package a_transport
+Log: Loading: Package t_test
+Log: Loading: Package m_generic
+Log: Loading: Package a_edf
+Log: Loading: Package c_generic
+Log: Loading: Package m_zone1_vegas
+Log: Loading: Package a_ambient
+Log: Loading: Package c_zone1_vegas
+Log: Loading: Package petalumahouse
+Log: Loading: Package powerpuzzle1
+Log: Loading: Package c_dnWeapon
+Log: Loading: Package a_dukevoice
+Log: Loading: Package circuitpuzzle1
+Log: Loading: Package ezmail
+Log: Loading: Package c_characters
+Log: Loading: Package ezvend
+Log: Loading: Package EZPhone
+Log: Loading: Package c_dukeitems
+Log: Loading: Package a_zone1_vegas
+Log: Loading: Package keypads
+Log: Loading: Package m_turretfx
+Log: Loading: Package UWindow
+Log: Loading: Package m_characters
+Log: Loading: Package a_inventory
+Log: Loading: Package a_switch
+Log: Loading: Package c_hands
+Log: Loading: Package a_creatures
+Log: Loading: Package m_hands
+Log: Loading: Package dnsMaterials
+Log: Loading: Package SMK6
+Log: Loading: Package crane
+Log: Loading: Package ts01
+Log: Loading: Package SMK5
+Log: Loading: Package dukeED_gfx
+Log: Loading: Package smk8
+Log: Loading: Package vegas
+Log: Loading: Package SMK4
+Log: Loading: Package ShieldFX
+Log: Loading: Package canvasfx
+Log: Loading: Package arcadeFX
+Log: Loading: Package a_npcvoice
+Log: Loading: Package modelfx
+Log: Loading: Package c_vehicles
+Log: Loading: Package D3DSounds
+Log: Loading: Package stratosfear
+Log: Loading: Package sandworm
+Log: Loading: Package skyboxes
+Log: EndLoadMap
+Warning: Property ItemArticle of Class dnGame.TripMineAmmo not found
+Warning: Skipping 1 bytes of type 13
+Warning: Property ItemArticle of Class dnGame.TripMineAmmo not found
+Warning: Skipping 1 bytes of type 13
+Warning: Property ItemArticle of Class dnGame.TripMineAmmo not found
+Warning: Skipping 1 bytes of type 13
+Log: LoadMap NumPreloads: 18931
+Log: LoadMap PreloadSize: 19260548
+Log: LoadMap TexturePreloadSize: 12533648
+Log: LoadMap SerializeTime: 0.286539
+Log: Purging Unused Objects.
+Log: Collecting garbage
+Log: Purging garbage - DispatchDestroy
+Log: Purging garbage - DeleteGarbage
+Log: Purging garbage - DeleteNames
+Log: Garbage: objects: 19265->19262; refs: 253127
+Log: Garbage collection complete.
+Log: Unused Objects Purged.
+Log: Setting Actor Collision.
+Log: Entered SetActorCollision.
+Log: Entering Actor collision loop 1.
+Log: Created new collision hash.
+Log: Loading: Package m_dukeitems
+Log: Exited SetActorCollision.
+Log: Setting up sound damping table.
+Log: Updating the level info's time.
+Log: Init the game info.
+Log: Get the GameInfo clas.
+Log: Game class is 'dnDeathmatchGame'
+Log: Listen for clients.
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: Socket queue 131072 / 131072
+Init: WinSock: I am PaulPC (192.168.1.118)
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: p_portraiticons
+Log: Loading: Package p_portraiticons
+Log: Spawning: Engine.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Loading: Package IpServer
+Log: Spawning: IpServer.UdpServerUplink
+Log: Bringing Level DM-EDFTrainingGrounds.MyLevel up for play (20)...
+ScriptLog: GameInfo::InitGame: ?Name=BamBUI?Class=dnGame.dnMalePlayer?team=0?Mesh=c_characters.General_Graves?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_thegeneral1?Spectate=?Game=dnGame.dnDeathmatchGame?Mutator=?Listen
+ScriptLog: Base Mutator is DM-EDFTrainingGrounds.Mutator___0
+ScriptLog: Using GameReplicationInfo class:dnGame.dnDeathmatchGameReplicationInfo
+ScriptLog: UdpServerQuery: Port 7780 successfully bound.
+Log: Resolving shadowmavericks.com...
+Log: LoadMap TotalTime: 0.323436
+Log: Loading: Package m_fx
+Init: Game engine initialized
+Log: Startup time: 0.393619 seconds
+Log: Resolved shadowmavericks.com (64.74.97.177)
+ScriptLog: UdpServerUplink: Master Server is shadowmavericks.com:27900
+ScriptLog: UdpServerUplink: Port 7781 successfully bound.
+DevNet: Level server received: NETSPEED 10000
+Log: Client netspeed is 10000
+DevNet: Level server received: LOGIN RESPONSE=-657959713 URL=Index.dnf?Name=BamBUI?team=0?Mesh=c_characters.General_Graves?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Spectate=
+DevNet: Login request: Index.dnf?Name=BamBUI?team=0?Mesh=c_characters.General_Graves?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Spectate=
+DevNet: PreLogin failure: You need to enter a password to join this game. (NEEDPW)
+NetComeGo: Close TcpipConnection___16 05/11/22 20:38:12
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel 05/11/22 20:38:12 26.25.118.191:54512
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-EDFTrainingGrounds.MyLevel: Accepted
+Log: WLog::OnCommand ID_NotifyExit
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage - DispatchDestroy
+Log: Unbound to Engine.dll
+Log: Unloading: Package Engine
+Exit: Game engine shut down
+Log: Cannibal shutdown...
+Log: ...Cannibal shutdown complete.
+Log: Unloading: Package DM-EDFTrainingGrounds
+Log: Unloading: Package grandcanyon
+Log: Unloading: Package t_detail
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unloading: Package airforcebase
+Log: Unloading: Package Airforcebase2
+Log: Unloading: Package EDF_1
+Log: Unloading: Package hotel_gas
+Log: Unloading: Package mineshaft
+Log: Unloading: Package dnGame
+Log: Unloading: Package hud_effects
+Log: Unloading: Package dnParticles
+Log: Unloading: Package t_generic
+Log: Unloading: Package t_firefx
+Log: Unloading: Package a_impact
+Log: Unloading: Package m_dnWeapon
+Log: Unloading: Package palettes
+Log: Unloading: Package m_vehicles
+Log: Unloading: Package c_FX
+Log: Unloading: Package t_explosionFx
+Log: Unloading: Package dnModulation
+Log: Unloading: Package afbproship
+Log: Unloading: Package a_generic
+Log: Unloading: Package mario
+Log: Unloading: Package dnsWeapn
+Log: Unloading: Package a_transport
+Log: Unloading: Package t_test
+Log: Unloading: Package m_generic
+Log: Unloading: Package a_edf
+Log: Unloading: Package c_generic
+Log: Unloading: Package m_zone1_vegas
+Log: Unloading: Package a_ambient
+Log: Unloading: Package c_zone1_vegas
+Log: Unloading: Package petalumahouse
+Log: Unloading: Package powerpuzzle1
+Log: Unloading: Package c_dnWeapon
+Log: Unloading: Package a_dukevoice
+Log: Unloading: Package circuitpuzzle1
+Log: Unloading: Package ezmail
+Log: Unloading: Package c_characters
+Log: Unloading: Package ezvend
+Log: Unloading: Package EZPhone
+Log: Unloading: Package c_dukeitems
+Log: Unloading: Package a_zone1_vegas
+Log: Unloading: Package keypads
+Log: Unloading: Package m_turretfx
+Log: Unloading: Package UWindow
+Log: Unloading: Package m_characters
+Log: Unloading: Package a_inventory
+Log: Unloading: Package a_switch
+Log: Unloading: Package c_hands
+Log: Unloading: Package a_creatures
+Log: Unloading: Package m_hands
+Log: Unloading: Package dnsMaterials
+Log: Unloading: Package SMK6
+Log: Unloading: Package crane
+Log: Unloading: Package ts01
+Log: Unloading: Package SMK5
+Log: Unloading: Package dukeED_gfx
+Log: Unloading: Package smk8
+Log: Unloading: Package vegas
+Log: Unloading: Package SMK4
+Log: Unloading: Package ShieldFX
+Log: Unloading: Package canvasfx
+Log: Unloading: Package arcadeFX
+Log: Unloading: Package a_npcvoice
+Log: Unloading: Package modelfx
+Log: Unloading: Package c_vehicles
+Log: Unloading: Package D3DSounds
+Log: Unloading: Package stratosfear
+Log: Unloading: Package sandworm
+Log: Unloading: Package skyboxes
+Exit: WinSock shut down
+Log: Unloading: Package m_dukeitems
+Log: Unloading: Package p_portraiticons
+Log: Unloading: Package IpServer
+Log: Unloading: Package m_fx
+Log: Purging garbage - DeleteGarbage
+Log: Purging garbage - DeleteNames
+Log: Garbage: objects: 19854->0; refs: 253127
+Exit: Object subsystem successfully closed.
+Log: Terminating main loop
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.092M /  2.434M
+Uninitialized: Peak Memory  14.742M /  16.613M
+Uninitialized: Allocs        1204 Current /  128333 Total
+Uninitialized: Log file closed, 05/11/22 20:38:42
+Log: WLog::OnCommand ID_NotifyExit
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage - DispatchDestroy
+Log: Unbound to Engine.dll
+Log: Unloading: Package Engine
+Exit: Game engine shut down
+Log: Cannibal shutdown...
+Log: ...Cannibal shutdown complete.
+Log: Unloading: Package DM-EDFTrainingGrounds
+Log: Unloading: Package grandcanyon
+Log: Unloading: Package t_detail
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unloading: Package airforcebase
+Log: Unloading: Package Airforcebase2
+Log: Unloading: Package EDF_1
+Log: Unloading: Package hotel_gas
+Log: Unloading: Package mineshaft
+Log: Unloading: Package dnGame
+Log: Unloading: Package hud_effects
+Log: Unloading: Package dnParticles
+Log: Unloading: Package t_generic
+Log: Unloading: Package t_firefx
+Log: Unloading: Package a_impact
+Log: Unloading: Package m_dnWeapon
+Log: Unloading: Package palettes
+Log: Unloading: Package m_vehicles
+Log: Unloading: Package c_FX
+Log: Unloading: Package t_explosionFx
+Log: Unloading: Package dnModulation
+Log: Unloading: Package afbproship
+Log: Unloading: Package a_generic
+Log: Unloading: Package mario
+Log: Unloading: Package dnsWeapn
+Log: Unloading: Package a_transport
+Log: Unloading: Package t_test
+Log: Unloading: Package m_generic
+Log: Unloading: Package a_edf
+Log: Unloading: Package c_generic
+Log: Unloading: Package m_zone1_vegas
+Log: Unloading: Package a_ambient
+Log: Unloading: Package c_zone1_vegas
+Log: Unloading: Package petalumahouse
+Log: Unloading: Package powerpuzzle1
+Log: Unloading: Package c_dnWeapon
+Log: Unloading: Package a_dukevoice
+Log: Unloading: Package circuitpuzzle1
+Log: Unloading: Package ezmail
+Log: Unloading: Package c_characters
+Log: Unloading: Package ezvend
+Log: Unloading: Package EZPhone
+Log: Unloading: Package c_dukeitems
+Log: Unloading: Package a_zone1_vegas
+Log: Unloading: Package keypads
+Log: Unloading: Package m_turretfx
+Log: Unloading: Package UWindow
+Log: Unloading: Package m_characters
+Log: Unloading: Package a_inventory
+Log: Unloading: Package a_switch
+Log: Unloading: Package c_hands
+Log: Unloading: Package a_creatures
+Log: Unloading: Package m_hands
+Log: Unloading: Package dnsMaterials
+Log: Unloading: Package SMK6
+Log: Unloading: Package crane
+Log: Unloading: Package ts01
+Log: Unloading: Package SMK5
+Log: Unloading: Package dukeED_gfx
+Log: Unloading: Package smk8
+Log: Unloading: Package vegas
+Log: Unloading: Package SMK4
+Log: Unloading: Package ShieldFX
+Log: Unloading: Package canvasfx
+Log: Unloading: Package arcadeFX
+Log: Unloading: Package a_npcvoice
+Log: Unloading: Package modelfx
+Log: Unloading: Package c_vehicles
+Log: Unloading: Package D3DSounds
+Log: Unloading: Package stratosfear
+Log: Unloading: Package sandworm
+Log: Unloading: Package skyboxes
+NetComeGo: Close TcpipConnection___1 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___3 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___5 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___7 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___9 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___11 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___13 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___15 05/11/22 20:38:43
+NetComeGo: Close TcpipConnection___17 05/11/22 20:38:43
+Exit: WinSock shut down
+Log: Unloading: Package m_dukeitems
+Log: Unloading: Package p_portraiticons
+Log: Unloading: Package IpServer
+Log: Unloading: Package m_fx
+Log: Purging garbage - DeleteGarbage
+Log: Purging garbage - DeleteNames
+Log: Garbage: objects: 19854->0; refs: 253127
+Exit: Object subsystem successfully closed.
+Log: Terminating main loop
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.092M /  2.434M
+Uninitialized: Peak Memory  14.881M /  16.680M
+Uninitialized: Allocs        1204 Current /  140997 Total
+Uninitialized: Log file closed, 05/11/22 20:38:43

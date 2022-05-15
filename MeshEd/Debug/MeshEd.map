@@ -1,0 +1,1881 @@
+ MeshEd
+
+ Timestamp is 627c451d (Thu May 12 01:22:05 2022)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0006da18H .text                   CODE
+ 0001:0006da20 00001c30H .text$x                 CODE
+ 0002:00000000 00003833H .rdata                  DATA
+ 0002:00003838 00000fa2H .xdata$x                DATA
+ 0002:000047da 00000000H .edata                  DATA
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000109H .CRT$XCL                DATA
+ 0003:00000210 0000028dH .CRT$XCU                DATA
+ 0003:000004a0 00000104H .CRT$XCZ                DATA
+ 0003:000005a4 00000104H .CRT$XIA                DATA
+ 0003:000006a8 00000104H .CRT$XIZ                DATA
+ 0003:000007b0 00005f80H .data                   DATA
+ 0003:00006730 00b24f28H .bss                    DATA
+ 0004:00000000 0000008cH .idata$2                DATA
+ 0004:0000008c 00000014H .idata$3                DATA
+ 0004:000000a0 000003a8H .idata$4                DATA
+ 0004:00000448 000003a8H .idata$5                DATA
+ 0004:000007f0 00000b61H .idata$6                DATA
+ 0005:00000000 00000250H .rsrc$01                DATA
+ 0005:00000250 00000e16H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00001d00       ??2@YAPAXI@Z               00402d00 f i cam_man.obj
+ 0001:00001d30       ??3@YAXPAX@Z               00402d30 f i cam_man.obj
+ 0001:00001d60       ??0frustum_t@@QAE@XZ       00402d60 f   cam_man.obj
+ 0001:00001e07       ??0frustum_t@@QAE@MMMM@Z   00402e07 f   cam_man.obj
+ 0001:00001e82       ??1frustum_t@@QAE@XZ       00402e82 f   cam_man.obj
+ 0001:00001e94       ?Setf@frustum_t@@QAEXMMMM@Z 00402e94 f   cam_man.obj
+ 0001:000020c9       ?ClipPoly@frustum_t@@QAEHHPAVvector_t@@0PAM0PAUcliptri_t@@@Z 004030c9 f   cam_man.obj
+ 0001:000030c2       ?ClipLine@frustum_t@@QAEHPAVvector_t@@000@Z 004040c2 f   cam_man.obj
+ 0001:0000330c       ?CalcViewTransform@camera_t@@AAEXXZ 0040430c f   cam_man.obj
+ 0001:00003536       ??0camera_t@@QAE@XZ        00404536 f   cam_man.obj
+ 0001:00003650       ??1camera_t@@QAE@XZ        00404650 f   cam_man.obj
+ 0001:00003674       ?Init@camera_t@@QAEXXZ     00404674 f   cam_man.obj
+ 0001:000037d2       ?TransCameraToView@camera_t@@QAEXPAVvector_t@@@Z 004047d2 f   cam_man.obj
+ 0001:000038ec       ?TransWorldToCamera@camera_t@@QAEXPAVvector_t@@@Z 004048ec f   cam_man.obj
+ 0001:0000392d       ?TransCameraToWorld@camera_t@@QAEXPAVvector_t@@@Z 0040492d f   cam_man.obj
+ 0001:0000396e       ?TransViewToWorldLine@camera_t@@QAEXAAVvector_t@@00@Z 0040496e f   cam_man.obj
+ 0001:00003ab2       ?SetScreenBox@camera_t@@QAEXHHHH@Z 00404ab2 f   cam_man.obj
+ 0001:00003c1b       ?SetFOVf@camera_t@@QAEXMM@Z 00404c1b f   cam_man.obj
+ 0001:00003cae       ?SetPosition@camera_t@@QAEXAAVvector_t@@@Z 00404cae f   cam_man.obj
+ 0001:00003d97       ?SetPositionf@camera_t@@QAEXMMM@Z 00404d97 f   cam_man.obj
+ 0001:00003de9       ?SetTarget@camera_t@@QAEXAAVvector_t@@@Z 00404de9 f   cam_man.obj
+ 0001:00003ed2       ?SetTarget@camera_t@@QAEXMMM@Z 00404ed2 f   cam_man.obj
+ 0001:00003f24       ?SetRoll@camera_t@@QAEXM@Z 00404f24 f   cam_man.obj
+ 0001:00003f56       ?TiltX@camera_t@@QAEXM@Z   00404f56 f   cam_man.obj
+ 0001:0000403b       ?TiltY@camera_t@@QAEXM@Z   0040503b f   cam_man.obj
+ 0001:000041da       ?TiltZ@camera_t@@QAEXM@Z   004051da f   cam_man.obj
+ 0001:00004210       ?LookTilt@camera_t@@QAEXMM@Z 00405210 f   cam_man.obj
+ 0001:000043f4       ?MoveForward@camera_t@@QAEXM@Z 004053f4 f   cam_man.obj
+ 0001:0000444f       ?MoveRight@camera_t@@QAEXM@Z 0040544f f   cam_man.obj
+ 0001:000044dc       ?MoveUp@camera_t@@QAEXM@Z  004054dc f   cam_man.obj
+ 0001:00004569       ?SetDrawDepthBias@camera_t@@QAEXM@Z 00405569 f   cam_man.obj
+ 0001:00004585       ?DrawLine@camera_t@@QAEXPAVvector_t@@000@Z 00405585 f   cam_man.obj
+ 0001:000047e5       ?DrawTriangle@camera_t@@QAEXPAVvector_t@@0PAM0@Z 004057e5 f   cam_man.obj
+ 0001:0000481d       ?DrawTriangleFlags@camera_t@@QAEXKPAVvector_t@@0PAM0@Z 0040581d f   cam_man.obj
+ 0001:00004859       ?DrawPolygon@camera_t@@QAEXHPAVvector_t@@0PAM0@Z 00405859 f   cam_man.obj
+ 0001:00004b04       ?DrawPolygonFlags@camera_t@@QAEXKHPAVvector_t@@0PAM0@Z 00405b04 f   cam_man.obj
+ 0001:00004db2       ?DrawProjectedString@camera_t@@QAEXPAVvector_t@@PADKHHH@Z 00405db2 f   cam_man.obj
+ 0001:00005295       ?DrawBox@camera_t@@QAEXPAVvector_t@@00PADK@Z 00406295 f   cam_man.obj
+ 0001:000067d0       ??0cliptri_t@@QAE@XZ       004077d0 f i cam_man.obj
+ 0001:00006850       ?_d_assert@@YAXPBDK@Z      00407850 f i cam_man.obj
+ 0001:00006890       ??4vector_t@@QAEAAV0@ABV0@@Z 00407890 f i cam_man.obj
+ 0001:000068e0       ??Yvector_t@@QAEAAV0@ABV0@@Z 004078e0 f i cam_man.obj
+ 0001:00006940       ??Zvector_t@@QAEAAV0@ABV0@@Z 00407940 f i cam_man.obj
+ 0001:000069a0       ??Xvector_t@@QAEAAV0@ABVmatrix_t@@@Z 004079a0 f i cam_man.obj
+ 0001:00006a90       ?Seti@vector_t@@QAEXJJJ@Z  00407a90 f i cam_man.obj
+ 0001:00006ae0       ??H@YA?AVvector_t@@ABV0@0@Z 00407ae0 f i cam_man.obj
+ 0001:00006b70       ??G@YA?AVvector_t@@ABV0@0@Z 00407b70 f i cam_man.obj
+ 0001:00006c00       ??D@YA?AVvector_t@@ABV0@M@Z 00407c00 f i cam_man.obj
+ 0001:00006c80       ??D@YA?AVvector_t@@ABV0@ABVmatrix_t@@@Z 00407c80 f i cam_man.obj
+ 0001:00006d00       ??K@YA?AVvector_t@@ABV0@M@Z 00407d00 f i cam_man.obj
+ 0001:00006d80       ??D@YAMABVvector_t@@0@Z    00407d80 f i cam_man.obj
+ 0001:00006dc0       ??T@YA?AVvector_t@@ABV0@0@Z 00407dc0 f i cam_man.obj
+ 0001:00006e80       ??7@YAHABVvector_t@@@Z     00407e80 f i cam_man.obj
+ 0001:00006f10       ?VEC_Near@@YAHMM@Z         00407f10 f i cam_man.obj
+ 0001:00006f80       ?Seti@frustum_t@@QAEXKKKK@Z 00407f80 f i cam_man.obj
+ 0001:00007040       ?SetViewVolumei@camera_t@@QAEXHHHH@Z 00408040 f i cam_man.obj
+ 0001:000070a0       ?SetViewVolumef@camera_t@@QAEXMMMM@Z 004080a0 f i cam_man.obj
+ 0001:000070f0       ?set@CVert@@QAEXAAVvector_t@@@Z 004080f0 f i cam_man.obj
+ 0001:00007140       ?FlatColorf@VidIf@@QAEXMMM@Z 00408140 f i cam_man.obj
+ 0001:000071b0       ??_H@YGXPAXIHP6EX0@Z@Z     004081b0 f i cam_man.obj
+ 0001:0000726b       ?handler_float_confunc@@YAXPAVCConVar@@HPAPAD@Z 0040826b f   con_man.obj
+ 0001:0000757d       ?handler_int_confunc@@YAXPAVCConVar@@HPAPAD@Z 0040857d f   con_man.obj
+ 0001:00007a43       ?handler_boolean_confunc@@YAXPAVCConVar@@HPAPAD@Z 00408a43 f   con_man.obj
+ 0001:00007c80       ?handler_vector_t_confunc@@YAXPAVCConVar@@HPAPAD@Z 00408c80 f   con_man.obj
+ 0001:0000804d       ?Listvars_confunc@@YAXPAVCConVar@@HPAPAD@Z 0040904d f   con_man.obj
+ 0001:000081e8       ?Listcmds_confunc@@YAXPAVCConVar@@HPAPAD@Z 004091e8 f   con_man.obj
+ 0001:00008348       ?Listtypes_confunc@@YAXPAVCConVar@@HPAPAD@Z 00409348 f   con_man.obj
+ 0001:000084a8       ?Exec_confunc@@YAXPAVCConVar@@HPAPAD@Z 004094a8 f   con_man.obj
+ 0001:00008550       ?Echo_confunc@@YAXPAVCConVar@@HPAPAD@Z 00409550 f   con_man.obj
+ 0001:00008656       ?Help_confunc@@YAXPAVCConVar@@HPAPAD@Z 00409656 f   con_man.obj
+ 0001:00008689       ??0CConVar@@QAE@PAXPAD1KMMP6AXXZ@Z 00409689 f   con_man.obj
+ 0001:000087bc       ??1CConVar@@QAE@XZ         004097bc f   con_man.obj
+ 0001:00008816       ??0CConFunc@@QAE@PADP6AXPAVCConVar@@HPAPAD@ZKK0@Z 00409816 f   con_man.obj
+ 0001:00008936       ??1CConFunc@@QAE@XZ        00409936 f   con_man.obj
+ 0001:00008971       ??0CConsoleManager@@QAE@XZ 00409971 f   con_man.obj
+ 0001:00008b0a       ??1CConsoleManager@@QAE@XZ 00409b0a f   con_man.obj
+ 0001:00008b4a       ?GetHandlerForType@CConsoleManager@@QAEPAVCConFunc@@PAD@Z 00409b4a f   con_man.obj
+ 0001:00008bb6       ?RegisterVariable@CConsoleManager@@QAEXPAVCConVar@@@Z 00409bb6 f   con_man.obj
+ 0001:00008bdd       ?DeRegisterVariable@CConsoleManager@@QAEXPAVCConVar@@@Z 00409bdd f   con_man.obj
+ 0001:00008c52       ?RegisterVarHandler@CConsoleManager@@QAEXPAVCConFunc@@@Z 00409c52 f   con_man.obj
+ 0001:00008c7b       ?RegisterFunction@CConsoleManager@@QAEXPAVCConFunc@@@Z 00409c7b f   con_man.obj
+ 0001:00008ca4       ?ExecuteFile@CConsoleManager@@QAEXPAVoverlay_t@@PBDK@Z 00409ca4 f   con_man.obj
+ 0001:00008f4d       ?ExecuteCmdLine@CConsoleManager@@QAEXPAVoverlay_t@@HPAPBD@Z 00409f4d f   con_man.obj
+ 0001:00009073       ?Execute@CConsoleManager@@QAEKPAVoverlay_t@@PBDK@Z 0040a073 f   con_man.obj
+ 0001:00009614       ?MatchCommand@CConsoleManager@@QAEPADPADHH@Z 0040a614 f   con_man.obj
+ 0001:0000974b       ?Printf@CConsoleManager@@QAAXPBDZZ 0040a74b f   con_man.obj
+ 0001:000098ed       ??0ConQueue@@QAE@K@Z       0040a8ed f   con_man.obj
+ 0001:000099c8       ?set_args@ConQueue@@QAEXKPAPBD@Z 0040a9c8 f   con_man.obj
+ 0001:00009add       ?get_size_needed@ConQueue@@SAKKPAPBD@Z 0040aadd f   con_man.obj
+ 0001:00009b4b       ?realloc@ConQueue@@IAEXK@Z 0040ab4b f   con_man.obj
+ 0001:00009bde       ?find_size@ConQueueList@@QAEPAU_XPos@@K@Z 0040abde f   con_man.obj
+ 0001:00009c41       ??0ConQueueSystem@@QAE@K@Z 0040ac41 f   con_man.obj
+ 0001:00009d23       ?get_queue@ConQueueSystem@@QAEPAVConQueue@@KPAPBD@Z 0040ad23 f   con_man.obj
+ 0001:00009e34       ?add_queue@ConQueueSystem@@QAEXPAVConQueue@@@Z 0040ae34 f   con_man.obj
+ 0001:00009e7a       ?handle_actions@ConQueueSystem@@QAEXXZ 0040ae7a f   con_man.obj
+ 0001:0000aa30       ??0ConQueueList@@QAE@XZ    0040ba30 f i con_man.obj
+ 0001:0000aa60       ?get_head_position@?$XList@VConQueue@@@@QAEPAU_XPos@@XZ 0040ba60 f i con_man.obj
+ 0001:0000aa80       ?get_at@?$XList@VConQueue@@@@QAEPAVConQueue@@PAU_XPos@@@Z 0040ba80 f i con_man.obj
+ 0001:0000aae0       ??0?$XList@VConQueue@@@@QAE@XZ 0040bae0 f i con_man.obj
+ 0001:0000ab60       ??0XListState@@QAE@XZ      0040bb60 f i con_man.obj
+ 0001:0000abb0       ?add_head@?$XList@VConQueue@@@@QAEPAU_XPos@@PAVConQueue@@@Z 0040bbb0 f i con_man.obj
+ 0001:0000ac80       ?add_tail@?$XList@VConQueue@@@@QAEPAU_XPos@@PAVConQueue@@@Z 0040bc80 f i con_man.obj
+ 0001:0000ad50       ?remove_head@?$XList@VConQueue@@@@QAEPAVConQueue@@XZ 0040bd50 f i con_man.obj
+ 0001:0000ae00       ?remove@?$XList@VConQueue@@@@QAEXPAU_XPos@@@Z 0040be00 f i con_man.obj
+ 0001:0000aea0       ?new_node@?$XList@VConQueue@@@@IAEPAUXNode@1@XZ 0040bea0 f i con_man.obj
+ 0001:0000aef0       ?get_size@ConQueue@@QAEKXZ 0040bef0 f i con_man.obj
+ 0001:0000af10       ?get_action@ConQueue@@QAEP6AKPAV1@@ZXZ 0040bf10 f i con_man.obj
+ 0001:0000af30       ?get_app_path@MeshApp@@QAEPBDXZ 0040bf30 f i con_man.obj
+ 0001:0000af80       ??1ConQueueList@@QAE@XZ    0040bf80 f i con_man.obj
+ 0001:0000afb0       ??1?$XList@VConQueue@@@@QAE@XZ 0040bfb0 f i con_man.obj
+ 0001:0000b060       ??_GConQueue@@QAEPAXI@Z    0040c060 f i con_man.obj
+ 0001:0000b0b0       ??1ConQueue@@QAE@XZ        0040c0b0 f i con_man.obj
+ 0001:0000b0f0       ?free_nodes@?$XList@VConQueue@@@@IAEXXZ 0040c0f0 f i con_man.obj
+ 0001:0000b130       ?FI_Load3DS@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040c130 f   file_imp.obj
+ 0001:0000b93e       ?FI_LoadMDL@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040c93e f   file_imp.obj
+ 0001:0000bec9       ?FI_LoadMD2@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040cec9 f   file_imp.obj
+ 0001:0000c319       ?FI_LoadMXB@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040d319 f   file_imp.obj
+ 0001:0000c8a9       ?FI_LoadGMA@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040d8a9 f   file_imp.obj
+ 0001:0000cbec       ?FI_LoadLWO@@YAHPBDPAH1PAPAVvector_t@@1PAPAHPAPAD@Z 0040dbec f   file_imp.obj
+ 0001:0000de20       ??Atriangle_t@@QAEAAJH@Z   0040ee20 f i file_imp.obj
+ 0001:0000de50       ??Atrivert_t@@QAEAAEH@Z    0040ee50 f i file_imp.obj
+ 0001:0000de70       ??Asimpleframe_t@@QAEAAVtrivert_t@@H@Z 0040ee70 f i file_imp.obj
+ 0001:0000def0       ??0mdlheader_t@@QAE@PAU_iobuf@@@Z 0040eef0 f i file_imp.obj
+ 0001:0000e030       ??1mdlheader_t@@QAE@XZ     0040f030 f i file_imp.obj
+ 0001:0000e050       ??0mdlskin_t@@QAE@PAU_iobuf@@PAVmdlheader_t@@@Z 0040f050 f i file_imp.obj
+ 0001:0000e220       ??1mdlskin_t@@QAE@XZ       0040f220 f i file_imp.obj
+ 0001:0000e360       ??0mdlskinverts_t@@QAE@PAU_iobuf@@PAVmdlheader_t@@@Z 0040f360 f i file_imp.obj
+ 0001:0000e3e0       ??1mdlskinverts_t@@QAE@XZ  0040f3e0 f i file_imp.obj
+ 0001:0000e440       ??0mdltriangles_t@@QAE@PAU_iobuf@@PAVmdlheader_t@@@Z 0040f440 f i file_imp.obj
+ 0001:0000e4c0       ??1mdltriangles_t@@QAE@XZ  0040f4c0 f i file_imp.obj
+ 0001:0000e520       ??Amdltriangles_t@@QAEAAVtriangle_t@@H@Z 0040f520 f i file_imp.obj
+ 0001:0000e550       ??0mdlframes_t@@QAE@PAU_iobuf@@PAVmdlheader_t@@H@Z 0040f550 f i file_imp.obj
+ 0001:0000e810       ??1mdlframes_t@@QAE@XZ     0040f810 f i file_imp.obj
+ 0001:0000e970       ??Amdlframes_t@@QAEAAVsimpleframe_t@@H@Z 0040f970 f i file_imp.obj
+ 0001:0000eb26       ?AddCursor_confunc@@YAXPAVCConVar@@HPAPAD@Z 0040fb26 f   in_main.obj
+ 0001:0000ecbd       ?UnloadCursors@@YAKXZ      0040fcbd f   in_main.obj
+ 0001:0000ed91       ?AddButton_confunc@@YAXPAVCConVar@@HPAPAD@Z 0040fd91 f   in_main.obj
+ 0001:0000eed8       ?UnloadButtons@@YAKXZ      0040fed8 f   in_main.obj
+ 0001:0000ef41       ?IN_Init@@YAXXZ            0040ff41 f   in_main.obj
+ 0001:0000f195       ?IN_Shutdown@@YAXXZ        00410195 f   in_main.obj
+ 0001:0000f1b0       ?IN_Event@@YAXPAUinputevent_t@@@Z 004101b0 f   in_main.obj
+ 0001:0000f1c8       ?IN_Process@@YAXXZ         004101c8 f   in_main.obj
+ 0001:0000f1de       ?IN_NameForKey@@YAPADH@Z   004101de f   in_main.obj
+ 0001:0000f2b3       ?IN_KeyForName@@YAHPAD@Z   004102b3 f   in_main.obj
+ 0001:0000f32f       ?IN_SetCursor@@YAXPAD@Z    0041032f f   in_main.obj
+ 0001:0000f3a4       ?IN_GetCursor@@YAPADXZ     004103a4 f   in_main.obj
+ 0001:0000f3be       ?IN_DrawCursor@@YAXXZ      004103be f   in_main.obj
+ 0001:0000f710       ?IN_GetButtonTex@@YAPAVVidTex@@PAD@Z 00410710 f   in_main.obj
+ 0001:0000fb20       ?IN_WinInit@@YAXXZ         00410b20 f   in_win.obj
+ 0001:0000fd8b       ?IN_WinShutdown@@YAXXZ     00410d8b f   in_win.obj
+ 0001:0000fe1a       ?IN_WinAcquireMouse@@YAXXZ 00410e1a f   in_win.obj
+ 0001:0000fec5       ?IN_WinUnacquireMouse@@YAXXZ 00410ec5 f   in_win.obj
+ 0001:0000fef6       ?IN_WinAcquireKeyboard@@YAXXZ 00410ef6 f   in_win.obj
+ 0001:0000ffa7       ?IN_WinUnacquireKeyboard@@YAXXZ 00410fa7 f   in_win.obj
+ 0001:00010061       ?IN_WinMouseLimits@@YAXHHHH@Z 00411061 f   in_win.obj
+ 0001:00010088       ?IN_WinProcessKeys@@YAXXZ  00411088 f   in_win.obj
+ 0001:000103c3       ?IN_WinProcessMouse@@YAXXZ 004113c3 f   in_win.obj
+ 0001:00010960       ?get_hinst@XWinApp@@QAEPAUHINSTANCE__@@XZ 00411960 f i in_win.obj
+ 0001:00010980       ?get_app_hwnd@MeshApp@@QAEPAUHWND__@@XZ 00411980 f i in_win.obj
+ 0001:000109e0       ?get_hwnd@XWnd@@QAEPAUHWND__@@XZ 004119e0 f i in_win.obj
+ 0001:00010a00       ??B?$autoptr@VAppWnd@@@@QAEPAVAppWnd@@XZ 00411a00 f i in_win.obj
+ 0001:00010a20       ??C?$autoptr@VAppWnd@@@@QAEPAVAppWnd@@XZ 00411a20 f i in_win.obj
+ 0001:00010a67       ??0vector_t@@QAE@XZ        00411a67 f   math_vec.obj
+ 0001:00010a7c       ??0vector_t@@QAE@MMM@Z     00411a7c f   math_vec.obj
+ 0001:00010aad       ??0vector_t@@QAE@AAV0@@Z   00411aad f   math_vec.obj
+ 0001:00010ae6       ?Setf@vector_t@@QAEXMMM@Z  00411ae6 f   math_vec.obj
+ 0001:00010b14       ?Length@vector_t@@QAEMXZ   00411b14 f   math_vec.obj
+ 0001:00010b70       ?Normalize@vector_t@@QAEMXZ 00411b70 f   math_vec.obj
+ 0001:00010baf       ?Distance@vector_t@@QAEMAAV1@@Z 00411baf f   math_vec.obj
+ 0001:00010c07       ?NearestUV@vector_t@@QAEMAAV1@00@Z 00411c07 f   math_vec.obj
+ 0001:00010c58       ??0matrix_t@@QAE@XZ        00411c58 f   math_vec.obj
+ 0001:00010c6d       ??0matrix_t@@QAE@AAV0@@Z   00411c6d f   math_vec.obj
+ 0001:00010cec       ??0matrix_t@@QAE@MMMMMMMMMMMMMMMM@Z 00411cec f   math_vec.obj
+ 0001:00010d92       ??4matrix_t@@QAEAAV0@ABV0@@Z 00411d92 f   math_vec.obj
+ 0001:00010e11       ??Ymatrix_t@@QAEAAV0@ABV0@@Z 00411e11 f   math_vec.obj
+ 0001:00010ea1       ??Zmatrix_t@@QAEAAV0@ABV0@@Z 00411ea1 f   math_vec.obj
+ 0001:00010f31       ??Xmatrix_t@@QAEAAV0@M@Z   00411f31 f   math_vec.obj
+ 0001:00010fb1       ??_0matrix_t@@QAEAAV0@M@Z  00411fb1 f   math_vec.obj
+ 0001:00011031       ?Transpose@matrix_t@@QAE?AV1@XZ 00412031 f   math_vec.obj
+ 0001:00011107       ?Inverse@matrix_t@@QAE?AV1@XZ 00412107 f   math_vec.obj
+ 0001:0001157c       ??G@YA?AVmatrix_t@@ABV0@@Z 0041257c f   math_vec.obj
+ 0001:0001161b       ??H@YA?AVmatrix_t@@ABV0@0@Z 0041261b f   math_vec.obj
+ 0001:000116cb       ??G@YA?AVmatrix_t@@ABV0@0@Z 004126cb f   math_vec.obj
+ 0001:0001177b       ??D@YA?AVmatrix_t@@ABV0@0@Z 0041277b f   math_vec.obj
+ 0001:00011858       ??D@YA?AVmatrix_t@@ABV0@M@Z 00412858 f   math_vec.obj
+ 0001:000118f8       ??K@YA?AVmatrix_t@@ABV0@M@Z 004128f8 f   math_vec.obj
+ 0001:00011998       ?MatIdentity@@YA?AVmatrix_t@@XZ 00412998 f   math_vec.obj
+ 0001:00011a00       ?MatTranslation@@YA?AVmatrix_t@@AAVvector_t@@@Z 00412a00 f   math_vec.obj
+ 0001:00011a76       ?MatRotation@@YA?AVmatrix_t@@DM@Z 00412a76 f   math_vec.obj
+ 0001:00011bf6       ?MatShear@@YA?AVmatrix_t@@DMM@Z 00412bf6 f   math_vec.obj
+ 0001:00011ca1       ?MatRotation@@YA?AVmatrix_t@@AAVquatern_t@@@Z 00412ca1 f   math_vec.obj
+ 0001:00011e31       ?MatRotation@@YA?AVmatrix_t@@AAVvector_t@@0@Z 00412e31 f   math_vec.obj
+ 0001:00011f8b       ?MatScaling@@YA?AVmatrix_t@@AAVvector_t@@@Z 00412f8b f   math_vec.obj
+ 0001:00011ff8       ??0quatern_t@@QAE@XZ       00412ff8 f   math_vec.obj
+ 0001:00012034       ??0quatern_t@@QAE@AAVvector_t@@M@Z 00413034 f   math_vec.obj
+ 0001:000120db       ??0quatern_t@@QAE@ABV0@@Z  004130db f   math_vec.obj
+ 0001:00012120       ??0quatern_t@@QAE@MMMM@Z   00413120 f   math_vec.obj
+ 0001:0001215a       ??4quatern_t@@QAEAAV0@ABV0@@Z 0041315a f   math_vec.obj
+ 0001:0001219f       ??Yquatern_t@@QAEAAV0@ABV0@@Z 0041319f f   math_vec.obj
+ 0001:000121fb       ??Zquatern_t@@QAEAAV0@ABV0@@Z 004131fb f   math_vec.obj
+ 0001:00012257       ??Xquatern_t@@QAEAAV0@ABV0@@Z 00413257 f   math_vec.obj
+ 0001:0001236d       ??Xquatern_t@@QAEAAV0@M@Z  0041336d f   math_vec.obj
+ 0001:000123be       ??_0quatern_t@@QAEAAV0@M@Z 004133be f   math_vec.obj
+ 0001:0001240f       ?Normalize@quatern_t@@QAEMXZ 0041340f f   math_vec.obj
+ 0001:0001244e       ?Length@quatern_t@@QAEMXZ  0041344e f   math_vec.obj
+ 0001:000124b8       ?Init@quatern_t@@QAEXAAVvector_t@@M@Z 004134b8 f   math_vec.obj
+ 0001:0001255c       ?Init@quatern_t@@QAEXMMMM@Z 0041355c f   math_vec.obj
+ 0001:00012593       ?Init@quatern_t@@QAEXAAVmatrix_t@@@Z 00413593 f   math_vec.obj
+ 0001:00012682       ??G@YA?AVquatern_t@@ABV0@@Z 00413682 f   math_vec.obj
+ 0001:000126e9       ??H@YA?AVquatern_t@@ABV0@0@Z 004136e9 f   math_vec.obj
+ 0001:0001275f       ??G@YA?AVquatern_t@@ABV0@0@Z 0041375f f   math_vec.obj
+ 0001:000127d5       ??D@YA?AVquatern_t@@ABV0@0@Z 004137d5 f   math_vec.obj
+ 0001:00012821       ??0plane_t@@QAE@XZ         00413821 f   math_vec.obj
+ 0001:00012848       ??0plane_t@@QAE@AAVvector_t@@M@Z 00413848 f   math_vec.obj
+ 0001:00012886       ??0plane_t@@QAE@AAVvector_t@@0@Z 00413886 f   math_vec.obj
+ 0001:000128d3       ??0plane_t@@QAE@AAVvector_t@@00@Z 004138d3 f   math_vec.obj
+ 0001:00012910       ??0plane_t@@QAE@MMMM@Z     00413910 f   math_vec.obj
+ 0001:0001295c       ?Distance@plane_t@@QAEMAAVvector_t@@@Z 0041395c f   math_vec.obj
+ 0001:000129b4       ?Nearest@plane_t@@QAE?AVvector_t@@AAV2@@Z 004139b4 f   math_vec.obj
+ 0001:00012a49       ?IntersectionUV@plane_t@@QAEMAAVvector_t@@00@Z 00413a49 f   math_vec.obj
+ 0001:00012af0       ?IntersectionPQ@plane_t@@QAEMAAVvector_t@@00@Z 00413af0 f   math_vec.obj
+ 0001:00012b50       ?TriExtract@plane_t@@QAEXAAVvector_t@@00@Z 00413b50 f   math_vec.obj
+ 0001:00013480       ??_0vector_t@@QAEAAV0@M@Z  00414480 f i math_vec.obj
+ 0001:000134f0       ?MDX_LoadChunkFile@@YAHPAUmdxChunkFile_t@@PBDPADH@Z 004144f0 f   mdx_man.obj
+ 0001:00013708       ?MDX_NewChunkFile@@YAXPAUmdxChunkFile_t@@PADH@Z 00414708 f   mdx_man.obj
+ 0001:00013796       ?MDX_SaveChunkFile@@YAHPAUmdxChunkFile_t@@PBD@Z 00414796 f   mdx_man.obj
+ 0001:00013917       ?MDX_FreeChunkFile@@YAXPAUmdxChunkFile_t@@@Z 00414917 f   mdx_man.obj
+ 0001:00013995       ?MDX_FindChunk@@YAPAUascfentrylink_s@@PAUmdxChunkFile_t@@PAU1@PAD2PAH3@Z 00414995 f   mdx_man.obj
+ 0001:00013a66       ?MDX_AddChunk@@YAPAUascfentrylink_s@@PAUmdxChunkFile_t@@PAD1HEPAX@Z 00414a66 f   mdx_man.obj
+ 0001:00013d92       ??0MeshApp@@QAE@XZ         00414d92 f   meshapp.obj
+ 0001:000140dd       ?init_sys_parse@MeshApp@@IAEXXZ 004150dd f   meshapp.obj
+ 0001:00014121       ?app_init@MeshApp@@MAEKXZ  00415121 f   meshapp.obj
+ 0001:0001421a       ?create_window@MeshApp@@IAEKXZ 0041521a f   meshapp.obj
+ 0001:000142de       ?vid_init@MeshApp@@IAEKXZ  004152de f   meshapp.obj
+ 0001:0001451e       ?simple_test@@YAXXZ        0041551e f   meshapp.obj
+ 0001:00014548       ?vid_close@MeshApp@@IAEKXZ 00415548 f   meshapp.obj
+ 0001:00014594       ?main@MeshApp@@MAEKXZ      00415594 f   meshapp.obj
+ 0001:00014639       ?quit@MeshApp@@QAEXXZ      00415639 f   meshapp.obj
+ 0001:00014668       ?QueueConsoleAction@MeshApp@@QAEXKPAPBDP6AKPAVConQueue@@@ZPAX@Z 00415668 f   meshapp.obj
+ 0001:000146d2       ?handle_queued@MeshApp@@IAEXXZ 004156d2 f   meshapp.obj
+ 0001:000146fc       ?begin_frame@MeshApp@@IAEXXZ 004156fc f   meshapp.obj
+ 0001:000147e5       ?end_frame@MeshApp@@IAEXXZ 004157e5 f   meshapp.obj
+ 0001:00014806       ?app_activate@MeshApp@@QAEXK@Z 00415806 f   meshapp.obj
+ 0001:0001489b       ?activate@MeshApp@@QAEXXZ  0041589b f   meshapp.obj
+ 0001:00014980       ?deactivate@MeshApp@@QAEXXZ 00415980 f   meshapp.obj
+ 0001:00014a09       ?on_create@MeshApp@@QAEXPAUHWND__@@@Z 00415a09 f   meshapp.obj
+ 0001:00014a50       ?on_close@MeshApp@@QAEXXZ  00415a50 f   meshapp.obj
+ 0001:00014a91       ?get_cur_time@MeshApp@@QAEMXZ 00415a91 f   meshapp.obj
+ 0001:00014afe       ?HandleMessages@MeshApp@@IAEKXZ 00415afe f   meshapp.obj
+ 0001:00014bb9       ??0AppWnd@@QAE@XZ          00415bb9 f   meshapp.obj
+ 0001:00014c14       ??1AppWnd@@QAE@XZ          00415c14 f   meshapp.obj
+ 0001:00014c59       ?reg_default_class@AppWnd@@IAEKXZ 00415c59 f   meshapp.obj
+ 0001:00014d6b       ?Create@AppWnd@@QAEKXZ     00415d6b f   meshapp.obj
+ 0001:00014e16       ?win_messaging@AppWnd@@KGJPAUHWND__@@IIJ@Z 00415e16 f   meshapp.obj
+ 0001:00014f63       ?break_error@AppError@@AAEXPBD@Z 00415f63 f   meshapp.obj
+ 0001:00014f77       ?message@AppError@@UAEXKPBD@Z 00415f77 f   meshapp.obj
+ 0001:00014fbd       ?throw_msg@AppError@@UAEXKPBD@Z 00415fbd f   meshapp.obj
+ 0001:00015003       ?assert@AppError@@UAEXPBDK@Z 00416003 f   meshapp.obj
+ 0001:0001504a       ?FileBoxHook@@YGIPAUHWND__@@IIJ@Z 0041604a f   meshapp.obj
+ 0001:00015053       ?OpenFileBox@MeshApp@@QAEPBDPBD00@Z 00416053 f   meshapp.obj
+ 0001:00015230       ?OpenFileBoxMulti@MeshApp@@QAEKPBD00@Z 00416230 f   meshapp.obj
+ 0001:0001546b       ?NextMultiFile@MeshApp@@QAEPBDXZ 0041646b f   meshapp.obj
+ 0001:000156b3       ?SaveFileBox@MeshApp@@QAEPBDPBD00@Z 004166b3 f   meshapp.obj
+ 0001:00015f60       ??0AppError@@QAE@XZ        00416f60 f i meshapp.obj
+ 0001:00015fb0       ??0SysParse@@QAE@XZ        00416fb0 f i meshapp.obj
+ 0001:00016040       ??0?$autoptr@PAD@@QAE@XZ   00417040 f i meshapp.obj
+ 0001:00016070       ??0?$autoptr@VAppWnd@@@@QAE@XZ 00417070 f i meshapp.obj
+ 0001:000160a0       ??4?$autoptr@VAppWnd@@@@QAEAAV0@PAVAppWnd@@@Z 004170a0 f i meshapp.obj
+ 0001:000160d0       ??0?$autoptr@VCConsoleManager@@@@QAE@XZ 004170d0 f i meshapp.obj
+ 0001:00016100       ??4?$autoptr@VCConsoleManager@@@@QAEAAV0@PAVCConsoleManager@@@Z 00417100 f i meshapp.obj
+ 0001:00016130       ??C?$autoptr@VCConsoleManager@@@@QAEPAVCConsoleManager@@XZ 00417130 f i meshapp.obj
+ 0001:00016150       ?ShowWindow@XWnd@@QAEKK@Z  00417150 f i meshapp.obj
+ 0001:000161a0       ?is_done@XWinApp@@MAEKXZ   004171a0 f i meshapp.obj
+ 0001:000161c0       ?return_value@XWinApp@@UAEKXZ 004171c0 f i meshapp.obj
+ 0001:000161e0       ?set_action@ConQueue@@QAEXP6AKPAV1@@Z@Z 004171e0 f i meshapp.obj
+ 0001:00016210       ?set_data@ConQueue@@QAEXPAX@Z 00417210 f i meshapp.obj
+ 0001:00016240       ??0AppState@@QAE@XZ        00417240 f i meshapp.obj
+ 0001:00016300       ??1MeshApp@@QAE@XZ         00417300 f i meshapp.obj
+ 0001:00016450       ?allow_cursor@MeshApp@@QAEKXZ 00417450 f i meshapp.obj
+ 0001:00016480       ??1SysParse@@QAE@XZ        00417480 f i meshapp.obj
+ 0001:00016510       ??1ConQueueSystem@@QAE@XZ  00417510 f i meshapp.obj
+ 0001:00016590       ??1?$autoptr@PAD@@QAE@XZ   00417590 f i meshapp.obj
+ 0001:000165f0       ??1?$autoptr@VAppWnd@@@@QAE@XZ 004175f0 f i meshapp.obj
+ 0001:00016670       ??1?$autoptr@VCConsoleManager@@@@QAE@XZ 00417670 f i meshapp.obj
+ 0001:000166f0       ??_GAppWnd@@QAEPAXI@Z      004176f0 f i meshapp.obj
+ 0001:00016740       ??_GCConsoleManager@@QAEPAXI@Z 00417740 f i meshapp.obj
+ 0001:000168c5       ?OnDraw@OMenuItem@@UAEXHHHHPAUovlClipBox_t@@@Z 004178c5 f   ovl_cc.obj
+ 0001:000169de       ?OnPress@OMenuItem@@UAEKPAUinputevent_t@@@Z 004179de f   ovl_cc.obj
+ 0001:00016ab4       ?OnRelease@OMenuItem@@UAEKPAUinputevent_t@@@Z 00417ab4 f   ovl_cc.obj
+ 0001:00016baf       ?OnDraw@OMenu@@UAEXHHHHPAUovlClipBox_t@@@Z 00417baf f   ovl_cc.obj
+ 0001:00016d1c       ?OnPress@OMenu@@UAEKPAUinputevent_t@@@Z 00417d1c f   ovl_cc.obj
+ 0001:00016dc3       ?OnRelease@OMenu@@UAEKPAUinputevent_t@@@Z 00417dc3 f   ovl_cc.obj
+ 0001:00016df2       ?OnPressCommand@OMenu@@UAEKHPAPBD@Z 00417df2 f   ovl_cc.obj
+ 0001:00017001       ?OnDraw@OCheckBoxControl@@UAEXHHHHPAUovlClipBox_t@@@Z 00418001 f   ovl_cc.obj
+ 0001:0001723d       ?OnPress@OCheckBoxControl@@UAEKPAUinputevent_t@@@Z 0041823d f   ovl_cc.obj
+ 0001:000172fc       ?OnRelease@OCheckBoxControl@@UAEKPAUinputevent_t@@@Z 004182fc f   ovl_cc.obj
+ 0001:000173f7       ?OnDraw@OSpinBoxControl@@UAEXHHHHPAUovlClipBox_t@@@Z 004183f7 f   ovl_cc.obj
+ 0001:000176d4       ?OnPress@OSpinBoxControl@@UAEKPAUinputevent_t@@@Z 004186d4 f   ovl_cc.obj
+ 0001:0001783c       ?OnDrag@OSpinBoxControl@@UAEKPAUinputevent_t@@@Z 0041883c f   ovl_cc.obj
+ 0001:000179a4       ?OnRelease@OSpinBoxControl@@UAEKPAUinputevent_t@@@Z 004189a4 f   ovl_cc.obj
+ 0001:00017a9f       ?OnDraw@OToolbar@@UAEXHHHHPAUovlClipBox_t@@@Z 00418a9f f   ovl_cc.obj
+ 0001:0001819d       ?OnPress@OToolbar@@UAEKPAUinputevent_t@@@Z 0041919d f   ovl_cc.obj
+ 0001:000184c1       ?OnRelease@OToolbar@@UAEKPAUinputevent_t@@@Z 004194c1 f   ovl_cc.obj
+ 0001:000185d4       ?ActivateRadioTool@OToolWindow@@QAEXPAUovltool_s@@@Z 004195d4 f   ovl_cc.obj
+ 0001:000186ef       ?FindActiveRadioTool@OToolWindow@@QAEPAUovltool_s@@H@Z 004196ef f   ovl_cc.obj
+ 0001:00018792       ?ToolForName@OToolWindow@@QAEPAUovltool_s@@PBD@Z 00419792 f   ovl_cc.obj
+ 0001:00018866       ?SetContext@OToolWindow@@QAEXH@Z 00419866 f   ovl_cc.obj
+ 0001:000188a4       ?OnSave@OToolWindow@@UAEXXZ 004198a4 f   ovl_cc.obj
+ 0001:00018ae1       ?OnLoad@OToolWindow@@UAEXXZ 00419ae1 f   ovl_cc.obj
+ 0001:00018d8b       ?OnDraw@OToolWindow@@UAEXHHHHPAUovlClipBox_t@@@Z 00419d8b f   ovl_cc.obj
+ 0001:00018e7b       ?OnPressCommand@OToolWindow@@UAEKHPAPBD@Z 00419e7b f   ovl_cc.obj
+ 0001:000199cd       ?OnDragCommand@OToolWindow@@UAEKHPAPBD@Z 0041a9cd f   ovl_cc.obj
+ 0001:00019ab3       ?OnReleaseCommand@OToolWindow@@UAEKHPAPBD@Z 0041aab3 f   ovl_cc.obj
+ 0001:00019b99       ?OnMessage@OToolWindow@@UAEKPAUovlmsg_t@@@Z 0041ab99 f   ovl_cc.obj
+ 0001:00019d93       ?OnCalcLogicalDim@OSelectionBox@@UAEXHH@Z 0041ad93 f   ovl_cc.obj
+ 0001:00019e60       ?OnDraw@OSelectionBox@@UAEXHHHHPAUovlClipBox_t@@@Z 0041ae60 f   ovl_cc.obj
+ 0001:0001a108       ?OnPress@OSelectionBox@@UAEKPAUinputevent_t@@@Z 0041b108 f   ovl_cc.obj
+ 0001:0001a5e4       ?OnMessage@OSelectionBox@@UAEKPAUovlmsg_t@@@Z 0041b5e4 f   ovl_cc.obj
+ 0001:0001a914       ?OnDraw@OInputBox@@UAEXHHHHPAUovlClipBox_t@@@Z 0041b914 f   ovl_cc.obj
+ 0001:0001abcf       ?OnPress@OInputBox@@UAEKPAUinputevent_t@@@Z 0041bbcf f   ovl_cc.obj
+ 0001:0001ae6a       ?OnMessage@OInputBox@@UAEKPAUovlmsg_t@@@Z 0041be6a f   ovl_cc.obj
+ 0001:0001c120       ??0?$pool_t@Uovltool_s@@@@QAE@PBDHP6AXPAUovltool_s@@PAD@ZP6AX1@Z@Z 0041d120 f i ovl_cc.obj
+ 0001:0001c220       ??1?$pool_t@Uovltool_s@@@@QAE@XZ 0041d220 f i ovl_cc.obj
+ 0001:0001c2a0       ?Alloc@?$pool_t@Uovltool_s@@@@QAEPAUovltool_s@@PAD@Z 0041d2a0 f i ovl_cc.obj
+ 0001:0001c480       ??0OMenuItem@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041d480 f i ovl_cc.obj
+ 0001:0001c510       ?SetDimensions@overlay_t@@UAEKKK@Z 0041d510 f i ovl_cc.obj
+ 0001:0001c580       ??0OWindow@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041d580 f i ovl_cc.obj
+ 0001:0001c5d0       ?Spawn@OWindow@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041d5d0 f i ovl_cc.obj
+ 0001:0001c690       ??_GOWindow@@UAEPAXI@Z     0041d690 f i ovl_cc.obj
+ 0001:0001c690       ??_EOWindow@@UAEPAXI@Z     0041d690 f i ovl_cc.obj
+ 0001:0001c6e0       ??1OWindow@@UAE@XZ         0041d6e0 f i ovl_cc.obj
+ 0001:0001c720       ?Spawn@OMenuItem@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041d720 f i ovl_cc.obj
+ 0001:0001c7e0       ??1OMenuItem@@UAE@XZ       0041d7e0 f i ovl_cc.obj
+ 0001:0001c820       ??_EOMenuItem@@UAEPAXI@Z   0041d820 f i ovl_cc.obj
+ 0001:0001c820       ??_GOMenuItem@@UAEPAXI@Z   0041d820 f i ovl_cc.obj
+ 0001:0001c870       ??0OMenu@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041d870 f i ovl_cc.obj
+ 0001:0001c8d0       ?Spawn@OMenu@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041d8d0 f i ovl_cc.obj
+ 0001:0001c990       ??1OMenu@@UAE@XZ           0041d990 f i ovl_cc.obj
+ 0001:0001c9d0       ?Show@OMenu@@QAEXXZ        0041d9d0 f i ovl_cc.obj
+ 0001:0001caa0       ?Hide@OMenu@@QAEXXZ        0041daa0 f i ovl_cc.obj
+ 0001:0001cb70       ??_GOMenu@@UAEPAXI@Z       0041db70 f i ovl_cc.obj
+ 0001:0001cb70       ??_EOMenu@@UAEPAXI@Z       0041db70 f i ovl_cc.obj
+ 0001:0001cbc0       ??0OCheckBoxControl@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041dbc0 f i ovl_cc.obj
+ 0001:0001cc40       ?Spawn@OCheckBoxControl@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041dc40 f i ovl_cc.obj
+ 0001:0001cd00       ??1OCheckBoxControl@@UAE@XZ 0041dd00 f i ovl_cc.obj
+ 0001:0001cd40       ??_EOCheckBoxControl@@UAEPAXI@Z 0041dd40 f i ovl_cc.obj
+ 0001:0001cd40       ??_GOCheckBoxControl@@UAEPAXI@Z 0041dd40 f i ovl_cc.obj
+ 0001:0001cd90       ??0OSpinBoxControl@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041dd90 f i ovl_cc.obj
+ 0001:0001ce30       ?Spawn@OSpinBoxControl@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041de30 f i ovl_cc.obj
+ 0001:0001cef0       ??1OSpinBoxControl@@UAE@XZ 0041def0 f i ovl_cc.obj
+ 0001:0001cf30       ??_EOSpinBoxControl@@UAEPAXI@Z 0041df30 f i ovl_cc.obj
+ 0001:0001cf30       ??_GOSpinBoxControl@@UAEPAXI@Z 0041df30 f i ovl_cc.obj
+ 0001:0001cf80       ??0OToolbar@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041df80 f i ovl_cc.obj
+ 0001:0001cfe0       ?Spawn@OToolbar@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041dfe0 f i ovl_cc.obj
+ 0001:0001d0a0       ??1OToolbar@@UAE@XZ        0041e0a0 f i ovl_cc.obj
+ 0001:0001d0e0       ??_GOToolbar@@UAEPAXI@Z    0041e0e0 f i ovl_cc.obj
+ 0001:0001d0e0       ??_EOToolbar@@UAEPAXI@Z    0041e0e0 f i ovl_cc.obj
+ 0001:0001d130       ??0OToolWindow@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041e130 f i ovl_cc.obj
+ 0001:0001d300       ??0OWindowScrollable@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041e300 f i ovl_cc.obj
+ 0001:0001d350       ?Spawn@OWindowScrollable@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041e350 f i ovl_cc.obj
+ 0001:0001d410       ??1OWindowScrollable@@UAE@XZ 0041e410 f i ovl_cc.obj
+ 0001:0001d450       ??_EOWindowScrollable@@UAEPAXI@Z 0041e450 f i ovl_cc.obj
+ 0001:0001d450       ??_GOWindowScrollable@@UAEPAXI@Z 0041e450 f i ovl_cc.obj
+ 0001:0001d4a0       ?Spawn@OToolWindow@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041e4a0 f i ovl_cc.obj
+ 0001:0001d560       ??1OToolWindow@@UAE@XZ     0041e560 f i ovl_cc.obj
+ 0001:0001d690       ??_EOToolWindow@@UAEPAXI@Z 0041e690 f i ovl_cc.obj
+ 0001:0001d690       ??_GOToolWindow@@UAEPAXI@Z 0041e690 f i ovl_cc.obj
+ 0001:0001d6e0       ??0ovltoolContext_t@@QAE@XZ 0041e6e0 f i ovl_cc.obj
+ 0001:0001d710       ??0ovltool_s@@QAE@XZ       0041e710 f i ovl_cc.obj
+ 0001:0001d750       ??0OSelectionBox@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041e750 f i ovl_cc.obj
+ 0001:0001d820       ?Spawn@OSelectionBox@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041e820 f i ovl_cc.obj
+ 0001:0001d8e0       ??1OSelectionBox@@UAE@XZ   0041e8e0 f i ovl_cc.obj
+ 0001:0001d9a0       ??_EOSelectionBox@@UAEPAXI@Z 0041e9a0 f i ovl_cc.obj
+ 0001:0001d9a0       ??_GOSelectionBox@@UAEPAXI@Z 0041e9a0 f i ovl_cc.obj
+ 0001:0001d9f0       ??0OInputBox@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 0041e9f0 f i ovl_cc.obj
+ 0001:0001da70       ?Spawn@OInputBox@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 0041ea70 f i ovl_cc.obj
+ 0001:0001db30       ??1OInputBox@@UAE@XZ       0041eb30 f i ovl_cc.obj
+ 0001:0001db70       ??_EOInputBox@@UAEPAXI@Z   0041eb70 f i ovl_cc.obj
+ 0001:0001db70       ??_GOInputBox@@UAEPAXI@Z   0041eb70 f i ovl_cc.obj
+ 0001:0001dbc0       ?get_frame_begin@MeshApp@@QAEMXZ 0041ebc0 f i ovl_cc.obj
+ 0001:0001dbf0       ?get_frame_delta@MeshApp@@QAEMXZ 0041ebf0 f i ovl_cc.obj
+ 0001:0001dc20       ?Free@?$pool_t@Uovltool_s@@@@QAEXPAUovltool_s@@@Z 0041ec20 f i ovl_cc.obj
+ 0001:0001de0c       ?OnMessage@OWindow@@UAEKPAUovlmsg_t@@@Z 0041ee0c f   ovl_defs.obj
+ 0001:0001de87       ?OnPressCommand@OWindow@@UAEKHPAPBD@Z 0041ee87 f   ovl_defs.obj
+ 0001:0001e522       ?OnPressCommand@OWindowScrollable@@UAEKHPAPBD@Z 0041f522 f   ovl_defs.obj
+ 0001:0001e5de       ?OnDragCommand@OWindowScrollable@@UAEKHPAPBD@Z 0041f5de f   ovl_defs.obj
+ 0001:0001e71d       ?OnReleaseCommand@OWindowScrollable@@UAEKHPAPBD@Z 0041f71d f   ovl_defs.obj
+ 0001:0001e866       ?OnMessage@OConsole@@UAEKPAUovlmsg_t@@@Z 0041f866 f   ovl_defs.obj
+ 0001:0001e934       ?OnPressCommand@OConsole@@UAEKHPAPBD@Z 0041f934 f   ovl_defs.obj
+ 0001:0001e9da       ?OnDraw@OConsole@@UAEXHHHHPAUovlClipBox_t@@@Z 0041f9da f   ovl_defs.obj
+ 0001:0001edcd       ?OnPress@OConsole@@UAEKPAUinputevent_t@@@Z 0041fdcd f   ovl_defs.obj
+ 0001:0001f9e0       ??0OConsole@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 004209e0 f i ovl_defs.obj
+ 0001:0001fa60       ?Spawn@OConsole@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00420a60 f i ovl_defs.obj
+ 0001:0001fb20       ??1OConsole@@UAE@XZ        00420b20 f i ovl_defs.obj
+ 0001:0001fb60       ??_GOConsole@@UAEPAXI@Z    00420b60 f i ovl_defs.obj
+ 0001:0001fb60       ??_EOConsole@@UAEPAXI@Z    00420b60 f i ovl_defs.obj
+ 0001:0001fc94       ?SetTriModes@@YAXK@Z       00420c94 f   ovl_frm.obj
+ 0001:0002011d       ?OnSave@OFrameView@@UAEXXZ 0042111d f   ovl_frm.obj
+ 0001:000203b1       ?OnLoad@OFrameView@@UAEXXZ 004213b1 f   ovl_frm.obj
+ 0001:00020622       ?OnDraw@OFrameView@@UAEXHHHHPAUovlClipBox_t@@@Z 00421622 f   ovl_frm.obj
+ 0001:00024e3a       ?OnPressCommand@OFrameView@@UAEKHPAPBD@Z 00425e3a f   ovl_frm.obj
+ 0001:0003067e       ?OnDragCommand@OFrameView@@UAEKHPAPBD@Z 0043167e f   ovl_frm.obj
+ 0001:00031ffd       ?OnReleaseCommand@OFrameView@@UAEKHPAPBD@Z 00432ffd f   ovl_frm.obj
+ 0001:00032570       ?OnMessage@OFrameView@@UAEKPAUovlmsg_t@@@Z 00433570 f   ovl_frm.obj
+ 0001:00037480       ??0OTriFlagsList@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00438480 f i ovl_frm.obj
+ 0001:00037550       ?Spawn@OTriFlagsList@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00438550 f i ovl_frm.obj
+ 0001:00037610       ?SetDimensions@OTriFlagsList@@UAEKKK@Z 00438610 f i ovl_frm.obj
+ 0001:000376d0       ?OnDraw@OTriFlagsList@@UAEXHHHHPAUovlClipBox_t@@@Z 004386d0 f i ovl_frm.obj
+ 0001:00037b20       ?CreateBox@OTriFlagsList@@QAEXKPAD@Z 00438b20 f i ovl_frm.obj
+ 0001:00037c00       ?OnPressCommand@OTriFlagsList@@UAEKHPAPBD@Z 00438c00 f i ovl_frm.obj
+ 0001:00037ee0       ??_EOTriFlagsList@@UAEPAXI@Z 00438ee0 f i ovl_frm.obj
+ 0001:00037ee0       ??_GOTriFlagsList@@UAEPAXI@Z 00438ee0 f i ovl_frm.obj
+ 0001:00037f30       ??1OTriFlagsList@@UAE@XZ   00438f30 f i ovl_frm.obj
+ 0001:00037f70       ??4vector_t@@QAEAAV0@M@Z   00438f70 f i ovl_frm.obj
+ 0001:00037fb0       ??Xvector_t@@QAEAAV0@M@Z   00438fb0 f i ovl_frm.obj
+ 0001:00038010       ??G@YA?AVvector_t@@ABV0@@Z 00439010 f i ovl_frm.obj
+ 0001:00038090       ?AddItem@modelSequence_t@@QAEPAUseqItem_s@@PAVmodelFrame_t@@@Z 00439090 f i ovl_frm.obj
+ 0001:00038150       ?AddTrigger@modelSequence_t@@QAEPAUseqTrigger_s@@XZ 00439150 f i ovl_frm.obj
+ 0001:00038290       ?Stop@modelSequence_t@@QAEXXZ 00439290 f i ovl_frm.obj
+ 0001:000382c0       ??0model_t@@QAE@XZ         004392c0 f i ovl_frm.obj
+ 0001:00038530       ??0modelSkin_t@@QAE@XZ     00439530 f i ovl_frm.obj
+ 0001:00038580       ??0modelResource_t@@QAE@XZ 00439580 f i ovl_frm.obj
+ 0001:00038630       ??_GmodelResource_t@@UAEPAXI@Z 00439630 f i ovl_frm.obj
+ 0001:00038630       ??_EmodelResource_t@@UAEPAXI@Z 00439630 f i ovl_frm.obj
+ 0001:00038680       ??1modelResource_t@@UAE@XZ 00439680 f i ovl_frm.obj
+ 0001:000386d0       ??1modelSkin_t@@UAE@XZ     004396d0 f i ovl_frm.obj
+ 0001:00038710       ??_EmodelSkin_t@@UAEPAXI@Z 00439710 f i ovl_frm.obj
+ 0001:00038710       ??_GmodelSkin_t@@UAEPAXI@Z 00439710 f i ovl_frm.obj
+ 0001:00038760       ??0modelTrimesh_t@@QAE@XZ  00439760 f i ovl_frm.obj
+ 0001:00038890       ??1modelTrimesh_t@@UAE@XZ  00439890 f i ovl_frm.obj
+ 0001:00038950       ??_EmodelTrimesh_t@@UAEPAXI@Z 00439950 f i ovl_frm.obj
+ 0001:00038950       ??_GmodelTrimesh_t@@UAEPAXI@Z 00439950 f i ovl_frm.obj
+ 0001:000389a0       ??0modelMount_t@@QAE@XZ    004399a0 f i ovl_frm.obj
+ 0001:00038bc0       ??_GmodelMount_t@@UAEPAXI@Z 00439bc0 f i ovl_frm.obj
+ 0001:00038bc0       ??_EmodelMount_t@@UAEPAXI@Z 00439bc0 f i ovl_frm.obj
+ 0001:00038c10       ??0OFrameView@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00439c10 f i ovl_frm.obj
+ 0001:00038f90       ?SetPositioni@camera_t@@QAEXHHH@Z 00439f90 f i ovl_frm.obj
+ 0001:00038fe0       ?Spawn@OFrameView@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00439fe0 f i ovl_frm.obj
+ 0001:000390a0       ??1OFrameView@@UAE@XZ      0043a0a0 f i ovl_frm.obj
+ 0001:00039130       ??_EOFrameView@@UAEPAXI@Z  0043a130 f i ovl_frm.obj
+ 0001:00039130       ??_GOFrameView@@UAEPAXI@Z  0043a130 f i ovl_frm.obj
+ 0001:00039180       ?Alloc@?$pool_t@UseqItem_s@@@@QAEPAUseqItem_s@@PAD@Z 0043a180 f i ovl_frm.obj
+ 0001:00039350       ?Alloc@?$pool_t@UseqTrigger_s@@@@QAEPAUseqTrigger_s@@PAD@Z 0043a350 f i ovl_frm.obj
+ 0001:00039520       ??0?$modelResourceList_t@VmodelFrame_t@@@@QAE@XZ 0043a520 f i ovl_frm.obj
+ 0001:00039590       ??0modelFrame_t@@QAE@XZ    0043a590 f i ovl_frm.obj
+ 0001:00039660       ??_GmodelFrame_t@@UAEPAXI@Z 0043a660 f i ovl_frm.obj
+ 0001:00039660       ??_EmodelFrame_t@@UAEPAXI@Z 0043a660 f i ovl_frm.obj
+ 0001:000396b0       ??1modelFrame_t@@UAE@XZ    0043a6b0 f i ovl_frm.obj
+ 0001:00039830       ??1?$modelResourceList_t@VmodelFrame_t@@@@QAE@XZ 0043a830 f i ovl_frm.obj
+ 0001:000398b0       ?Init@?$modelResourceList_t@VmodelFrame_t@@@@QAEXPAVmodel_t@@@Z 0043a8b0 f i ovl_frm.obj
+ 0001:000398e0       ?Count@?$modelResourceList_t@VmodelFrame_t@@@@QAEHXZ 0043a8e0 f i ovl_frm.obj
+ 0001:00039900       ?First@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@XZ 0043a900 f i ovl_frm.obj
+ 0001:00039930       ?Last@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@XZ 0043a930 f i ovl_frm.obj
+ 0001:00039960       ?Prev@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@PAV2@@Z 0043a960 f i ovl_frm.obj
+ 0001:000399a0       ??0?$modelResourceList_t@VmodelSequence_t@@@@QAE@XZ 0043a9a0 f i ovl_frm.obj
+ 0001:00039a10       ??0modelSequence_t@@QAE@XZ 0043aa10 f i ovl_frm.obj
+ 0001:00039b00       ??_EmodelSequence_t@@UAEPAXI@Z 0043ab00 f i ovl_frm.obj
+ 0001:00039b00       ??_GmodelSequence_t@@UAEPAXI@Z 0043ab00 f i ovl_frm.obj
+ 0001:00039b50       ??1modelSequence_t@@UAE@XZ 0043ab50 f i ovl_frm.obj
+ 0001:00039c30       ?DeleteItem@modelSequence_t@@QAEXPAUseqItem_s@@@Z 0043ac30 f i ovl_frm.obj
+ 0001:00039cb0       ?DeleteTrigger@modelSequence_t@@QAEXPAUseqTrigger_s@@@Z 0043acb0 f i ovl_frm.obj
+ 0001:00039d90       ?Free@?$pool_t@UseqItem_s@@@@QAEXPAUseqItem_s@@@Z 0043ad90 f i ovl_frm.obj
+ 0001:00039ea0       ?Free@?$pool_t@UseqTrigger_s@@@@QAEXPAUseqTrigger_s@@@Z 0043aea0 f i ovl_frm.obj
+ 0001:00039fc0       ??1?$modelResourceList_t@VmodelSequence_t@@@@QAE@XZ 0043afc0 f i ovl_frm.obj
+ 0001:0003a040       ?Init@?$modelResourceList_t@VmodelSequence_t@@@@QAEXPAVmodel_t@@@Z 0043b040 f i ovl_frm.obj
+ 0001:0003a070       ?DeleteAll@?$modelResourceList_t@VmodelFrame_t@@@@QAEXXZ 0043b070 f i ovl_frm.obj
+ 0001:0003a0c0       ?Delete@?$modelResourceList_t@VmodelFrame_t@@@@QAEXPAVmodelFrame_t@@@Z 0043b0c0 f i ovl_frm.obj
+ 0001:0003a190       ?Reindex@?$modelResourceList_t@VmodelFrame_t@@@@QAEXXZ 0043b190 f i ovl_frm.obj
+ 0001:0003a230       ?DeleteAll@?$modelResourceList_t@VmodelSequence_t@@@@QAEXXZ 0043b230 f i ovl_frm.obj
+ 0001:0003a280       ?Delete@?$modelResourceList_t@VmodelSequence_t@@@@QAEXPAVmodelSequence_t@@@Z 0043b280 f i ovl_frm.obj
+ 0001:0003a350       ?Reindex@?$modelResourceList_t@VmodelSequence_t@@@@QAEXXZ 0043b350 f i ovl_frm.obj
+ 0001:0003a3f0       ??_Gmodel_t@@QAEPAXI@Z     0043b3f0 f i ovl_frm.obj
+ 0001:0003a440       ??1model_t@@QAE@XZ         0043b440 f i ovl_frm.obj
+ 0001:0003a690       ?DeleteFrame@model_t@@QAEXPAVmodelResource_t@@@Z 0043b690 f i ovl_frm.obj
+ 0001:0003a840       ?DeleteSkin@model_t@@QAEXPAVmodelResource_t@@@Z 0043b840 f i ovl_frm.obj
+ 0001:0003a920       ?DeleteMount@model_t@@QAEXPAVmodelResource_t@@@Z 0043b920 f i ovl_frm.obj
+ 0001:0003a990       ?DeleteSequence@model_t@@QAEXPAVmodelResource_t@@@Z 0043b990 f i ovl_frm.obj
+ 0001:0003aa10       ?Count@?$modelResourceList_t@VmodelSequence_t@@@@QAEHXZ 0043ba10 f i ovl_frm.obj
+ 0001:0003aa30       ?First@?$modelResourceList_t@VmodelSequence_t@@@@QAEPAVmodelSequence_t@@XZ 0043ba30 f i ovl_frm.obj
+ 0001:0003aa60       ?Next@?$modelResourceList_t@VmodelSequence_t@@@@QAEPAVmodelSequence_t@@PAV2@@Z 0043ba60 f i ovl_frm.obj
+ 0001:0003aaa0       ?Next@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@PAV2@@Z 0043baa0 f i ovl_frm.obj
+ 0001:0003aae0       ??0?$autoptr@G@@QAE@PAG@Z  0043bae0 f i ovl_frm.obj
+ 0001:0003ab10       ??1?$autoptr@G@@QAE@XZ     0043bb10 f i ovl_frm.obj
+ 0001:0003ab70       ??B?$autoptr@G@@QAEPAGXZ   0043bb70 f i ovl_frm.obj
+ 0001:0003ac58       ?CreateWindow_confunc@@YAXPAVCConVar@@HPAPAD@Z 0043bc58 f   ovl_man.obj
+ 0001:0003ade2       ?OVL_Init@@YAXXZ           0043bde2 f   ovl_man.obj
+ 0001:0003adf3       ?OVL_Shutdown@@YAXXZ       0043bdf3 f   ovl_man.obj
+ 0001:0003ae66       ?OVL_Frame@@YAXXZ          0043be66 f   ovl_man.obj
+ 0001:0003d3ef       ?OVL_InputEvent@@YAXPAUinputevent_t@@@Z 0043e3ef f   ovl_man.obj
+ 0001:0003f36a       ?OVL_CreateRootWindow@@YAXXZ 0044036a f   ovl_man.obj
+ 0001:0003f3d2       ?OVL_SetTopmost@@YAXPAVoverlay_t@@@Z 004403d2 f   ovl_man.obj
+ 0001:0003f4b5       ?OVL_SetRedraw@@YAXPAVoverlay_t@@K@Z 004404b5 f   ovl_man.obj
+ 0001:0003f4ba       ?OVL_ClipToBoxLimits@@YAKHHHHPAUovlClipBox_t@@@Z 004404ba f   ovl_man.obj
+ 0001:0003f580       ?OVL_FindChild@@YAPAVoverlay_t@@PAV1@0PAD1@Z 00440580 f   ovl_man.obj
+ 0001:0003f66b       ?OVL_MousePosWindowRelative@@YAXPAVoverlay_t@@PAH1@Z 0044066b f   ovl_man.obj
+ 0001:0003f7c7       ?OVL_SendMsg@@YAKPAVoverlay_t@@PBDHZZ 004407c7 f   ovl_man.obj
+ 0001:0003f862       ?OVL_SendMsgAll@@YAXPAVoverlay_t@@PBDHZZ 00440862 f   ovl_man.obj
+ 0001:0003f978       ?OVL_SendPressCommand@@YAKPAVoverlay_t@@PBDZZ 00440978 f   ovl_man.obj
+ 0001:0003fa2b       ?OVL_SendDragCommand@@YAKPAVoverlay_t@@PBDZZ 00440a2b f   ovl_man.obj
+ 0001:0003fade       ?OVL_SendReleaseCommand@@YAKPAVoverlay_t@@PBDZZ 00440ade f   ovl_man.obj
+ 0001:0003fb91       ?OVL_LockInput@@YAXPAVoverlay_t@@@Z 00440b91 f   ovl_man.obj
+ 0001:0003fba9       ?OVL_UnlockInput@@YAXPAVoverlay_t@@@Z 00440ba9 f   ovl_man.obj
+ 0001:0003fbc4       ?OVL_SaveOverlay@@YAXPAVoverlay_t@@@Z 00440bc4 f   ovl_man.obj
+ 0001:0003fe1c       ?OVL_LoadOverlay@@YAXPAVoverlay_t@@@Z 00440e1c f   ovl_man.obj
+ 0001:000401d1       ?OVL_CreateOverlay@@YAPAVoverlay_t@@PAD0PAV1@HHHHKK@Z 004411d1 f   ovl_man.obj
+ 0001:000403dd       ?OVL_IsOverlayType@@YAKPAVoverlay_t@@PAD@Z 004413dd f   ovl_man.obj
+ 0001:00040428       ?OVL_SelectionBox@@YAXPAD0PAVoverlay_t@@0H@Z 00441428 f   ovl_man.obj
+ 0001:000404c6       ?OVL_InputBox@@YAXPAD0PAVoverlay_t@@00@Z 004414c6 f   ovl_man.obj
+ 0001:00040607       ?Bind_confunc@@YAXPAVCConVar@@HPAPAD@Z 00441607 f   ovl_man.obj
+ 0001:00040a79       ?Unbind_confunc@@YAXPAVCConVar@@HPAPAD@Z 00441a79 f   ovl_man.obj
+ 0001:00040cf9       ??0COvlTypeDecl@@QAE@PBDPAVoverlay_t@@1@Z 00441cf9 f   ovl_man.obj
+ 0001:00040db2       ??1COvlTypeDecl@@QAE@XZ    00441db2 f   ovl_man.obj
+ 0001:00040dc4       ??0overlay_t@@QAE@PAV0@@Z  00441dc4 f   ovl_man.obj
+ 0001:00040f5c       ??0overlay_t@@QAE@PAVCOvlTypeDecl@@PAV0@@Z 00441f5c f   ovl_man.obj
+ 0001:0004110a       ??1overlay_t@@UAE@XZ       0044210a f   ovl_man.obj
+ 0001:000411c7       ?Spawn@overlay_t@@UAEPAV1@PAVCOvlTypeDecl@@PAV1@@Z 004421c7 f   ovl_man.obj
+ 0001:000411dd       ?LinkChild@overlay_t@@QAEXPAV1@@Z 004421dd f   ovl_man.obj
+ 0001:00041323       ?UnlinkChild@overlay_t@@QAEXPAV1@@Z 00442323 f   ovl_man.obj
+ 0001:00041485       ?OnLoad@overlay_t@@UAEXXZ  00442485 f   ovl_man.obj
+ 0001:00041497       ?OnSave@overlay_t@@UAEXXZ  00442497 f   ovl_man.obj
+ 0001:000414a9       ?OnResize@overlay_t@@UAEXXZ 004424a9 f   ovl_man.obj
+ 0001:000414bb       ?OnCalcLogicalDim@overlay_t@@UAEXHH@Z 004424bb f   ovl_man.obj
+ 0001:000416e3       ?OnDraw@overlay_t@@UAEXHHHHPAUovlClipBox_t@@@Z 004426e3 f   ovl_man.obj
+ 0001:000416f7       ?OnMouseMove@overlay_t@@UAEKPAUinputevent_t@@@Z 004426f7 f   ovl_man.obj
+ 0001:0004170d       ?OnPress@overlay_t@@UAEKPAUinputevent_t@@@Z 0044270d f   ovl_man.obj
+ 0001:00041723       ?OnDrag@overlay_t@@UAEKPAUinputevent_t@@@Z 00442723 f   ovl_man.obj
+ 0001:00041739       ?OnRelease@overlay_t@@UAEKPAUinputevent_t@@@Z 00442739 f   ovl_man.obj
+ 0001:0004174f       ?OnPressCommand@overlay_t@@UAEKHPAPBD@Z 0044274f f   ovl_man.obj
+ 0001:00041765       ?OnDragCommand@overlay_t@@UAEKHPAPBD@Z 00442765 f   ovl_man.obj
+ 0001:0004177b       ?OnReleaseCommand@overlay_t@@UAEKHPAPBD@Z 0044277b f   ovl_man.obj
+ 0001:00041791       ?OnMessage@overlay_t@@UAEKPAUovlmsg_t@@@Z 00442791 f   ovl_man.obj
+ 0001:000417a7       ?OnDragDrop@overlay_t@@UAEKPAV1@@Z 004427a7 f   ovl_man.obj
+ 0001:000432d0       ??_Eoverlay_t@@UAEPAXI@Z   004442d0 f i ovl_man.obj
+ 0001:000432d0       ??_Goverlay_t@@UAEPAXI@Z   004442d0 f i ovl_man.obj
+ 0001:00043596       ??2modelSkin_t@@SAPAXI@Z   00444596 f   ovl_mdl.obj
+ 0001:000435ae       ??3modelSkin_t@@SAXPAX@Z   004445ae f   ovl_mdl.obj
+ 0001:000435c8       ?EvaluateLinks@modelTrimesh_t@@QAEXXZ 004445c8 f   ovl_mdl.obj
+ 0001:00043778       ?Import@modelFrame_t@@QAEHHPAVvector_t@@HPAH@Z 00444778 f   ovl_mdl.obj
+ 0001:00043a23       ?PreserveBaseframe@modelFrame_t@@QAEHHPAVvector_t@@HPAHPAM@Z 00444a23 f   ovl_mdl.obj
+ 0001:00043e15       ?LoadMDXChunk@modelFrame_t@@QAEXPAUascfentrylink_s@@@Z 00444e15 f   ovl_mdl.obj
+ 0001:00044888       ?CacheIn@modelFrame_t@@QAEXXZ 00445888 f   ovl_mdl.obj
+ 0001:00044973       ?RemoveFromCache@modelFrame_t@@AAEXXZ 00445973 f   ovl_mdl.obj
+ 0001:000449c5       ?SetReference@modelFrame_t@@QAEXPAV1@@Z 004459c5 f   ovl_mdl.obj
+ 0001:00044a3a       ?CalcVertNormals@modelFrame_t@@AAEXXZ 00445a3a f   ovl_mdl.obj
+ 0001:00044cbb       ?Compress@modelFrame_t@@QAEXXZ 00445cbb f   ovl_mdl.obj
+ 0001:00045dca       ?Decompress@modelFrame_t@@QAEXXZ 00446dca f   ovl_mdl.obj
+ 0001:00046b40       ?GetVerts@modelFrame_t@@QAEPAUframeVert_t@@XZ 00447b40 f   ovl_mdl.obj
+ 0001:00046b6d       ?GetBaseTris@modelFrame_t@@QAEPAUbaseTri_t@@XZ 00447b6d f   ovl_mdl.obj
+ 0001:00046b9a       ??2modelFrame_t@@SAPAXI@Z  00447b9a f   ovl_mdl.obj
+ 0001:00046bb2       ??3modelFrame_t@@SAXPAX@Z  00447bb2 f   ovl_mdl.obj
+ 0001:00046bcc       ??2modelSequence_t@@SAPAXI@Z 00447bcc f   ovl_mdl.obj
+ 0001:00046be4       ??3modelSequence_t@@SAXPAX@Z 00447be4 f   ovl_mdl.obj
+ 0001:00046bfe       ?Play@modelSequence_t@@QAEXXZ 00447bfe f   ovl_mdl.obj
+ 0001:00046c48       ??1modelMount_t@@UAE@XZ    00447c48 f   ovl_mdl.obj
+ 0001:00046ce8       ?RecursiveCircularCheck@modelMount_t@@AAEKH@Z 00447ce8 f   ovl_mdl.obj
+ 0001:00046e23       ?UpdateTransform@modelMount_t@@QAEHMK@Z 00447e23 f   ovl_mdl.obj
+ 0001:00047317       ?SetTriangle@modelMount_t@@QAEHH@Z 00448317 f   ovl_mdl.obj
+ 0001:0004742c       ?SetFrame@modelMount_t@@QAEHPAVmodelFrame_t@@@Z 0044842c f   ovl_mdl.obj
+ 0001:000475a9       ?SetFrameLerped@modelMount_t@@QAEHPAVmodelFrame_t@@0MM@Z 004485a9 f   ovl_mdl.obj
+ 0001:000478f8       ?MountToWorld@modelMount_t@@QAEXAAVvector_t@@@Z 004488f8 f   ovl_mdl.obj
+ 0001:00047930       ?WorldToMount@modelMount_t@@QAEXAAVvector_t@@@Z 00448930 f   ovl_mdl.obj
+ 0001:00047968       ?SetReference@model_t@@QAEXPAVmodelFrame_t@@@Z 00448968 f   ovl_mdl.obj
+ 0001:000479e7       ?GetReference@model_t@@QAEPAVmodelFrame_t@@XZ 004489e7 f   ovl_mdl.obj
+ 0001:00047a02       ?ImportFrames@model_t@@QAEHPBDK@Z 00448a02 f   ovl_mdl.obj
+ 0001:000487c6       ?SaveMDX@model_t@@QAEHPBD@Z 004497c6 f   ovl_mdl.obj
+ 0001:0004a98f       ?LoadSkin@@YAKPAVmodelSkin_t@@PBD1@Z 0044b98f f   ovl_mdl.obj
+ 0001:0004b08e       ?LoadMDX@model_t@@QAEHPBDK@Z 0044c08e f   ovl_mdl.obj
+ 0001:0004e650       ??4frameVert_t@@QAEAAU0@ABU0@@Z 0044f650 f i ovl_mdl.obj
+ 0001:0004e6b0       ??4baseTri_t@@QAEAAU0@ABU0@@Z 0044f6b0 f i ovl_mdl.obj
+ 0001:0004e7a0       ??8@YAHABVvector_t@@0@Z    0044f7a0 f i ovl_mdl.obj
+ 0001:0004e840       ?RecursiveMountToWorld@modelMount_t@@AAEXAAVvector_t@@M@Z 0044f840 f i ovl_mdl.obj
+ 0001:0004e920       ?RecursiveWorldToMount@modelMount_t@@AAEXAAVvector_t@@M@Z 0044f920 f i ovl_mdl.obj
+ 0001:0004ea00       ??0?$pool_t@UseqItem_s@@@@QAE@PBDHP6AXPAUseqItem_s@@PAD@ZP6AX1@Z@Z 0044fa00 f i ovl_mdl.obj
+ 0001:0004eb00       ??1?$pool_t@UseqItem_s@@@@QAE@XZ 0044fb00 f i ovl_mdl.obj
+ 0001:0004eb80       ??0?$pool_t@UseqTrigger_s@@@@QAE@PBDHP6AXPAUseqTrigger_s@@PAD@ZP6AX1@Z@Z 0044fb80 f i ovl_mdl.obj
+ 0001:0004ec80       ??1?$pool_t@UseqTrigger_s@@@@QAE@XZ 0044fc80 f i ovl_mdl.obj
+ 0001:0004ed00       ??0?$pool_t@Usortitem_s@@@@QAE@PBDHP6AXPAUsortitem_s@@PAD@ZP6AX1@Z@Z 0044fd00 f i ovl_mdl.obj
+ 0001:0004ee00       ??1?$pool_t@Usortitem_s@@@@QAE@XZ 0044fe00 f i ovl_mdl.obj
+ 0001:0004ee80       ?Sort@?$modelResourceList_t@VmodelFrame_t@@@@QAEXP8model_t@@AEXPAVmodelResource_t@@@Z@Z 0044fe80 f i ovl_mdl.obj
+ 0001:0004ef90       ?AddFrame@model_t@@QAEPAVmodelFrame_t@@XZ 0044ff90 f i ovl_mdl.obj
+ 0001:0004f000       ??0?$pool_t@VmodelFrame_t@@@@QAE@PBDHP6AXPAVmodelFrame_t@@PAD@ZP6AX1@Z@Z 00450000 f i ovl_mdl.obj
+ 0001:0004f100       ?AddSkin@model_t@@QAEPAVmodelSkin_t@@H@Z 00450100 f i ovl_mdl.obj
+ 0001:0004f1b0       ??1?$pool_t@VmodelFrame_t@@@@QAE@XZ 004501b0 f i ovl_mdl.obj
+ 0001:0004f230       ?Alloc@?$pool_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@PAD@Z 00450230 f i ovl_mdl.obj
+ 0001:0004f410       ?AddSequence@model_t@@QAEPAVmodelSequence_t@@XZ 00450410 f i ovl_mdl.obj
+ 0001:0004f460       ?Free@?$pool_t@VmodelFrame_t@@@@QAEXPAVmodelFrame_t@@@Z 00450460 f i ovl_mdl.obj
+ 0001:0004f580       ??0?$pool_t@VmodelSkin_t@@@@QAE@PBDHP6AXPAVmodelSkin_t@@PAD@ZP6AX1@Z@Z 00450580 f i ovl_mdl.obj
+ 0001:0004f680       ??1?$pool_t@VmodelSkin_t@@@@QAE@XZ 00450680 f i ovl_mdl.obj
+ 0001:0004f700       ?Alloc@?$pool_t@VmodelSkin_t@@@@QAEPAVmodelSkin_t@@PAD@Z 00450700 f i ovl_mdl.obj
+ 0001:0004f8e0       ?Free@?$pool_t@VmodelSkin_t@@@@QAEXPAVmodelSkin_t@@@Z 004508e0 f i ovl_mdl.obj
+ 0001:0004fa00       ??0?$pool_t@VmodelSequence_t@@@@QAE@PBDHP6AXPAVmodelSequence_t@@PAD@ZP6AX1@Z@Z 00450a00 f i ovl_mdl.obj
+ 0001:0004fb00       ??1?$pool_t@VmodelSequence_t@@@@QAE@XZ 00450b00 f i ovl_mdl.obj
+ 0001:0004fb80       ?Alloc@?$pool_t@VmodelSequence_t@@@@QAEPAVmodelSequence_t@@PAD@Z 00450b80 f i ovl_mdl.obj
+ 0001:0004fd60       ?Free@?$pool_t@VmodelSequence_t@@@@QAEXPAVmodelSequence_t@@@Z 00450d60 f i ovl_mdl.obj
+ 0001:0004fe80       ?FreeAll@?$pool_t@Usortitem_s@@@@QAEXXZ 00450e80 f i ovl_mdl.obj
+ 0001:0004ff30       ?SortRecursiveInsert@?$modelResourceList_t@VmodelFrame_t@@@@AAEXP8model_t@@AEXPAVmodelResource_t@@@ZPAPAUsortitem_s@@0@Z 00450f30 f i ovl_mdl.obj
+ 0001:00050090       ?SortRecursiveRebuild@?$modelResourceList_t@VmodelFrame_t@@@@AAEXPAUsortitem_s@@@Z 00451090 f i ovl_mdl.obj
+ 0001:00050160       ?Alloc@?$pool_t@Usortitem_s@@@@QAEPAUsortitem_s@@PAD@Z 00451160 f i ovl_mdl.obj
+ 0001:00050340       ?Prepend@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@XZ 00451340 f i ovl_mdl.obj
+ 0001:00050470       ?Prepend@?$modelResourceList_t@VmodelSequence_t@@@@QAEPAVmodelSequence_t@@XZ 00451470 f i ovl_mdl.obj
+ 0001:0005066c       ?OnSave@OSequence@@UAEXXZ  0045166c f   ovl_seq.obj
+ 0001:000506ca       ?OnLoad@OSequence@@UAEXXZ  004516ca f   ovl_seq.obj
+ 0001:00050741       ?OnCalcLogicalDim@OSequence@@UAEXHH@Z 00451741 f   ovl_seq.obj
+ 0001:00050858       ?OnDraw@OSequence@@UAEXHHHHPAUovlClipBox_t@@@Z 00451858 f   ovl_seq.obj
+ 0001:000513f9       ?OnPress@OSequence@@UAEKPAUinputevent_t@@@Z 004523f9 f   ovl_seq.obj
+ 0001:00051cca       ?OnDrag@OSequence@@UAEKPAUinputevent_t@@@Z 00452cca f   ovl_seq.obj
+ 0001:00051df8       ?OnRelease@OSequence@@UAEKPAUinputevent_t@@@Z 00452df8 f   ovl_seq.obj
+ 0001:00051e38       ?OnPressCommand@OSequence@@UAEKHPAPBD@Z 00452e38 f   ovl_seq.obj
+ 0001:00052fe0       ??0OSequence@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00453fe0 f i ovl_seq.obj
+ 0001:00053050       ?Spawn@OSequence@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00454050 f i ovl_seq.obj
+ 0001:00053110       ??1OSequence@@UAE@XZ       00454110 f i ovl_seq.obj
+ 0001:00053150       ??_GOSequence@@UAEPAXI@Z   00454150 f i ovl_seq.obj
+ 0001:00053150       ??_EOSequence@@UAEPAXI@Z   00454150 f i ovl_seq.obj
+ 0001:000533bb       ?RGB2HSV@@YA?AVvector_t@@V1@@Z 004543bb f   ovl_skin.obj
+ 0001:000535c3       ?HSV2RGB@@YA?AVvector_t@@V1@@Z 004545c3 f   ovl_skin.obj
+ 0001:0005391d       ?InvalidatePalColors@OPalette@@QAEXXZ 0045491d f   ovl_skin.obj
+ 0001:00053b2e       ?OnDraw@OPalette@@UAEXHHHHPAUovlClipBox_t@@@Z 00454b2e f   ovl_skin.obj
+ 0001:00054074       ?OnPress@OPalette@@UAEKPAUinputevent_t@@@Z 00455074 f   ovl_skin.obj
+ 0001:000541e7       ?Undo_SkinPaint@@YAXPAD@Z  004551e7 f   ovl_skin.obj
+ 0001:000543b7       ?Undo_BaseManip@@YAXPAD@Z  004553b7 f   ovl_skin.obj
+ 0001:000544d3       ?OVL_SkinPaint@@YAXPAVmodelSkin_t@@HHHMKK@Z 004554d3 f   ovl_skin.obj
+ 0001:000548d1       ?OVL_SkinLine@@YAXPAVmodelSkin_t@@HHHHHMK@Z 004558d1 f   ovl_skin.obj
+ 0001:00054c34       ?OnSave@OSkinView@@UAEXXZ  00455c34 f   ovl_skin.obj
+ 0001:00054d35       ?OnLoad@OSkinView@@UAEXXZ  00455d35 f   ovl_skin.obj
+ 0001:00054e51       ?OnDraw@OSkinView@@UAEXHHHHPAUovlClipBox_t@@@Z 00455e51 f   ovl_skin.obj
+ 0001:00056423       ?OnPressCommand@OSkinView@@UAEKHPAPBD@Z 00457423 f   ovl_skin.obj
+ 0001:0005afd2       ?OnDragCommand@OSkinView@@UAEKHPAPBD@Z 0045bfd2 f   ovl_skin.obj
+ 0001:0005c565       ?OnReleaseCommand@OSkinView@@UAEKHPAPBD@Z 0045d565 f   ovl_skin.obj
+ 0001:0005ff00       ??0OPalette@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00460f00 f i ovl_skin.obj
+ 0001:0005ffb0       ?Spawn@OPalette@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00460fb0 f i ovl_skin.obj
+ 0001:00060070       ??1OPalette@@UAE@XZ        00461070 f i ovl_skin.obj
+ 0001:000600b0       ??_GOPalette@@UAEPAXI@Z    004610b0 f i ovl_skin.obj
+ 0001:000600b0       ??_EOPalette@@UAEPAXI@Z    004610b0 f i ovl_skin.obj
+ 0001:00060100       ??0OSkinView@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00461100 f i ovl_skin.obj
+ 0001:000602e0       ?Spawn@OSkinView@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 004612e0 f i ovl_skin.obj
+ 0001:000603a0       ??1OSkinView@@UAE@XZ       004613a0 f i ovl_skin.obj
+ 0001:00060430       ??_GOSkinView@@UAEPAXI@Z   00461430 f i ovl_skin.obj
+ 0001:00060430       ??_EOSkinView@@UAEPAXI@Z   00461430 f i ovl_skin.obj
+ 0001:00060480       ?OVL_WriteBMP16@@YAHPBDPAGHH@Z 00461480 f   ovl_work.obj
+ 0001:00060800       ?SaveProject_confunc@@YAXPAVCConVar@@HPAPAD@Z 00461800 f   ovl_work.obj
+ 0001:00060988       ?LoadProject_confunc@@YAXPAVCConVar@@HPAPAD@Z 00461988 f   ovl_work.obj
+ 0001:000609ad       ?load_project@@YAKPAVConQueue@@@Z 004619ad f   ovl_work.obj
+ 0001:00060dac       ?InitModel@OWorkspace@@QAEXXZ 00461dac f   ovl_work.obj
+ 0001:00060e4f       ??1OWorkspace@@UAE@XZ      00461e4f f   ovl_work.obj
+ 0001:00060eef       ?CloseFrameReferences@OWorkspace@@QAEXPAVmodelFrame_t@@@Z 00461eef f   ovl_work.obj
+ 0001:00060f72       ?CloseSkinReferences@OWorkspace@@QAEXPAVmodelSkin_t@@@Z 00461f72 f   ovl_work.obj
+ 0001:00060ff5       ?CloseSequenceReferences@OWorkspace@@QAEXPAVmodelSequence_t@@@Z 00461ff5 f   ovl_work.obj
+ 0001:00061078       ?GetTopmostFrame@OWorkspace@@QAEPAVmodelFrame_t@@XZ 00462078 f   ovl_work.obj
+ 0001:000610ff       ?GetTopmostSequence@OWorkspace@@QAEPAVmodelSequence_t@@XZ 004620ff f   ovl_work.obj
+ 0001:00061186       ?OnSave@OWorkspace@@UAEXXZ 00462186 f   ovl_work.obj
+ 0001:00061236       ?OnLoad@OWorkspace@@UAEXXZ 00462236 f   ovl_work.obj
+ 0001:000612d3       ?OnDraw@OWorkspace@@UAEXHHHHPAUovlClipBox_t@@@Z 004622d3 f   ovl_work.obj
+ 0001:00061377       ?OnPressCommand@OWorkspace@@UAEKHPAPBD@Z 00462377 f   ovl_work.obj
+ 0001:00062f3c       ?ws_vpos_save_confunc@@YAXPAVCConVar@@HPAPAD@Z 00463f3c f   ovl_work.obj
+ 0001:0006303e       ?ws_vpos_load_confunc@@YAXPAVCConVar@@HPAPAD@Z 0046403e f   ovl_work.obj
+ 0001:000630d5       ?OnDragDrop@OWorkspace@@UAEKPAVoverlay_t@@@Z 004640d5 f   ovl_work.obj
+ 0001:0006327d       ?OnCalcLogicalDim@OWorkResources@@UAEXHH@Z 0046427d f   ovl_work.obj
+ 0001:000634ce       ?OnDraw@OWorkResources@@UAEXHHHHPAUovlClipBox_t@@@Z 004644ce f   ovl_work.obj
+ 0001:000653dc       ?OnPress@OWorkResources@@UAEKPAUinputevent_t@@@Z 004663dc f   ovl_work.obj
+ 0001:00065be1       ?OnRelease@OWorkResources@@UAEKPAUinputevent_t@@@Z 00466be1 f   ovl_work.obj
+ 0001:00067200       ?SetFOVi@camera_t@@QAEXJJ@Z 00468200 f i ovl_work.obj
+ 0001:00067250       ?Index@?$modelResourceList_t@VmodelFrame_t@@@@QAEPAVmodelFrame_t@@H@Z 00468250 f i ovl_work.obj
+ 0001:00067330       ?Index@?$modelResourceList_t@VmodelSequence_t@@@@QAEPAVmodelSequence_t@@H@Z 00468330 f i ovl_work.obj
+ 0001:00067410       ?Sort@?$modelResourceList_t@VmodelSequence_t@@@@QAEXP8model_t@@AEXPAVmodelResource_t@@@Z@Z 00468410 f i ovl_work.obj
+ 0001:00067520       ?SortRecursiveInsert@?$modelResourceList_t@VmodelSequence_t@@@@AAEXP8model_t@@AEXPAVmodelResource_t@@@ZPAPAUsortitem_s@@0@Z 00468520 f i ovl_work.obj
+ 0001:00067680       ?SortRecursiveRebuild@?$modelResourceList_t@VmodelSequence_t@@@@AAEXPAUsortitem_s@@@Z 00468680 f i ovl_work.obj
+ 0001:00067750       ?get_args@ConQueue@@QAEXAAKAAPAPBD@Z 00468750 f i ovl_work.obj
+ 0001:00067790       ?Spawn@OWorkspace@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00468790 f i ovl_work.obj
+ 0001:00067850       ??0OWorkspace@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 00468850 f i ovl_work.obj
+ 0001:00067970       ??_EOWorkspace@@UAEPAXI@Z  00468970 f i ovl_work.obj
+ 0001:00067970       ??_GOWorkspace@@UAEPAXI@Z  00468970 f i ovl_work.obj
+ 0001:000679c0       ??0OWorkResources@@QAE@PAVCOvlTypeDecl@@PAVoverlay_t@@@Z 004689c0 f i ovl_work.obj
+ 0001:00067a30       ?Spawn@OWorkResources@@UAEPAVoverlay_t@@PAVCOvlTypeDecl@@PAV2@@Z 00468a30 f i ovl_work.obj
+ 0001:00067af0       ??1OWorkResources@@UAE@XZ  00468af0 f i ovl_work.obj
+ 0001:00067b30       ??_GOWorkResources@@UAEPAXI@Z 00468b30 f i ovl_work.obj
+ 0001:00067b30       ??_EOWorkResources@@UAEPAXI@Z 00468b30 f i ovl_work.obj
+ 0001:00067ccf       ?Quit_confunc@@YAXPAVCConVar@@HPAPAD@Z 00468ccf f   sys_main.obj
+ 0001:00067cf4       ?quit_app@@YAKPAVConQueue@@@Z 00468cf4 f   sys_main.obj
+ 0001:00067ded       ?screenshot_confunc@@YAXPAVCConVar@@HPAPAD@Z 00468ded f   sys_main.obj
+ 0001:00067f82       ?SYS_Frame@@YAXXZ          00468f82 f   sys_main.obj
+ 0001:0006801c       ?SYS_Shutdown@@YAXXZ       0046901c f   sys_main.obj
+ 0001:00068037       _SYS_Error                 00469037 f   sys_main.obj
+ 0001:000680e2       ?SYS_MessageBox@@YAHPADK0ZZ 004690e2 f   sys_main.obj
+ 0001:00068150       _SYS_SafeRead              00469150 f   sys_main.obj
+ 0001:000681ad       _SYS_SafeWrite             004691ad f   sys_main.obj
+ 0001:000681ef       ?SysGetFilePath@@YAXAAVStrGrow@@PBD@Z 004691ef f   sys_main.obj
+ 0001:000682d8       _SYS_GetFilePath           004692d8 f   sys_main.obj
+ 0001:00068381       _SYS_GetFileRoot           00469381 f   sys_main.obj
+ 0001:00068428       _SYS_GetFileName           00469428 f   sys_main.obj
+ 0001:000684a7       _SYS_GetFileExtention      004694a7 f   sys_main.obj
+ 0001:000684f8       _SYS_GetImageTypeFromExt   004694f8 f   sys_main.obj
+ 0001:00068561       _SYS_GetImageExtension     00469561 f   sys_main.obj
+ 0001:0006859f       _SYS_CheckFileExist        0046959f f   sys_main.obj
+ 0001:000686b2       _SYS_ForceFileExtention    004696b2 f   sys_main.obj
+ 0001:00068715       _SYS_SuggestFileExtention  00469715 f   sys_main.obj
+ 0001:00068772       ?sys_parse@MeshApp@@QAAXPBDZZ 00469772 f   sys_main.obj
+ 0001:0006899d       ?get_parse_argc@MeshApp@@QAEKXZ 0046999d f   sys_main.obj
+ 0001:000689b5       ?get_parse_argv@MeshApp@@QAEPAPBDXZ 004699b5 f   sys_main.obj
+ 0001:000689dc       ?sys_check_parm@MeshApp@@QAEKPBDK@Z 004699dc f   sys_main.obj
+ 0001:00068a6c       ?init@SysParse@@QAEXXZ     00469a6c f   sys_main.obj
+ 0001:00068aed       ?close@SysParse@@QAEXXZ    00469aed f   sys_main.obj
+ 0001:00068b59       ?realloc_buffer@SysParse@@QAEXXZ 00469b59 f   sys_main.obj
+ 0001:00068bfd       ?realloc_argv@SysParse@@QAEXXZ 00469bfd f   sys_main.obj
+ 0001:000690e0       ??4?$autoptr@PAD@@QAEAAV0@PAPAD@Z 0046a0e0 f i sys_main.obj
+ 0001:00069110       ?get_argv@SysParse@@QAEPAPBDXZ 0046a110 f i sys_main.obj
+ 0001:00069140       ?is_active@VidIf@@QAEKXZ   0046a140 f i sys_main.obj
+ 0001:00069170       ??B?$autoptr@PAD@@QAEPAPADXZ 0046a170 f i sys_main.obj
+ 0001:00069202       ?SYS_EvaluateException@@YAHK@Z 0046a202 f   sys_win.obj
+ 0001:0006923a       ?SYS_ExceptionHandler@@YAXK@Z 0046a23a f   sys_win.obj
+ 0001:0006965d       ?SYS_PlaySound@@YAXPAD@Z   0046a65d f   sys_win.obj
+ 0001:00069685       ?SYS_InputBox@@YAPADPAD00ZZ 0046a685 f   sys_win.obj
+ 0001:000698bc       ?SYS_SelectionBox@@YAPADPAD00ZZ 0046a8bc f   sys_win.obj
+ 0001:00069e9b       ?Undo_confunc@@YAXPAVCConVar@@HPAPAD@Z 0046ae9b f   vcr_man.obj
+ 0001:00069eac       ?VCR_Shutdown@@YAXXZ       0046aeac f   vcr_man.obj
+ 0001:00069eb1       ?VCR_Record@@YAXW4vcractiontype_t@@PBDP6AXPAD@ZHPAPAE@Z 0046aeb1 f   vcr_man.obj
+ 0001:0006a120       ?VCR_PlaybackLocal@@YAXPAPAEH@Z 0046b120 f   vcr_man.obj
+ 0001:0006a203       ?VCR_Undo@@YAXXZ           0046b203 f   vcr_man.obj
+ 0001:0006a2b4       ?VCR_ActivateAction@@YAXW4vcractiontype_t@@@Z 0046b2b4 f   vcr_man.obj
+ 0001:0006a303       ?VCR_ActiveActionName@@YAPADXZ 0046b303 f   vcr_man.obj
+ 0001:0006a32f       ?VCR_GetActionWriteLen@@YAHXZ 0046b32f f   vcr_man.obj
+ 0001:0006a349       ?VCR_SetActionWriteLen@@YAXH@Z 0046b349 f   vcr_man.obj
+ 0001:0006a38b       ?VCR_GetActionReadLen@@YAHXZ 0046b38b f   vcr_man.obj
+ 0001:0006a3a5       ?VCR_SetActionReadLen@@YAXH@Z 0046b3a5 f   vcr_man.obj
+ 0001:0006a3e7       ?VCR_GetActionData@@YAPAXXZ 0046b3e7 f   vcr_man.obj
+ 0001:0006a400       ?VCR_ResetActionRead@@YAXXZ 0046b400 f   vcr_man.obj
+ 0001:0006a41c       ?VCR_EnlargeActionDataBuffer@@YAXH@Z 0046b41c f   vcr_man.obj
+ 0001:0006a4dd       ?VCR_WriteByte@@YAHE@Z     0046b4dd f   vcr_man.obj
+ 0001:0006a552       ?VCR_WriteShort@@YAHF@Z    0046b552 f   vcr_man.obj
+ 0001:0006a5cd       ?VCR_WriteInt@@YAHH@Z      0046b5cd f   vcr_man.obj
+ 0001:0006a645       ?VCR_WriteFloat@@YAHM@Z    0046b645 f   vcr_man.obj
+ 0001:0006a6bd       ?VCR_WriteString@@YAHPAD@Z 0046b6bd f   vcr_man.obj
+ 0001:0006a789       ?VCR_WriteBulk@@YAHPAXH@Z  0046b789 f   vcr_man.obj
+ 0001:0006a7ac       ?VCR_ReadRemaining@@YAHXZ  0046b7ac f   vcr_man.obj
+ 0001:0006a806       ?VCR_ReadByte@@YAEXZ       0046b806 f   vcr_man.obj
+ 0001:0006a8c8       ?VCR_ReadShort@@YAFXZ      0046b8c8 f   vcr_man.obj
+ 0001:0006a98f       ?VCR_ReadInt@@YAHXZ        0046b98f f   vcr_man.obj
+ 0001:0006aa54       ?VCR_ReadFloat@@YAMXZ      0046ba54 f   vcr_man.obj
+ 0001:0006ab19       ?VCR_ReadString@@YAPADXZ   0046bb19 f   vcr_man.obj
+ 0001:0006ab80       ?VCR_ReadBulk@@YAXPAXH@Z   0046bb80 f   vcr_man.obj
+ 0001:0006ac7d       ?VCR_ReadSetForward@@YAXXZ 0046bc7d f   vcr_man.obj
+ 0001:0006accf       ?VCR_ReadSetBackward@@YAXXZ 0046bccf f   vcr_man.obj
+ 0001:0006b0e0       ??0XWinApp@@QAE@XZ         0046c0e0 f   xcore_winapp:winapp.obj
+ 0001:0006b110       ??1XWinApp@@QAE@XZ         0046c110 f   xcore_winapp:winapp.obj
+ 0001:0006b130       ?app_close@XWinApp@@MAEKXZ 0046c130 f   xcore_winapp:winapp.obj
+ 0001:0006b140       ?app_init@XWinApp@@MAEKXZ  0046c140 f   xcore_winapp:winapp.obj
+ 0001:0006b150       ?build_cmd_args@@YAKPBDAAKAAPAPBD@Z 0046c150 f   xcore_winapp:winapp.obj
+ 0001:0006b1d0       ?attempt_cmdline_early@XWinApp@@IAEKXZ 0046c1d0 f   xcore_winapp:winapp.obj
+ 0001:0006b1f0       ?run@XWinApp@@IAEKPBD@Z    0046c1f0 f   xcore_winapp:winapp.obj
+ 0001:0006b2a0       ?run@XWinApp@@QAEKPAUHINSTANCE__@@0PBDK@Z 0046c2a0 f   xcore_winapp:winapp.obj
+ 0001:0006b2c0       _WinMain@16                0046c2c0 f   xcore_winapp:winapp.obj
+ 0001:0006b310       ?init@CmdArgs@@QAEKPBD@Z   0046c310 f   xcore_winapp:winapp.obj
+ 0001:0006b340       ??0CmdArgs@@QAE@PBD@Z      0046c340 f   xcore_winapp:winapp.obj
+ 0001:0006b370       ??1CmdArgs@@QAE@XZ         0046c370 f   xcore_winapp:winapp.obj
+ 0001:0006b380       ??0XWnd@@QAE@XZ            0046c380 f   xcore_winapp:xwnd.obj
+ 0001:0006b390       @xmalloc@4                 0046c390 f   xcore:xcore.dll
+ 0001:0006b396       @xfree@4                   0046c396 f   xcore:xcore.dll
+ 0001:0006b39c       ?assert@XGlobal@@QAEXPBDK@Z 0046c39c f   xcore:xcore.dll
+ 0001:0006b3a2       @fstrlen@4                 0046c3a2 f   xcore:xcore.dll
+ 0001:0006b3a8       ??1autochar@@QAE@XZ        0046c3a8 f   xcore:xcore.dll
+ 0001:0006b3ae       ??Bautochar@@QAEPADXZ      0046c3ae f   xcore:xcore.dll
+ 0001:0006b3b4       ??4autochar@@QAEAAV0@PAD@Z 0046c3b4 f   xcore:xcore.dll
+ 0001:0006b3ba       @xxx_fatal@4               0046c3ba f   xcore:xcore.dll
+ 0001:0006b3c0       ??0autochar@@QAE@XZ        0046c3c0 f   xcore:xcore.dll
+ 0001:0006b3c6       ??0autochar@@QAE@PAD@Z     0046c3c6 f   xcore:xcore.dll
+ 0001:0006b3cc       @fstrcpy@8                 0046c3cc f   xcore:xcore.dll
+ 0001:0006b3d2       ?get_ptr@autochar@@QAEPAXXZ 0046c3d2 f   xcore:xcore.dll
+ 0001:0006b3d8       @xlist_new_node@8          0046c3d8 f   xcore:xcore.dll
+ 0001:0006b3de       @xlist_free_nodes@4        0046c3de f   xcore:xcore.dll
+ 0001:0006b3e4       @xxx_throw@4               0046c3e4 f   xcore:xcore.dll
+ 0001:0006b3ea       ?no_window@WinMsgDef@@UAEXXZ 0046c3ea f   xcore:xcore.dll
+ 0001:0006b3f0       ?set_window@WinMsgDef@@UAEXPAUHWND__@@@Z 0046c3f0 f   xcore:xcore.dll
+ 0001:0006b3f6       ??0WinMsgDef@@QAE@XZ       0046c3f6 f   xcore:xcore.dll
+ 0001:0006b3fc       ??1StrGrow@@QAE@XZ         0046c3fc f   xcore:xcore.dll
+ 0001:0006b402       ?set_error@XGlobal@@QAEXPAVCError@@@Z 0046c402 f   xcore:xcore.dll
+ 0001:0006b408       ??0StrGrow@@QAE@KK@Z       0046c408 f   xcore:xcore.dll
+ 0001:0006b40e       @xxx_message@8             0046c40e f   xcore:xcore.dll
+ 0001:0006b414       ?message@WinMsgDef@@UAEXKPBD@Z 0046c414 f   xcore:xcore.dll
+ 0001:0006b41a       ?throw_msg@WinMsgDef@@UAEXKPBD@Z 0046c41a f   xcore:xcore.dll
+ 0001:0006b420       ?assert@WinMsgDef@@UAEXPBDK@Z 0046c420 f   xcore:xcore.dll
+ 0001:0006b426       ?release@autochar@@QAEPBDXZ 0046c426 f   xcore:xcore.dll
+ 0001:0006b42c       ??BStrGrow@@QAEPADXZ       0046c42c f   xcore:xcore.dll
+ 0001:0006b432       ??6StrGrow@@QAEAAV0@PBD@Z  0046c432 f   xcore:xcore.dll
+ 0001:0006b438       ?reset@StrGrow@@QAEXXZ     0046c438 f   xcore:xcore.dll
+ 0001:0006b43e       @fget_filename@4           0046c43e f   xcore:xcore.dll
+ 0001:0006b444       ??BCStr@@QBEPADXZ          0046c444 f   xcore:xcore.dll
+ 0001:0006b44a       ??0CStr@@QAE@PBD@Z         0046c44a f   xcore:xcore.dll
+ 0001:0006b450       @file_exist@4              0046c450 f   xcore:xcore.dll
+ 0001:0006b456       @fset_extension@8          0046c456 f   xcore:xcore.dll
+ 0001:0006b45c       @fget_extension@4          0046c45c f   xcore:xcore.dll
+ 0001:0006b462       ??6StrGrow@@QAEAAV0@D@Z    0046c462 f   xcore:xcore.dll
+ 0001:0006b468       ?copy@StrGrow@@QAEKPBDK@Z  0046c468 f   xcore:xcore.dll
+ 0001:0006b46e       ??1XFile@@QAE@XZ           0046c46e f   xcore:xcore.dll
+ 0001:0006b474       ?open@XFile@@QAEKPBD0@Z    0046c474 f   xcore:xcore.dll
+ 0001:0006b47a       ??0XFile@@QAE@XZ           0046c47a f   xcore:xcore.dll
+ 0001:0006b480       ?WinMessage@@YAXPAUHWND__@@PBD@Z 0046c480 f   xcore:xcore.dll
+ 0001:0006c500       _DirectInput8Create@20     0046d500 f   dinput8:DINPUT8.dll
+ 0001:0006c506       _QueryPerformanceCounter@4 0046d506 f   kernel32:KERNEL32.dll
+ 0001:0006c50c       _QueryPerformanceFrequency@4 0046d50c f   kernel32:KERNEL32.dll
+ 0001:0006c512       _GetCurrentDirectoryA@8    0046d512 f   kernel32:KERNEL32.dll
+ 0001:0006c518       _GetVersionExA@4           0046d518 f   kernel32:KERNEL32.dll
+ 0001:0006c51e       _Sleep@4                   0046d51e f   kernel32:KERNEL32.dll
+ 0001:0006c524       _GetProcAddress@8          0046d524 f   kernel32:KERNEL32.dll
+ 0001:0006c52a       _LoadLibraryA@4            0046d52a f   kernel32:KERNEL32.dll
+ 0001:0006c530       _GetLastError@0            0046d530 f   kernel32:KERNEL32.dll
+ 0001:0006c536       _ExitProcess@4             0046d536 f   kernel32:KERNEL32.dll
+ 0001:0006c53c       _GetForegroundWindow@0     0046d53c f   user32:USER32.dll
+ 0001:0006c542       _SetCursor@4               0046d542 f   user32:USER32.dll
+ 0001:0006c548       _DestroyWindow@4           0046d548 f   user32:USER32.dll
+ 0001:0006c54e       _PostQuitMessage@4         0046d54e f   user32:USER32.dll
+ 0001:0006c554       _DispatchMessageA@4        0046d554 f   user32:USER32.dll
+ 0001:0006c55a       _TranslateMessage@4        0046d55a f   user32:USER32.dll
+ 0001:0006c560       _PeekMessageA@20           0046d560 f   user32:USER32.dll
+ 0001:0006c566       _RegisterClassExA@4        0046d566 f   user32:USER32.dll
+ 0001:0006c56c       _GetSysColorBrush@4        0046d56c f   user32:USER32.dll
+ 0001:0006c572       _LoadCursorA@8             0046d572 f   user32:USER32.dll
+ 0001:0006c578       _CreateWindowExA@48        0046d578 f   user32:USER32.dll
+ 0001:0006c57e       _DefWindowProcA@16         0046d57e f   user32:USER32.dll
+ 0001:0006c584       _ShowWindow@8              0046d584 f   user32:USER32.dll
+ 0001:0006c58a       _MessageBoxA@16            0046d58a f   user32:USER32.dll
+ 0001:0006c590       _DialogBoxParamA@20        0046d590 f   user32:USER32.dll
+ 0001:0006c596       _GetDlgItemTextA@16        0046d596 f   user32:USER32.dll
+ 0001:0006c59c       _EndDialog@8               0046d59c f   user32:USER32.dll
+ 0001:0006c5a2       _SetDlgItemTextA@12        0046d5a2 f   user32:USER32.dll
+ 0001:0006c5a8       _SetWindowTextA@8          0046d5a8 f   user32:USER32.dll
+ 0001:0006c5ae       _SetWindowPos@28           0046d5ae f   user32:USER32.dll
+ 0001:0006c5b4       _GetSystemMetrics@4        0046d5b4 f   user32:USER32.dll
+ 0001:0006c5ba       _GetWindowRect@8           0046d5ba f   user32:USER32.dll
+ 0001:0006c5c0       _SendDlgItemMessageA@20    0046d5c0 f   user32:USER32.dll
+ 0001:0006c5c6       _CommDlgExtendedError@0    0046d5c6 f   comdlg32:comdlg32.dll
+ 0001:0006c5cc       _GetOpenFileNameA@4        0046d5cc f   comdlg32:comdlg32.dll
+ 0001:0006c5d2       _GetSaveFileNameA@4        0046d5d2 f   comdlg32:comdlg32.dll
+ 0001:0006c5d8       _PlaySoundA@12             0046d5d8 f   winmm:WINMM.dll
+ 0001:0006c5de       __chkesp                   0046d5de f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c5f0       __onexit                   0046d5f0 f   MSVCRTD:atonexit.obj
+ 0001:0006c630       _atexit                    0046d630 f   MSVCRTD:atonexit.obj
+ 0001:0006c648       _fabs                      0046d648 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c64e       ___CxxFrameHandler         0046d64e f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c654       __ftol                     0046d654 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c65a       _atof                      0046d65a f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c660       _strcmp                    0046d660 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c666       __stricmp                  0046d666 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c66c       _atoi                      0046d66c f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c672       __strlwr                   0046d672 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c678       __strnicmp                 0046d678 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c67e       _strcat                    0046d67e f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c684       _strcpy                    0046d684 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c68a       _memset                    0046d68a f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c690       _fclose                    0046d690 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c696       _ftell                     0046d696 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c69c       _fseek                     0046d69c f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6a2       _fopen                     0046d6a2 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6a8       _strchr                    0046d6a8 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6ae       _vsprintf                  0046d6ae f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6b4       _memcpy                    0046d6b4 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6ba       _fread                     0046d6ba f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6c0       _toupper                   0046d6c0 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6c6       _sqrt                      0046d6c6 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6cc       _sin                       0046d6cc f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6d2       _cos                       0046d6d2 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6d8       _strncpy                   0046d6d8 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6de       _sprintf                   0046d6de f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6e4       _abs                       0046d6e4 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c6f0       ??_M@YGXPAXIHP6EX0@Z@Z     0046d6f0 f   MSVCRTD:ehvecdtr.obj
+ 0001:0006c7a0       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 0046d7a0 f   MSVCRTD:ehvecdtr.obj
+ 0001:0006c850       ??_L@YGXPAXIHP6EX0@Z1@Z    0046d850 f   MSVCRTD:ehvecctr.obj
+ 0001:0006c8f0       _floor                     0046d8f0 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c8f6       _fwrite                    0046d8f6 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c8fc       _strrchr                   0046d8fc f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c902       __vsnprintf                0046d902 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006c910       _WinMainCRTStartup         0046d910 f   MSVCRTD:crtexew.obj
+ 0001:0006cb0a       __purecall                 0046db0a f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb10       _exit                      0046db10 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb16       ___p___argv                0046db16 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb1c       ___p___argc                0046db1c f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb22       ___dllonexit               0046db22 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb28       __except_handler3          0046db28 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb2e       ?terminate@@YAXXZ          0046db2e f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb34       __exit                     0046db34 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb3a       __XcptFilter               0046db3a f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb40       ___getmainargs             0046db40 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb46       __initterm                 0046db46 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb50       __setdefaultprecision      0046db50 f   MSVCRTD:fp8.obj
+ 0001:0006cb68       ___setusermatherr          0046db68 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb70       __matherr                  0046db70 f   MSVCRTD:merr.obj
+ 0001:0006cb80       __setargv                  0046db80 f   MSVCRTD:dllargv.obj
+ 0001:0006cb86       ___p__commode              0046db86 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb8c       ___p__fmode                0046db8c f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb92       ___set_app_type            0046db92 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb98       __controlfp                0046db98 f   MSVCRTD:MSVCRTD.dll
+ 0001:0006cb9e       _GetModuleHandleA@4        0046db9e f   kernel32:KERNEL32.dll
+ 0001:0006cba4       _GetStartupInfoA@4         0046dba4 f   kernel32:KERNEL32.dll
+ 0002:0000001c       __real@4@3fff8000000000000000 0047101c     cam_man.obj
+ 0002:00000020       __real@4@40008000000000000000 00471020     cam_man.obj
+ 0002:00000024       __real@4@00000000000000000000 00471024     cam_man.obj
+ 0002:00000028       __real@8@3ffeffec56d5cfaad000 00471028     cam_man.obj
+ 0002:00000034       __real@4@40078000000000000000 00471034     cam_man.obj
+ 0002:00000038       __real@4@4008a000000000000000 00471038     cam_man.obj
+ 0002:0000003c       __real@4@4007f000000000000000 0047103c     cam_man.obj
+ 0002:00000040       __real@8@40078000000000000000 00471040     cam_man.obj
+ 0002:0000004c       __real@4@3ff8f5c28f0000000000 0047104c     cam_man.obj
+ 0002:00000050       __real@4@40088000000000000000 00471050     cam_man.obj
+ 0002:00000054       __real@4@4000c90fdb0000000000 00471054     cam_man.obj
+ 0002:00000058       __real@8@bff1d1b71758e2196800 00471058     cam_man.obj
+ 0002:00000068       __real@8@3ff1d1b71758e2196800 00471068     cam_man.obj
+ 0002:00000074       __real@4@4003f000000000000000 00471074     in_main.obj
+ 0002:00000078       __real@8@00000000000000000000 00471078     math_vec.obj
+ 0002:00000088       __real@8@40008000000000000000 00471088     math_vec.obj
+ 0002:00000094       __real@4@40018000000000000000 00471094     math_vec.obj
+ 0002:00000098       __real@4@407effffff0000000000 00471098     math_vec.obj
+ 0002:0000009c       ??_7AppError@@6B@          0047109c     meshapp.obj
+ 0002:000000b8       __real@8@3fff8000000000000000 004710b8     meshapp.obj
+ 0002:000000c4       ??_7MeshApp@@6B@           004710c4     meshapp.obj
+ 0002:000000dc       __real@4@4001c000000000000000 004710dc     ovl_cc.obj
+ 0002:000000e0       __real@4@4006a600000000000000 004710e0     ovl_cc.obj
+ 0002:000000e4       __real@4@3ffbcccccd0000000000 004710e4     ovl_cc.obj
+ 0002:000000e8       __real@4@4006e000000000000000 004710e8     ovl_cc.obj
+ 0002:000000ec       __real@4@40028000000000000000 004710ec     ovl_cc.obj
+ 0002:000000f0       __real@8@40018000000000000000 004710f0     ovl_cc.obj
+ 0002:000000fc       ??_7OMenuItem@@6B@         004710fc     ovl_cc.obj
+ 0002:00000150       ??_7OWindow@@6B@           00471150     ovl_cc.obj
+ 0002:000001a4       ??_7OMenu@@6B@             004711a4     ovl_cc.obj
+ 0002:000001f8       ??_7OCheckBoxControl@@6B@  004711f8     ovl_cc.obj
+ 0002:0000024c       ??_7OSpinBoxControl@@6B@   0047124c     ovl_cc.obj
+ 0002:000002a0       ??_7OToolbar@@6B@          004712a0     ovl_cc.obj
+ 0002:000002f4       ??_7OToolWindow@@6B@       004712f4     ovl_cc.obj
+ 0002:00000348       ??_7OWindowScrollable@@6B@ 00471348     ovl_cc.obj
+ 0002:0000039c       ??_7OSelectionBox@@6B@     0047139c     ovl_cc.obj
+ 0002:000003f0       ??_7OInputBox@@6B@         004713f0     ovl_cc.obj
+ 0002:00000444       ??_7OConsole@@6B@          00471444     ovl_defs.obj
+ 0002:00000498       ??_7OTriFlagsList@@6B@     00471498     ovl_frm.obj
+ 0002:000004ec       __real@4@bfff8000000000000000 004714ec     ovl_frm.obj
+ 0002:000004f0       __real@4@3fffc90fdb0000000000 004714f0     ovl_frm.obj
+ 0002:000004f4       __real@4@40048000000000000000 004714f4     ovl_frm.obj
+ 0002:000004f8       __real@4@4002a000000000000000 004714f8     ovl_frm.obj
+ 0002:000004fc       __real@4@3ffe8000000000000000 004714fc     ovl_frm.obj
+ 0002:00000500       __real@4@3ffd99999a0000000000 00471500     ovl_frm.obj
+ 0002:00000504       __real@4@3ffdcccccd0000000000 00471504     ovl_frm.obj
+ 0002:00000508       __real@8@4008fa00000000000000 00471508     ovl_frm.obj
+ 0002:00000514       __real@4@4008fa00000000000000 00471514     ovl_frm.obj
+ 0002:00000518       __real@4@4000c000000000000000 00471518     ovl_frm.obj
+ 0002:00000520       __real@8@3ffe8000000000000000 00471520     ovl_frm.obj
+ 0002:0000052c       __real@4@4006c800000000000000 0047152c     ovl_frm.obj
+ 0002:00000530       __real@4@4001a000000000000000 00471530     ovl_frm.obj
+ 0002:00000534       __real@4@4002c000000000000000 00471534     ovl_frm.obj
+ 0002:00000538       ??_7modelSkin_t@@6B@       00471538     ovl_frm.obj
+ 0002:0000053c       ??_7modelResource_t@@6B@   0047153c     ovl_frm.obj
+ 0002:00000540       ??_7modelTrimesh_t@@6B@    00471540     ovl_frm.obj
+ 0002:00000544       ??_7modelMount_t@@6B@      00471544     ovl_frm.obj
+ 0002:00000548       ??_7OFrameView@@6B@        00471548     ovl_frm.obj
+ 0002:0000059c       ??_7modelFrame_t@@6B@      0047159c     ovl_frm.obj
+ 0002:000005a0       ??_7modelSequence_t@@6B@   004715a0     ovl_frm.obj
+ 0002:000005a4       __real@4@40048400000000000000 004715a4     ovl_man.obj
+ 0002:000005a8       __real@4@4003b800000000000000 004715a8     ovl_man.obj
+ 0002:000005ac       __real@4@4003a000000000000000 004715ac     ovl_man.obj
+ 0002:000005b0       __real@4@4004c000000000000000 004715b0     ovl_man.obj
+ 0002:000005b4       ??_7overlay_t@@6B@         004715b4     ovl_man.obj
+ 0002:00000608       __real@4@4006ff00000000000000 00471608     ovl_mdl.obj
+ 0002:00000610       __real@8@4005c800000000000000 00471610     ovl_mdl.obj
+ 0002:0000061c       __real@4@4005fe00000000000000 0047161c     ovl_mdl.obj
+ 0002:00000620       __real@4@4003e000000000000000 00471620     ovl_seq.obj
+ 0002:00000624       ??_7OSequence@@6B@         00471624     ovl_seq.obj
+ 0002:00000678       __real@4@40039000000000000000 00471678     ovl_skin.obj
+ 0002:0000067c       __real@4@4003d000000000000000 0047167c     ovl_skin.obj
+ 0002:00000680       __real@4@40068000000000000000 00471680     ovl_skin.obj
+ 0002:00000688       __real@8@3ffc8000000000000000 00471688     ovl_skin.obj
+ 0002:00000698       __real@8@4001c000000000000000 00471698     ovl_skin.obj
+ 0002:000006a4       ??_7OPalette@@6B@          004716a4     ovl_skin.obj
+ 0002:000006f8       ??_7OSkinView@@6B@         004716f8     ovl_skin.obj
+ 0002:0000074c       __real@4@3ffacccccd0000000000 0047174c     ovl_skin.obj
+ 0002:00000750       ??_7OWorkspace@@6B@        00471750     ovl_work.obj
+ 0002:000007a4       __real@4@40058000000000000000 004717a4     ovl_work.obj
+ 0002:000007a8       ??_7OWorkResources@@6B@    004717a8     ovl_work.obj
+ 0002:000007fc       ??_7XWinApp@@6B@           004717fc     xcore_winapp:winapp.obj
+ 0002:000009fc       _c_dfDIMouse               004719fc     dinput8:dilib1.obj
+ 0002:00000c04       _c_dfDIKeyboard            00471c04     dinput8:dilib2.obj
+ 0002:00000c1c       _KSDATAFORMAT_SUBTYPE_DIRECTMUSIC 00471c1c     dxguid:dxguid.obj
+ 0002:00000c2c       _KSDATAFORMAT_SUBTYPE_MIDI 00471c2c     dxguid:dxguid.obj
+ 0002:00000c3c       _IID_IKsControl            00471c3c     dxguid:dxguid.obj
+ 0002:00000c4c       _IID_IDirectMusicAudioPath 00471c4c     dxguid:dxguid.obj
+ 0002:00000c5c       _IID_IDirectMusicSong      00471c5c     dxguid:dxguid.obj
+ 0002:00000c6c       _IID_IDirectMusicContainer 00471c6c     dxguid:dxguid.obj
+ 0002:00000c7c       _IID_IDirectMusicScript    00471c7c     dxguid:dxguid.obj
+ 0002:00000c8c       _IID_IDirectMusicPatternTrack 00471c8c     dxguid:dxguid.obj
+ 0002:00000c9c       _IID_IDirectMusicStyle8    00471c9c     dxguid:dxguid.obj
+ 0002:00000cac       _IID_IDirectMusicSegmentState8 00471cac     dxguid:dxguid.obj
+ 0002:00000cbc       _IID_IDirectMusicSegment8  00471cbc     dxguid:dxguid.obj
+ 0002:00000ccc       _IID_IDirectMusicPerformance8 00471ccc     dxguid:dxguid.obj
+ 0002:00000cdc       _IID_IDirectMusicLoader8   00471cdc     dxguid:dxguid.obj
+ 0002:00000cec       _IID_IDirectMusicSegment2  00471cec     dxguid:dxguid.obj
+ 0002:00000cfc       _IID_IDirectMusicPerformance2 00471cfc     dxguid:dxguid.obj
+ 0002:00000d0c       _IID_IDirectMusicBand      00471d0c     dxguid:dxguid.obj
+ 0002:00000d1c       _IID_IDirectMusicComposer  00471d1c     dxguid:dxguid.obj
+ 0002:00000d2c       _IID_IDirectMusicChordMap  00471d2c     dxguid:dxguid.obj
+ 0002:00000d3c       _IID_IDirectMusicStyle     00471d3c     dxguid:dxguid.obj
+ 0002:00000d4c       _IID_IDirectMusicGraph     00471d4c     dxguid:dxguid.obj
+ 0002:00000d5c       _IID_IDirectMusicPerformance 00471d5c     dxguid:dxguid.obj
+ 0002:00000d6c       _IID_IDirectMusicSegmentState 00471d6c     dxguid:dxguid.obj
+ 0002:00000d7c       _IID_IDirectMusicSegment   00471d7c     dxguid:dxguid.obj
+ 0002:00000d8c       _IID_IDirectMusicObject    00471d8c     dxguid:dxguid.obj
+ 0002:00000d9c       _IID_IDirectMusicGetLoader 00471d9c     dxguid:dxguid.obj
+ 0002:00000dac       _IID_IDirectMusicLoader    00471dac     dxguid:dxguid.obj
+ 0002:00000dbc       _GUID_Buffer_Mono          00471dbc     dxguid:dxguid.obj
+ 0002:00000dcc       _GUID_Buffer_3D_Dry        00471dcc     dxguid:dxguid.obj
+ 0002:00000ddc       _GUID_Buffer_Stereo        00471ddc     dxguid:dxguid.obj
+ 0002:00000dec       _GUID_Buffer_EnvReverb     00471dec     dxguid:dxguid.obj
+ 0002:00000dfc       _GUID_Buffer_Reverb        00471dfc     dxguid:dxguid.obj
+ 0002:00000e0c       _GUID_Synth_Default        00471e0c     dxguid:dxguid.obj
+ 0002:00000e1c       _GUID_DefaultGMCollection  00471e1c     dxguid:dxguid.obj
+ 0002:00000e2c       _GUID_PerfAutoDownload     00471e2c     dxguid:dxguid.obj
+ 0002:00000e3c       _GUID_PerfMasterGrooveLevel 00471e3c     dxguid:dxguid.obj
+ 0002:00000e4c       _GUID_PerfMasterVolume     00471e4c     dxguid:dxguid.obj
+ 0002:00000e5c       _GUID_PerfMasterTempo      00471e5c     dxguid:dxguid.obj
+ 0002:00000e6c       _GUID_UnloadFromAudioPath  00471e6c     dxguid:dxguid.obj
+ 0002:00000e7c       _GUID_DownloadToAudioPath  00471e7c     dxguid:dxguid.obj
+ 0002:00000e8c       _GUID_Variations           00471e8c     dxguid:dxguid.obj
+ 0002:00000e9c       _GUID_Clear_All_MelodyFragments 00471e9c     dxguid:dxguid.obj
+ 0002:00000eac       _GUID_MelodyFragment       00471eac     dxguid:dxguid.obj
+ 0002:00000ebc       _GUID_SeedVariations       00471ebc     dxguid:dxguid.obj
+ 0002:00000ecc       _GUID_EnableTempo          00471ecc     dxguid:dxguid.obj
+ 0002:00000edc       _GUID_DisableTempo         00471edc     dxguid:dxguid.obj
+ 0002:00000eec       _GUID_EnableTimeSig        00471eec     dxguid:dxguid.obj
+ 0002:00000efc       _GUID_DisableTimeSig       00471efc     dxguid:dxguid.obj
+ 0002:00000f0c       _GUID_StandardMIDIFile     00471f0c     dxguid:dxguid.obj
+ 0002:00000f1c       _GUID_Clear_All_Bands      00471f1c     dxguid:dxguid.obj
+ 0002:00000f2c       _GUID_Disable_Auto_Download 00471f2c     dxguid:dxguid.obj
+ 0002:00000f3c       _GUID_Enable_Auto_Download 00471f3c     dxguid:dxguid.obj
+ 0002:00000f4c       _GUID_ConnectToDLSCollection 00471f4c     dxguid:dxguid.obj
+ 0002:00000f5c       _GUID_Unload               00471f5c     dxguid:dxguid.obj
+ 0002:00000f6c       _GUID_Download             00471f6c     dxguid:dxguid.obj
+ 0002:00000f7c       _GUID_MuteParam            00471f7c     dxguid:dxguid.obj
+ 0002:00000f8c       _GUID_IDirectMusicChordMap 00471f8c     dxguid:dxguid.obj
+ 0002:00000f9c       _GUID_IDirectMusicBand     00471f9c     dxguid:dxguid.obj
+ 0002:00000fac       _GUID_BandParam            00471fac     dxguid:dxguid.obj
+ 0002:00000fbc       _GUID_Play_Marker          00471fbc     dxguid:dxguid.obj
+ 0002:00000fcc       _GUID_Valid_Start_Time     00471fcc     dxguid:dxguid.obj
+ 0002:00000fdc       _GUID_TempoParam           00471fdc     dxguid:dxguid.obj
+ 0002:00000fec       _GUID_TimeSignature        00471fec     dxguid:dxguid.obj
+ 0002:00000ffc       _GUID_IDirectMusicStyle    00471ffc     dxguid:dxguid.obj
+ 0002:0000100c       _GUID_RhythmParam          0047200c     dxguid:dxguid.obj
+ 0002:0000101c       _GUID_ChordParam           0047201c     dxguid:dxguid.obj
+ 0002:0000102c       _GUID_CommandParamNext     0047202c     dxguid:dxguid.obj
+ 0002:0000103c       _GUID_CommandParam2        0047203c     dxguid:dxguid.obj
+ 0002:0000104c       _GUID_CommandParam         0047204c     dxguid:dxguid.obj
+ 0002:0000105c       _GUID_NOTIFICATION_RECOMPOSE 0047205c     dxguid:dxguid.obj
+ 0002:0000106c       _GUID_NOTIFICATION_COMMAND 0047206c     dxguid:dxguid.obj
+ 0002:0000107c       _GUID_NOTIFICATION_CHORD   0047207c     dxguid:dxguid.obj
+ 0002:0000108c       _GUID_NOTIFICATION_MEASUREANDBEAT 0047208c     dxguid:dxguid.obj
+ 0002:0000109c       _GUID_NOTIFICATION_PERFORMANCE 0047209c     dxguid:dxguid.obj
+ 0002:000010ac       _GUID_NOTIFICATION_SEGMENT 004720ac     dxguid:dxguid.obj
+ 0002:000010bc       _GUID_DirectMusicAllTypes  004720bc     dxguid:dxguid.obj
+ 0002:000010cc       _CLSID_DirectMusicAudioPathConfig 004720cc     dxguid:dxguid.obj
+ 0002:000010dc       _CLSID_DirectMusicSong     004720dc     dxguid:dxguid.obj
+ 0002:000010ec       _CLSID_DirectSoundWave     004720ec     dxguid:dxguid.obj
+ 0002:000010fc       _CLSID_DirectMusicContainer 004720fc     dxguid:dxguid.obj
+ 0002:0000110c       _CLSID_DirectMusicScript   0047210c     dxguid:dxguid.obj
+ 0002:0000111c       _CLSID_DirectMusicPatternTrack 0047211c     dxguid:dxguid.obj
+ 0002:0000112c       _CLSID_DirectMusicBand     0047212c     dxguid:dxguid.obj
+ 0002:0000113c       _CLSID_DirectMusicLoader   0047213c     dxguid:dxguid.obj
+ 0002:0000114c       _CLSID_DirectMusicComposer 0047214c     dxguid:dxguid.obj
+ 0002:0000115c       _CLSID_DirectMusicChordMap 0047215c     dxguid:dxguid.obj
+ 0002:0000116c       _CLSID_DirectMusicStyle    0047216c     dxguid:dxguid.obj
+ 0002:0000117c       _CLSID_DirectMusicGraph    0047217c     dxguid:dxguid.obj
+ 0002:0000118c       _CLSID_DirectMusicSegmentState 0047218c     dxguid:dxguid.obj
+ 0002:0000119c       _CLSID_DirectMusicSegment  0047219c     dxguid:dxguid.obj
+ 0002:000011ac       _CLSID_DirectMusicPerformance 004721ac     dxguid:dxguid.obj
+ 0002:000011bc       _IID_IDirectMusicTrack8    004721bc     dxguid:dxguid.obj
+ 0002:000011cc       _IID_IDirectMusicTool8     004721cc     dxguid:dxguid.obj
+ 0002:000011dc       _IID_IDirectMusicTool      004721dc     dxguid:dxguid.obj
+ 0002:000011ec       _IID_IDirectMusicTrack     004721ec     dxguid:dxguid.obj
+ 0002:000011fc       _CLSID_DirectMusicWaveTrack 004721fc     dxguid:dxguid.obj
+ 0002:0000120c       _CLSID_DirectMusicMelodyFormulationTrack 0047220c     dxguid:dxguid.obj
+ 0002:0000121c       _CLSID_DirectMusicParamControlTrack 0047221c     dxguid:dxguid.obj
+ 0002:0000122c       _CLSID_DirectMusicLyricsTrack 0047222c     dxguid:dxguid.obj
+ 0002:0000123c       _CLSID_DirectMusicSegmentTriggerTrack 0047223c     dxguid:dxguid.obj
+ 0002:0000124c       _CLSID_DirectMusicMarkerTrack 0047224c     dxguid:dxguid.obj
+ 0002:0000125c       _CLSID_DirectMusicScriptTrack 0047225c     dxguid:dxguid.obj
+ 0002:0000126c       _CLSID_DirectMusicMuteTrack 0047226c     dxguid:dxguid.obj
+ 0002:0000127c       _CLSID_DirectMusicChordMapTrack 0047227c     dxguid:dxguid.obj
+ 0002:0000128c       _CLSID_DirectMusicBandTrack 0047228c     dxguid:dxguid.obj
+ 0002:0000129c       _CLSID_DirectMusicSignPostTrack 0047229c     dxguid:dxguid.obj
+ 0002:000012ac       _CLSID_DirectMusicMotifTrack 004722ac     dxguid:dxguid.obj
+ 0002:000012bc       _CLSID_DirectMusicStyleTrack 004722bc     dxguid:dxguid.obj
+ 0002:000012cc       _CLSID_DirectMusicCommandTrack 004722cc     dxguid:dxguid.obj
+ 0002:000012dc       _CLSID_DirectMusicChordTrack 004722dc     dxguid:dxguid.obj
+ 0002:000012ec       _CLSID_DirectMusicTimeSigTrack 004722ec     dxguid:dxguid.obj
+ 0002:000012fc       _CLSID_DirectMusicSysExTrack 004722fc     dxguid:dxguid.obj
+ 0002:0000130c       _CLSID_DirectMusicSeqTrack 0047230c     dxguid:dxguid.obj
+ 0002:0000131c       _CLSID_DirectMusicTempoTrack 0047231c     dxguid:dxguid.obj
+ 0002:0000132c       _GUID_DMUS_PROP_Volume     0047232c     dxguid:dxguid.obj
+ 0002:0000133c       _GUID_DMUS_PROP_LegacyCaps 0047233c     dxguid:dxguid.obj
+ 0002:0000134c       _GUID_DMUS_PROP_Effects    0047234c     dxguid:dxguid.obj
+ 0002:0000135c       _GUID_DMUS_PROP_WavesReverb 0047235c     dxguid:dxguid.obj
+ 0002:0000136c       _GUID_DMUS_PROP_MemorySize 0047236c     dxguid:dxguid.obj
+ 0002:0000137c       _GUID_DMUS_PROP_WritePeriod 0047237c     dxguid:dxguid.obj
+ 0002:0000138c       _GUID_DMUS_PROP_WriteLatency 0047238c     dxguid:dxguid.obj
+ 0002:0000139c       _GUID_DMUS_PROP_SamplePlaybackRate 0047239c     dxguid:dxguid.obj
+ 0002:000013ac       _GUID_DMUS_PROP_SampleMemorySize 004723ac     dxguid:dxguid.obj
+ 0002:000013bc       _GUID_DMUS_PROP_SynthSink_WAVE 004723bc     dxguid:dxguid.obj
+ 0002:000013cc       _GUID_DMUS_PROP_SynthSink_DSOUND 004723cc     dxguid:dxguid.obj
+ 0002:000013dc       _GUID_DMUS_PROP_INSTRUMENT2 004723dc     dxguid:dxguid.obj
+ 0002:000013ec       _GUID_DMUS_PROP_DLS2       004723ec     dxguid:dxguid.obj
+ 0002:000013fc       _GUID_DMUS_PROP_DLS1       004723fc     dxguid:dxguid.obj
+ 0002:0000140c       _GUID_DMUS_PROP_GS_Capable 0047240c     dxguid:dxguid.obj
+ 0002:0000141c       _GUID_DMUS_PROP_XG_Capable 0047241c     dxguid:dxguid.obj
+ 0002:0000142c       _GUID_DMUS_PROP_XG_Hardware 0047242c     dxguid:dxguid.obj
+ 0002:0000143c       _GUID_DMUS_PROP_GS_Hardware 0047243c     dxguid:dxguid.obj
+ 0002:0000144c       _GUID_DMUS_PROP_GM_Hardware 0047244c     dxguid:dxguid.obj
+ 0002:0000145c       _IID_IDirectMusic8         0047245c     dxguid:dxguid.obj
+ 0002:0000146c       _IID_IDirectMusic2         0047246c     dxguid:dxguid.obj
+ 0002:0000147c       _IID_IDirectMusicDownloadedInstrument 0047247c     dxguid:dxguid.obj
+ 0002:0000148c       _IID_IDirectMusicInstrument 0047248c     dxguid:dxguid.obj
+ 0002:0000149c       _IID_IDirectMusicCollection 0047249c     dxguid:dxguid.obj
+ 0002:000014ac       _IID_IDirectMusicDownload  004724ac     dxguid:dxguid.obj
+ 0002:000014bc       _IID_IDirectMusicPortDownload 004724bc     dxguid:dxguid.obj
+ 0002:000014cc       _IID_IDirectMusicThru      004724cc     dxguid:dxguid.obj
+ 0002:000014dc       _IID_IDirectMusicPort      004724dc     dxguid:dxguid.obj
+ 0002:000014ec       _IID_IDirectMusicBuffer    004724ec     dxguid:dxguid.obj
+ 0002:000014fc       _IID_IDirectMusic          004724fc     dxguid:dxguid.obj
+ 0002:0000150c       _CLSID_DirectMusicSynth    0047250c     dxguid:dxguid.obj
+ 0002:0000151c       _CLSID_DirectMusicCollection 0047251c     dxguid:dxguid.obj
+ 0002:0000152c       _CLSID_DirectMusic         0047252c     dxguid:dxguid.obj
+ 0002:0000153c       _IID_IDirectPlay8LobbyClient 0047253c     dxguid:dxguid.obj
+ 0002:0000154c       _IID_IDirectPlay8LobbiedApplication 0047254c     dxguid:dxguid.obj
+ 0002:0000155c       _CLSID_DirectPlay8LobbyClient 0047255c     dxguid:dxguid.obj
+ 0002:0000156c       _CLSID_DirectPlay8LobbiedApplication 0047256c     dxguid:dxguid.obj
+ 0002:0000157c       _DPVCTGUID_VR12            0047257c     dxguid:dxguid.obj
+ 0002:0000158c       _DPVCTGUID_TRUESPEECH      0047258c     dxguid:dxguid.obj
+ 0002:0000159c       _DPVCTGUID_SC06            0047259c     dxguid:dxguid.obj
+ 0002:000015ac       _DPVCTGUID_SC03            004725ac     dxguid:dxguid.obj
+ 0002:000015bc       _DPVCTGUID_NONE            004725bc     dxguid:dxguid.obj
+ 0002:000015cc       _DPVCTGUID_GSM             004725cc     dxguid:dxguid.obj
+ 0002:000015dc       _DPVCTGUID_ADPCM           004725dc     dxguid:dxguid.obj
+ 0002:000015ec       _IID_IDirectPlayVoiceTest  004725ec     dxguid:dxguid.obj
+ 0002:000015fc       _IID_IDirectPlayVoiceServer 004725fc     dxguid:dxguid.obj
+ 0002:0000160c       _IID_IDirectPlayVoiceClient 0047260c     dxguid:dxguid.obj
+ 0002:0000161c       _CLSID_DirectPlayVoiceTest 0047261c     dxguid:dxguid.obj
+ 0002:0000162c       _CLSID_DirectPlayVoiceServer 0047262c     dxguid:dxguid.obj
+ 0002:0000163c       _CLSID_DirectPlayVoiceClient 0047263c     dxguid:dxguid.obj
+ 0002:0000164c       _GUID_DSCFX_SYSTEM_NS      0047264c     dxguid:dxguid.obj
+ 0002:0000165c       _GUID_DSCFX_MS_NS          0047265c     dxguid:dxguid.obj
+ 0002:0000166c       _GUID_DSCFX_CLASS_NS       0047266c     dxguid:dxguid.obj
+ 0002:0000167c       _GUID_DSCFX_SYSTEM_AEC     0047267c     dxguid:dxguid.obj
+ 0002:0000168c       _GUID_DSCFX_MS_AEC         0047268c     dxguid:dxguid.obj
+ 0002:0000169c       _GUID_DSCFX_CLASS_AEC      0047269c     dxguid:dxguid.obj
+ 0002:000016ac       _GUID_DSFX_WAVES_REVERB    004726ac     dxguid:dxguid.obj
+ 0002:000016bc       _GUID_DSFX_STANDARD_I3DL2REVERB 004726bc     dxguid:dxguid.obj
+ 0002:000016cc       _GUID_DSFX_STANDARD_PARAMEQ 004726cc     dxguid:dxguid.obj
+ 0002:000016dc       _GUID_DSFX_STANDARD_COMPRESSOR 004726dc     dxguid:dxguid.obj
+ 0002:000016ec       _GUID_DSFX_STANDARD_DISTORTION 004726ec     dxguid:dxguid.obj
+ 0002:000016fc       _GUID_DSFX_STANDARD_ECHO   004726fc     dxguid:dxguid.obj
+ 0002:0000170c       _GUID_DSFX_STANDARD_FLANGER 0047270c     dxguid:dxguid.obj
+ 0002:0000171c       _GUID_DSFX_STANDARD_CHORUS 0047271c     dxguid:dxguid.obj
+ 0002:0000172c       _GUID_DSFX_STANDARD_GARGLE 0047272c     dxguid:dxguid.obj
+ 0002:0000173c       _DS3DALG_HRTF_LIGHT        0047273c     dxguid:dxguid.obj
+ 0002:0000174c       _DS3DALG_HRTF_FULL         0047274c     dxguid:dxguid.obj
+ 0002:0000175c       _DS3DALG_NO_VIRTUALIZATION 0047275c     dxguid:dxguid.obj
+ 0002:0000176c       _IID_IDirectSoundFullDuplex 0047276c     dxguid:dxguid.obj
+ 0002:0000177c       _IID_IDirectSoundCaptureFXNoiseSuppress 0047277c     dxguid:dxguid.obj
+ 0002:0000178c       _IID_IDirectSoundCaptureFXAec 0047278c     dxguid:dxguid.obj
+ 0002:0000179c       _IID_IDirectSoundFXWavesReverb 0047279c     dxguid:dxguid.obj
+ 0002:000017ac       _IID_IDirectSoundFXI3DL2Reverb 004727ac     dxguid:dxguid.obj
+ 0002:000017bc       _IID_IDirectSoundFXParamEq 004727bc     dxguid:dxguid.obj
+ 0002:000017cc       _IID_IDirectSoundFXCompressor 004727cc     dxguid:dxguid.obj
+ 0002:000017dc       _IID_IDirectSoundFXDistortion 004727dc     dxguid:dxguid.obj
+ 0002:000017ec       _IID_IDirectSoundFXEcho    004727ec     dxguid:dxguid.obj
+ 0002:000017fc       _IID_IDirectSoundFXFlanger 004727fc     dxguid:dxguid.obj
+ 0002:0000180c       _IID_IDirectSoundFXChorus  0047280c     dxguid:dxguid.obj
+ 0002:0000181c       _IID_IDirectSoundFXGargle  0047281c     dxguid:dxguid.obj
+ 0002:0000182c       _IID_IKsPropertySet        0047282c     dxguid:dxguid.obj
+ 0002:0000183c       _IID_IDirectSoundNotify    0047283c     dxguid:dxguid.obj
+ 0002:0000184c       _IID_IDirectSoundCaptureBuffer8 0047284c     dxguid:dxguid.obj
+ 0002:0000185c       _IID_IDirectSoundCaptureBuffer 0047285c     dxguid:dxguid.obj
+ 0002:0000186c       _IID_IDirectSoundCapture   0047286c     dxguid:dxguid.obj
+ 0002:0000187c       _IID_IDirectSound3DBuffer  0047287c     dxguid:dxguid.obj
+ 0002:0000188c       _IID_IDirectSound3DListener 0047288c     dxguid:dxguid.obj
+ 0002:0000189c       _GUID_All_Objects          0047289c     dxguid:dxguid.obj
+ 0002:000018ac       _IID_IDirectSoundBuffer8   004728ac     dxguid:dxguid.obj
+ 0002:000018bc       _IID_IDirectSoundBuffer    004728bc     dxguid:dxguid.obj
+ 0002:000018cc       _IID_IDirectSound8         004728cc     dxguid:dxguid.obj
+ 0002:000018dc       _IID_IDirectSound          004728dc     dxguid:dxguid.obj
+ 0002:000018ec       _IID_IReferenceClock       004728ec     dxguid:dxguid.obj
+ 0002:000018fc       _DSDEVID_DefaultVoiceCapture 004728fc     dxguid:dxguid.obj
+ 0002:0000190c       _DSDEVID_DefaultVoicePlayback 0047290c     dxguid:dxguid.obj
+ 0002:0000191c       _DSDEVID_DefaultCapture    0047291c     dxguid:dxguid.obj
+ 0002:0000192c       _DSDEVID_DefaultPlayback   0047292c     dxguid:dxguid.obj
+ 0002:0000193c       _CLSID_DirectSoundFullDuplex 0047293c     dxguid:dxguid.obj
+ 0002:0000194c       _CLSID_DirectSoundCapture8 0047294c     dxguid:dxguid.obj
+ 0002:0000195c       _CLSID_DirectSoundCapture  0047295c     dxguid:dxguid.obj
+ 0002:0000196c       _CLSID_DirectSound8        0047296c     dxguid:dxguid.obj
+ 0002:0000197c       _CLSID_DirectSound         0047297c     dxguid:dxguid.obj
+ 0002:0000198c       _CLSID_DP8SP_TCPIP         0047298c     dxguid:dxguid.obj
+ 0002:0000199c       _CLSID_DP8SP_SERIAL        0047299c     dxguid:dxguid.obj
+ 0002:000019ac       _CLSID_DP8SP_MODEM         004729ac     dxguid:dxguid.obj
+ 0002:000019bc       _CLSID_DP8SP_IPX           004729bc     dxguid:dxguid.obj
+ 0002:000019cc       _IID_IDirectPlay8Server    004729cc     dxguid:dxguid.obj
+ 0002:000019dc       _IID_IDirectPlay8Peer      004729dc     dxguid:dxguid.obj
+ 0002:000019ec       _IID_IDirectPlay8Client    004729ec     dxguid:dxguid.obj
+ 0002:000019fc       _CLSID_DirectPlay8Server   004729fc     dxguid:dxguid.obj
+ 0002:00001a0c       _CLSID_DirectPlay8Peer     00472a0c     dxguid:dxguid.obj
+ 0002:00001a1c       _CLSID_DirectPlay8Client   00472a1c     dxguid:dxguid.obj
+ 0002:00001a2c       _IID_IDirectPlay8AddressIP 00472a2c     dxguid:dxguid.obj
+ 0002:00001a3c       _IID_IDirectPlay8Address   00472a3c     dxguid:dxguid.obj
+ 0002:00001a4c       _CLSID_DirectPlay8Address  00472a4c     dxguid:dxguid.obj
+ 0002:00001a5c       _DPAID_ComPort             00472a5c     dxguid:dxguid.obj
+ 0002:00001a6c       _DPAID_INetPort            00472a6c     dxguid:dxguid.obj
+ 0002:00001a7c       _DPAID_INetW               00472a7c     dxguid:dxguid.obj
+ 0002:00001a8c       _DPAID_INet                00472a8c     dxguid:dxguid.obj
+ 0002:00001a9c       _DPAID_ModemW              00472a9c     dxguid:dxguid.obj
+ 0002:00001aac       _DPAID_Modem               00472aac     dxguid:dxguid.obj
+ 0002:00001abc       _DPAID_PhoneW              00472abc     dxguid:dxguid.obj
+ 0002:00001acc       _DPAID_Phone               00472acc     dxguid:dxguid.obj
+ 0002:00001adc       _DPAID_LobbyProvider       00472adc     dxguid:dxguid.obj
+ 0002:00001aec       _DPAID_ServiceProvider     00472aec     dxguid:dxguid.obj
+ 0002:00001afc       _DPAID_TotalSize           00472afc     dxguid:dxguid.obj
+ 0002:00001b0c       _DPLPROPERTY_PlayerScore   00472b0c     dxguid:dxguid.obj
+ 0002:00001b1c       _DPLPROPERTY_PlayerGuid    00472b1c     dxguid:dxguid.obj
+ 0002:00001b2c       _DPLPROPERTY_LobbyGuid     00472b2c     dxguid:dxguid.obj
+ 0002:00001b3c       _DPLPROPERTY_MessagesSupported 00472b3c     dxguid:dxguid.obj
+ 0002:00001b4c       _CLSID_DirectPlayLobby     00472b4c     dxguid:dxguid.obj
+ 0002:00001b5c       _IID_IDirectPlayLobby3A    00472b5c     dxguid:dxguid.obj
+ 0002:00001b6c       _IID_IDirectPlayLobby3     00472b6c     dxguid:dxguid.obj
+ 0002:00001b7c       _IID_IDirectPlayLobby2A    00472b7c     dxguid:dxguid.obj
+ 0002:00001b8c       _IID_IDirectPlayLobby2     00472b8c     dxguid:dxguid.obj
+ 0002:00001b9c       _IID_IDirectPlayLobbyA     00472b9c     dxguid:dxguid.obj
+ 0002:00001bac       _IID_IDirectPlayLobby      00472bac     dxguid:dxguid.obj
+ 0002:00001bbc       _IID_IDirectPlay           00472bbc     dxguid:dxguid.obj
+ 0002:00001bcc       _DPSPGUID_MODEM            00472bcc     dxguid:dxguid.obj
+ 0002:00001bdc       _DPSPGUID_SERIAL           00472bdc     dxguid:dxguid.obj
+ 0002:00001bec       _DPSPGUID_TCPIP            00472bec     dxguid:dxguid.obj
+ 0002:00001bfc       _DPSPGUID_IPX              00472bfc     dxguid:dxguid.obj
+ 0002:00001c0c       _CLSID_DirectPlay          00472c0c     dxguid:dxguid.obj
+ 0002:00001c1c       _IID_IDirectPlay4A         00472c1c     dxguid:dxguid.obj
+ 0002:00001c2c       _IID_IDirectPlay4          00472c2c     dxguid:dxguid.obj
+ 0002:00001c3c       _IID_IDirectPlay3A         00472c3c     dxguid:dxguid.obj
+ 0002:00001c4c       _IID_IDirectPlay3          00472c4c     dxguid:dxguid.obj
+ 0002:00001c5c       _IID_IDirectPlay2A         00472c5c     dxguid:dxguid.obj
+ 0002:00001c6c       _IID_IDirectPlay2          00472c6c     dxguid:dxguid.obj
+ 0002:00001c7c       _GUID_HIDClass             00472c7c     dxguid:dxguid.obj
+ 0002:00001c8c       _GUID_MouseClass           00472c8c     dxguid:dxguid.obj
+ 0002:00001c9c       _GUID_MediaClass           00472c9c     dxguid:dxguid.obj
+ 0002:00001cac       _GUID_KeyboardClass        00472cac     dxguid:dxguid.obj
+ 0002:00001cbc       _IID_IDirectInputJoyConfig8 00472cbc     dxguid:dxguid.obj
+ 0002:00001ccc       _IID_IDirectInputPIDDriver 00472ccc     dxguid:dxguid.obj
+ 0002:00001cdc       _IID_IDirectInputJoyConfig 00472cdc     dxguid:dxguid.obj
+ 0002:00001cec       _IID_IDirectInputEffectDriver 00472cec     dxguid:dxguid.obj
+ 0002:00001cfc       _GUID_CustomForce          00472cfc     dxguid:dxguid.obj
+ 0002:00001d0c       _GUID_Friction             00472d0c     dxguid:dxguid.obj
+ 0002:00001d1c       _GUID_Inertia              00472d1c     dxguid:dxguid.obj
+ 0002:00001d2c       _GUID_Damper               00472d2c     dxguid:dxguid.obj
+ 0002:00001d3c       _GUID_Spring               00472d3c     dxguid:dxguid.obj
+ 0002:00001d4c       _GUID_SawtoothDown         00472d4c     dxguid:dxguid.obj
+ 0002:00001d5c       _GUID_SawtoothUp           00472d5c     dxguid:dxguid.obj
+ 0002:00001d6c       _GUID_Triangle             00472d6c     dxguid:dxguid.obj
+ 0002:00001d7c       _GUID_Sine                 00472d7c     dxguid:dxguid.obj
+ 0002:00001d8c       _GUID_Square               00472d8c     dxguid:dxguid.obj
+ 0002:00001d9c       _GUID_RampForce            00472d9c     dxguid:dxguid.obj
+ 0002:00001dac       _GUID_ConstantForce        00472dac     dxguid:dxguid.obj
+ 0002:00001dbc       _GUID_SysKeyboardEm2       00472dbc     dxguid:dxguid.obj
+ 0002:00001dcc       _GUID_SysKeyboardEm        00472dcc     dxguid:dxguid.obj
+ 0002:00001ddc       _GUID_SysMouseEm2          00472ddc     dxguid:dxguid.obj
+ 0002:00001dec       _GUID_SysMouseEm           00472dec     dxguid:dxguid.obj
+ 0002:00001dfc       _GUID_Joystick             00472dfc     dxguid:dxguid.obj
+ 0002:00001e0c       _GUID_SysKeyboard          00472e0c     dxguid:dxguid.obj
+ 0002:00001e1c       _GUID_SysMouse             00472e1c     dxguid:dxguid.obj
+ 0002:00001e2c       _GUID_Unknown              00472e2c     dxguid:dxguid.obj
+ 0002:00001e3c       _GUID_POV                  00472e3c     dxguid:dxguid.obj
+ 0002:00001e4c       _GUID_Key                  00472e4c     dxguid:dxguid.obj
+ 0002:00001e5c       _GUID_Button               00472e5c     dxguid:dxguid.obj
+ 0002:00001e6c       _GUID_Slider               00472e6c     dxguid:dxguid.obj
+ 0002:00001e7c       _GUID_RzAxis               00472e7c     dxguid:dxguid.obj
+ 0002:00001e8c       _GUID_RyAxis               00472e8c     dxguid:dxguid.obj
+ 0002:00001e9c       _GUID_RxAxis               00472e9c     dxguid:dxguid.obj
+ 0002:00001eac       _GUID_ZAxis                00472eac     dxguid:dxguid.obj
+ 0002:00001ebc       _GUID_YAxis                00472ebc     dxguid:dxguid.obj
+ 0002:00001ecc       _GUID_XAxis                00472ecc     dxguid:dxguid.obj
+ 0002:00001edc       _IID_IDirectInputEffect    00472edc     dxguid:dxguid.obj
+ 0002:00001eec       _IID_IDirectInputDevice8W  00472eec     dxguid:dxguid.obj
+ 0002:00001efc       _IID_IDirectInputDevice8A  00472efc     dxguid:dxguid.obj
+ 0002:00001f0c       _IID_IDirectInputDevice7W  00472f0c     dxguid:dxguid.obj
+ 0002:00001f1c       _IID_IDirectInputDevice7A  00472f1c     dxguid:dxguid.obj
+ 0002:00001f2c       _IID_IDirectInputDevice2W  00472f2c     dxguid:dxguid.obj
+ 0002:00001f3c       _IID_IDirectInputDevice2A  00472f3c     dxguid:dxguid.obj
+ 0002:00001f4c       _IID_IDirectInputDeviceW   00472f4c     dxguid:dxguid.obj
+ 0002:00001f5c       _IID_IDirectInputDeviceA   00472f5c     dxguid:dxguid.obj
+ 0002:00001f6c       _IID_IDirectInput8W        00472f6c     dxguid:dxguid.obj
+ 0002:00001f7c       _IID_IDirectInput8A        00472f7c     dxguid:dxguid.obj
+ 0002:00001f8c       _IID_IDirectInput7W        00472f8c     dxguid:dxguid.obj
+ 0002:00001f9c       _IID_IDirectInput7A        00472f9c     dxguid:dxguid.obj
+ 0002:00001fac       _IID_IDirectInput2W        00472fac     dxguid:dxguid.obj
+ 0002:00001fbc       _IID_IDirectInput2A        00472fbc     dxguid:dxguid.obj
+ 0002:00001fcc       _IID_IDirectInputW         00472fcc     dxguid:dxguid.obj
+ 0002:00001fdc       _IID_IDirectInputA         00472fdc     dxguid:dxguid.obj
+ 0002:00001fec       _CLSID_DirectInputDevice8  00472fec     dxguid:dxguid.obj
+ 0002:00001ffc       _CLSID_DirectInput8        00472ffc     dxguid:dxguid.obj
+ 0002:0000200c       _CLSID_DirectInputDevice   0047300c     dxguid:dxguid.obj
+ 0002:0000201c       _CLSID_DirectInput         0047301c     dxguid:dxguid.obj
+ 0002:0000202c       _TID_DXFILEHeader          0047302c     dxguid:dxguid.obj
+ 0002:0000203c       _IID_IDirectXFileBinary    0047303c     dxguid:dxguid.obj
+ 0002:0000204c       _IID_IDirectXFileDataReference 0047304c     dxguid:dxguid.obj
+ 0002:0000205c       _IID_IDirectXFileData      0047305c     dxguid:dxguid.obj
+ 0002:0000206c       _IID_IDirectXFileObject    0047306c     dxguid:dxguid.obj
+ 0002:0000207c       _IID_IDirectXFileSaveObject 0047307c     dxguid:dxguid.obj
+ 0002:0000208c       _IID_IDirectXFileEnumObject 0047308c     dxguid:dxguid.obj
+ 0002:0000209c       _IID_IDirectXFile          0047309c     dxguid:dxguid.obj
+ 0002:000020ac       _CLSID_CDirectXFile        004730ac     dxguid:dxguid.obj
+ 0002:000020bc       _TID_D3DRMRightHanded      004730bc     dxguid:dxguid.obj
+ 0002:000020cc       _TID_D3DRMPropertyBag      004730cc     dxguid:dxguid.obj
+ 0002:000020dc       _TID_D3DRMStringProperty   004730dc     dxguid:dxguid.obj
+ 0002:000020ec       _TID_D3DRMExternalVisual   004730ec     dxguid:dxguid.obj
+ 0002:000020fc       _TID_D3DRMProgressiveMesh  004730fc     dxguid:dxguid.obj
+ 0002:0000210c       _TID_D3DRMUrl              0047310c     dxguid:dxguid.obj
+ 0002:0000211c       _TID_D3DRMInlineData       0047311c     dxguid:dxguid.obj
+ 0002:0000212c       _TID_D3DRMLightAttenuation 0047312c     dxguid:dxguid.obj
+ 0002:0000213c       _TID_D3DRMLightPenumbra    0047313c     dxguid:dxguid.obj
+ 0002:0000214c       _TID_D3DRMLightRange       0047314c     dxguid:dxguid.obj
+ 0002:0000215c       _TID_D3DRMLightUmbra       0047315c     dxguid:dxguid.obj
+ 0002:0000216c       _TID_D3DRMAppData          0047316c     dxguid:dxguid.obj
+ 0002:0000217c       _TID_D3DRMCamera           0047317c     dxguid:dxguid.obj
+ 0002:0000218c       _TID_D3DRMLight            0047318c     dxguid:dxguid.obj
+ 0002:0000219c       _TID_D3DRMFrameRotation    0047319c     dxguid:dxguid.obj
+ 0002:000021ac       _TID_D3DRMFrameVelocity    004731ac     dxguid:dxguid.obj
+ 0002:000021bc       _TID_D3DRMFramePosition    004731bc     dxguid:dxguid.obj
+ 0002:000021cc       _TID_D3DRMAnimationOptions 004731cc     dxguid:dxguid.obj
+ 0002:000021dc       _TID_D3DRMTimedFloatKeys   004731dc     dxguid:dxguid.obj
+ 0002:000021ec       _TID_D3DRMBoolean2d        004731ec     dxguid:dxguid.obj
+ 0002:000021fc       _TID_D3DRMMeshFaceWraps    004731fc     dxguid:dxguid.obj
+ 0002:0000220c       _TID_D3DRMBoolean          0047320c     dxguid:dxguid.obj
+ 0002:0000221c       _TID_D3DRMMaterialWrap     0047321c     dxguid:dxguid.obj
+ 0002:0000222c       _TID_D3DRMMeshVertexColors 0047322c     dxguid:dxguid.obj
+ 0002:0000223c       _TID_D3DRMIndexedColor     0047323c     dxguid:dxguid.obj
+ 0002:0000224c       _TID_D3DRMTextureReference 0047324c     dxguid:dxguid.obj
+ 0002:0000225c       _TID_D3DRMTextureFilename  0047325c     dxguid:dxguid.obj
+ 0002:0000226c       _TID_D3DRMGuid             0047326c     dxguid:dxguid.obj
+ 0002:0000227c       _TID_D3DRMColorRGB         0047327c     dxguid:dxguid.obj
+ 0002:0000228c       _TID_D3DRMColorRGBA        0047328c     dxguid:dxguid.obj
+ 0002:0000229c       _TID_D3DRMMaterialPower    0047329c     dxguid:dxguid.obj
+ 0002:000022ac       _TID_D3DRMMaterialEmissiveColor 004732ac     dxguid:dxguid.obj
+ 0002:000022bc       _TID_D3DRMMaterialSpecularColor 004732bc     dxguid:dxguid.obj
+ 0002:000022cc       _TID_D3DRMMaterialDiffuseColor 004732cc     dxguid:dxguid.obj
+ 0002:000022dc       _TID_D3DRMMaterialAmbientColor 004732dc     dxguid:dxguid.obj
+ 0002:000022ec       _TID_D3DRMFloatKeys        004732ec     dxguid:dxguid.obj
+ 0002:000022fc       _TID_D3DRMAnimationKey     004732fc     dxguid:dxguid.obj
+ 0002:0000230c       _TID_D3DRMAnimationSet     0047330c     dxguid:dxguid.obj
+ 0002:0000231c       _TID_D3DRMAnimation        0047331c     dxguid:dxguid.obj
+ 0002:0000232c       _TID_D3DRMMatrix4x4        0047332c     dxguid:dxguid.obj
+ 0002:0000233c       _TID_D3DRMCoords2d         0047333c     dxguid:dxguid.obj
+ 0002:0000234c       _TID_D3DRMMeshNormals      0047334c     dxguid:dxguid.obj
+ 0002:0000235c       _TID_D3DRMMeshTextureCoords 0047335c     dxguid:dxguid.obj
+ 0002:0000236c       _TID_D3DRMMeshMaterialList 0047336c     dxguid:dxguid.obj
+ 0002:0000237c       _TID_D3DRMFrameTransformMatrix 0047337c     dxguid:dxguid.obj
+ 0002:0000238c       _TID_D3DRMFrame            0047338c     dxguid:dxguid.obj
+ 0002:0000239c       _TID_D3DRMMaterialArray    0047339c     dxguid:dxguid.obj
+ 0002:000023ac       _TID_D3DRMMaterial         004733ac     dxguid:dxguid.obj
+ 0002:000023bc       _TID_D3DRMMeshFace         004733bc     dxguid:dxguid.obj
+ 0002:000023cc       _TID_D3DRMVector           004733cc     dxguid:dxguid.obj
+ 0002:000023dc       _TID_D3DRMMesh             004733dc     dxguid:dxguid.obj
+ 0002:000023ec       _TID_D3DRMInfo             004733ec     dxguid:dxguid.obj
+ 0002:000023fc       _IID_IDirect3DRMWinDevice  004733fc     dxguid:dxguid.obj
+ 0002:0000240c       _CLSID_CDirect3DRM         0047340c     dxguid:dxguid.obj
+ 0002:0000241c       _IID_IDirect3DRM3          0047341c     dxguid:dxguid.obj
+ 0002:0000242c       _IID_IDirect3DRM2          0047342c     dxguid:dxguid.obj
+ 0002:0000243c       _IID_IDirect3DRM           0047343c     dxguid:dxguid.obj
+ 0002:0000244c       _IID_IDirect3DRMClippedVisual 0047344c     dxguid:dxguid.obj
+ 0002:0000245c       _IID_IDirect3DRMPicked2Array 0047345c     dxguid:dxguid.obj
+ 0002:0000246c       _IID_IDirect3DRMProgressiveMesh 0047346c     dxguid:dxguid.obj
+ 0002:0000247c       _IID_IDirect3DRMInterpolator 0047347c     dxguid:dxguid.obj
+ 0002:0000248c       _IID_IDirect3DRMShadow2    0047348c     dxguid:dxguid.obj
+ 0002:0000249c       _IID_IDirect3DRMShadow     0047349c     dxguid:dxguid.obj
+ 0002:000024ac       _IID_IDirect3DRMUserVisual 004734ac     dxguid:dxguid.obj
+ 0002:000024bc       _IID_IDirect3DRMAnimationArray 004734bc     dxguid:dxguid.obj
+ 0002:000024cc       _IID_IDirect3DRMFaceArray  004734cc     dxguid:dxguid.obj
+ 0002:000024dc       _IID_IDirect3DRMPickedArray 004734dc     dxguid:dxguid.obj
+ 0002:000024ec       _IID_IDirect3DRMLightArray 004734ec     dxguid:dxguid.obj
+ 0002:000024fc       _IID_IDirect3DRMVisualArray 004734fc     dxguid:dxguid.obj
+ 0002:0000250c       _IID_IDirect3DRMFrameArray 0047350c     dxguid:dxguid.obj
+ 0002:0000251c       _IID_IDirect3DRMViewportArray 0047351c     dxguid:dxguid.obj
+ 0002:0000252c       _IID_IDirect3DRMDeviceArray 0047352c     dxguid:dxguid.obj
+ 0002:0000253c       _IID_IDirect3DRMObjectArray 0047353c     dxguid:dxguid.obj
+ 0002:0000254c       _IID_IDirect3DRMAnimationSet2 0047354c     dxguid:dxguid.obj
+ 0002:0000255c       _IID_IDirect3DRMAnimationSet 0047355c     dxguid:dxguid.obj
+ 0002:0000256c       _IID_IDirect3DRMAnimation2 0047356c     dxguid:dxguid.obj
+ 0002:0000257c       _IID_IDirect3DRMAnimation  0047357c     dxguid:dxguid.obj
+ 0002:0000258c       _IID_IDirect3DRMMaterial2  0047358c     dxguid:dxguid.obj
+ 0002:0000259c       _IID_IDirect3DRMMaterial   0047359c     dxguid:dxguid.obj
+ 0002:000025ac       _IID_IDirect3DRMWrap       004735ac     dxguid:dxguid.obj
+ 0002:000025bc       _IID_IDirect3DRMTexture3   004735bc     dxguid:dxguid.obj
+ 0002:000025cc       _IID_IDirect3DRMTexture2   004735cc     dxguid:dxguid.obj
+ 0002:000025dc       _IID_IDirect3DRMTexture    004735dc     dxguid:dxguid.obj
+ 0002:000025ec       _IID_IDirect3DRMLight      004735ec     dxguid:dxguid.obj
+ 0002:000025fc       _IID_IDirect3DRMFace2      004735fc     dxguid:dxguid.obj
+ 0002:0000260c       _IID_IDirect3DRMFace       0047360c     dxguid:dxguid.obj
+ 0002:0000261c       _IID_IDirect3DRMMeshBuilder3 0047361c     dxguid:dxguid.obj
+ 0002:0000262c       _IID_IDirect3DRMMeshBuilder2 0047362c     dxguid:dxguid.obj
+ 0002:0000263c       _IID_IDirect3DRMMeshBuilder 0047363c     dxguid:dxguid.obj
+ 0002:0000264c       _IID_IDirect3DRMMesh       0047364c     dxguid:dxguid.obj
+ 0002:0000265c       _IID_IDirect3DRMVisual     0047365c     dxguid:dxguid.obj
+ 0002:0000266c       _IID_IDirect3DRMFrame3     0047366c     dxguid:dxguid.obj
+ 0002:0000267c       _IID_IDirect3DRMFrame2     0047367c     dxguid:dxguid.obj
+ 0002:0000268c       _IID_IDirect3DRMFrame      0047368c     dxguid:dxguid.obj
+ 0002:0000269c       _IID_IDirect3DRMViewport2  0047369c     dxguid:dxguid.obj
+ 0002:000026ac       _IID_IDirect3DRMViewport   004736ac     dxguid:dxguid.obj
+ 0002:000026bc       _IID_IDirect3DRMDevice3    004736bc     dxguid:dxguid.obj
+ 0002:000026cc       _IID_IDirect3DRMDevice2    004736cc     dxguid:dxguid.obj
+ 0002:000026dc       _IID_IDirect3DRMDevice     004736dc     dxguid:dxguid.obj
+ 0002:000026ec       _IID_IDirect3DRMObject2    004736ec     dxguid:dxguid.obj
+ 0002:000026fc       _IID_IDirect3DRMObject     004736fc     dxguid:dxguid.obj
+ 0002:0000270c       _CLSID_CDirect3DRMClippedVisual 0047370c     dxguid:dxguid.obj
+ 0002:0000271c       _CLSID_CDirect3DRMProgressiveMesh 0047371c     dxguid:dxguid.obj
+ 0002:0000272c       _CLSID_CDirect3DRMTextureInterpolator 0047372c     dxguid:dxguid.obj
+ 0002:0000273c       _CLSID_CDirect3DRMMaterialInterpolator 0047373c     dxguid:dxguid.obj
+ 0002:0000274c       _CLSID_CDirect3DRMLightInterpolator 0047374c     dxguid:dxguid.obj
+ 0002:0000275c       _CLSID_CDirect3DRMMeshInterpolator 0047375c     dxguid:dxguid.obj
+ 0002:0000276c       _CLSID_CDirect3DRMFrameInterpolator 0047376c     dxguid:dxguid.obj
+ 0002:0000277c       _CLSID_CDirect3DRMViewportInterpolator 0047377c     dxguid:dxguid.obj
+ 0002:0000278c       _CLSID_CDirect3DRMShadow   0047378c     dxguid:dxguid.obj
+ 0002:0000279c       _CLSID_CDirect3DRMUserVisual 0047379c     dxguid:dxguid.obj
+ 0002:000027ac       _CLSID_CDirect3DRMAnimationSet 004737ac     dxguid:dxguid.obj
+ 0002:000027bc       _CLSID_CDirect3DRMAnimation 004737bc     dxguid:dxguid.obj
+ 0002:000027cc       _CLSID_CDirect3DRMMaterial 004737cc     dxguid:dxguid.obj
+ 0002:000027dc       _CLSID_CDirect3DRMWrap     004737dc     dxguid:dxguid.obj
+ 0002:000027ec       _CLSID_CDirect3DRMTexture  004737ec     dxguid:dxguid.obj
+ 0002:000027fc       _CLSID_CDirect3DRMLight    004737fc     dxguid:dxguid.obj
+ 0002:0000280c       _CLSID_CDirect3DRMFace     0047380c     dxguid:dxguid.obj
+ 0002:0000281c       _CLSID_CDirect3DRMMeshBuilder 0047381c     dxguid:dxguid.obj
+ 0002:0000282c       _CLSID_CDirect3DRMMesh     0047382c     dxguid:dxguid.obj
+ 0002:0000283c       _CLSID_CDirect3DRMFrame    0047383c     dxguid:dxguid.obj
+ 0002:0000284c       _CLSID_CDirect3DRMViewport 0047384c     dxguid:dxguid.obj
+ 0002:0000285c       _CLSID_CDirect3DRMDevice   0047385c     dxguid:dxguid.obj
+ 0002:0000286c       _IID_ID3DXBuffer           0047386c     dxguid:dxguid.obj
+ 0002:0000287c       _IID_ID3DXEffect           0047387c     dxguid:dxguid.obj
+ 0002:0000288c       _IID_ID3DXTechnique        0047388c     dxguid:dxguid.obj
+ 0002:0000289c       _IID_ID3DXMatrixStack      0047389c     dxguid:dxguid.obj
+ 0002:000028ac       _IID_ID3DXSkinMesh         004738ac     dxguid:dxguid.obj
+ 0002:000028bc       _IID_ID3DXSPMesh           004738bc     dxguid:dxguid.obj
+ 0002:000028cc       _IID_ID3DXPMesh            004738cc     dxguid:dxguid.obj
+ 0002:000028dc       _IID_ID3DXMesh             004738dc     dxguid:dxguid.obj
+ 0002:000028ec       _IID_ID3DXBaseMesh         004738ec     dxguid:dxguid.obj
+ 0002:000028fc       _IID_IDirect3DSwapChain8   004738fc     dxguid:dxguid.obj
+ 0002:0000290c       _IID_IDirect3DVolume8      0047390c     dxguid:dxguid.obj
+ 0002:0000291c       _IID_IDirect3DSurface8     0047391c     dxguid:dxguid.obj
+ 0002:0000292c       _IID_IDirect3DIndexBuffer8 0047392c     dxguid:dxguid.obj
+ 0002:0000293c       _IID_IDirect3DVertexBuffer8 0047393c     dxguid:dxguid.obj
+ 0002:0000294c       _IID_IDirect3DVolumeTexture8 0047394c     dxguid:dxguid.obj
+ 0002:0000295c       _IID_IDirect3DCubeTexture8 0047395c     dxguid:dxguid.obj
+ 0002:0000296c       _IID_IDirect3DTexture8     0047396c     dxguid:dxguid.obj
+ 0002:0000297c       _IID_IDirect3DBaseTexture8 0047397c     dxguid:dxguid.obj
+ 0002:0000298c       _IID_IDirect3DResource8    0047398c     dxguid:dxguid.obj
+ 0002:0000299c       _IID_IDirect3DDevice8      0047399c     dxguid:dxguid.obj
+ 0002:000029ac       _IID_IDirect3D8            004739ac     dxguid:dxguid.obj
+ 0002:000029bc       _IID_IDirect3DVertexBuffer7 004739bc     dxguid:dxguid.obj
+ 0002:000029cc       _IID_IDirect3DVertexBuffer 004739cc     dxguid:dxguid.obj
+ 0002:000029dc       _IID_IDirect3DViewport3    004739dc     dxguid:dxguid.obj
+ 0002:000029ec       _IID_IDirect3DViewport2    004739ec     dxguid:dxguid.obj
+ 0002:000029fc       _IID_IDirect3DViewport     004739fc     dxguid:dxguid.obj
+ 0002:00002a0c       _IID_IDirect3DExecuteBuffer 00473a0c     dxguid:dxguid.obj
+ 0002:00002a1c       _IID_IDirect3DMaterial3    00473a1c     dxguid:dxguid.obj
+ 0002:00002a2c       _IID_IDirect3DMaterial2    00473a2c     dxguid:dxguid.obj
+ 0002:00002a3c       _IID_IDirect3DMaterial     00473a3c     dxguid:dxguid.obj
+ 0002:00002a4c       _IID_IDirect3DLight        00473a4c     dxguid:dxguid.obj
+ 0002:00002a5c       _IID_IDirect3DTexture2     00473a5c     dxguid:dxguid.obj
+ 0002:00002a6c       _IID_IDirect3DTexture      00473a6c     dxguid:dxguid.obj
+ 0002:00002a7c       _IID_IDirect3DDevice7      00473a7c     dxguid:dxguid.obj
+ 0002:00002a8c       _IID_IDirect3DDevice3      00473a8c     dxguid:dxguid.obj
+ 0002:00002a9c       _IID_IDirect3DDevice2      00473a9c     dxguid:dxguid.obj
+ 0002:00002aac       _IID_IDirect3DDevice       00473aac     dxguid:dxguid.obj
+ 0002:00002abc       _IID_IDirect3DTnLHalDevice 00473abc     dxguid:dxguid.obj
+ 0002:00002acc       _IID_IDirect3DNullDevice   00473acc     dxguid:dxguid.obj
+ 0002:00002adc       _IID_IDirect3DRefDevice    00473adc     dxguid:dxguid.obj
+ 0002:00002aec       _IID_IDirect3DMMXDevice    00473aec     dxguid:dxguid.obj
+ 0002:00002afc       _IID_IDirect3DHALDevice    00473afc     dxguid:dxguid.obj
+ 0002:00002b0c       _IID_IDirect3DRGBDevice    00473b0c     dxguid:dxguid.obj
+ 0002:00002b1c       _IID_IDirect3DRampDevice   00473b1c     dxguid:dxguid.obj
+ 0002:00002b2c       _IID_IDirect3D7            00473b2c     dxguid:dxguid.obj
+ 0002:00002b3c       _IID_IDirect3D3            00473b3c     dxguid:dxguid.obj
+ 0002:00002b4c       _IID_IDirect3D2            00473b4c     dxguid:dxguid.obj
+ 0002:00002b5c       _IID_IDirect3D             00473b5c     dxguid:dxguid.obj
+ 0002:00002b6c       _DDVPTYPE_PHILIPS          00473b6c     dxguid:dxguid.obj
+ 0002:00002b7c       _DDVPTYPE_BROOKTREE        00473b7c     dxguid:dxguid.obj
+ 0002:00002b8c       _DDVPTYPE_CCIR656          00473b8c     dxguid:dxguid.obj
+ 0002:00002b9c       _DDVPTYPE_E_HREFL_VREFL    00473b9c     dxguid:dxguid.obj
+ 0002:00002bac       _DDVPTYPE_E_HREFL_VREFH    00473bac     dxguid:dxguid.obj
+ 0002:00002bbc       _DDVPTYPE_E_HREFH_VREFL    00473bbc     dxguid:dxguid.obj
+ 0002:00002bcc       _DDVPTYPE_E_HREFH_VREFH    00473bcc     dxguid:dxguid.obj
+ 0002:00002bdc       _IID_IDirectDrawVideoPort  00473bdc     dxguid:dxguid.obj
+ 0002:00002bec       _IID_IDDVideoPortContainer 00473bec     dxguid:dxguid.obj
+ 0002:00002bfc       _GUID_DDMoreCaps           00473bfc     dxguid:dxguid.obj
+ 0002:00002c0c       _GUID_Miscellaneous2Callbacks 00473c0c     dxguid:dxguid.obj
+ 0002:00002c1c       _GUID_NTCallbacks          00473c1c     dxguid:dxguid.obj
+ 0002:00002c2c       _GUID_MotionCompCallbacks  00473c2c     dxguid:dxguid.obj
+ 0002:00002c3c       _GUID_D3DParseUnknownCommandCallback 00473c3c     dxguid:dxguid.obj
+ 0002:00002c4c       _GUID_UserModeDriverPassword 00473c4c     dxguid:dxguid.obj
+ 0002:00002c5c       _GUID_UserModeDriverInfo   00473c5c     dxguid:dxguid.obj
+ 0002:00002c6c       _GUID_OptSurfaceUmodeInfo  00473c6c     dxguid:dxguid.obj
+ 0002:00002c7c       _GUID_OptSurfaceKmodeInfo  00473c7c     dxguid:dxguid.obj
+ 0002:00002c8c       _GUID_DDStereoMode         00473c8c     dxguid:dxguid.obj
+ 0002:00002c9c       _GUID_DDMoreSurfaceCaps    00473c9c     dxguid:dxguid.obj
+ 0002:00002cac       _GUID_ZPixelFormats        00473cac     dxguid:dxguid.obj
+ 0002:00002cbc       _GUID_D3DExtendedCaps      00473cbc     dxguid:dxguid.obj
+ 0002:00002ccc       _GUID_KernelCaps           00473ccc     dxguid:dxguid.obj
+ 0002:00002cdc       _GUID_KernelCallbacks      00473cdc     dxguid:dxguid.obj
+ 0002:00002cec       _GUID_NonLocalVidMemCaps   00473cec     dxguid:dxguid.obj
+ 0002:00002cfc       _GUID_D3DCallbacks3        00473cfc     dxguid:dxguid.obj
+ 0002:00002d0c       _GUID_D3DCallbacks2        00473d0c     dxguid:dxguid.obj
+ 0002:00002d1c       _GUID_VideoPortCaps        00473d1c     dxguid:dxguid.obj
+ 0002:00002d2c       _GUID_ColorControlCallbacks 00473d2c     dxguid:dxguid.obj
+ 0002:00002d3c       _GUID_VideoPortCallbacks   00473d3c     dxguid:dxguid.obj
+ 0002:00002d4c       _GUID_MiscellaneousCallbacks 00473d4c     dxguid:dxguid.obj
+ 0002:00002d5c       _IID_IDirectDrawGammaControl 00473d5c     dxguid:dxguid.obj
+ 0002:00002d6c       _IID_IDirectDrawColorControl 00473d6c     dxguid:dxguid.obj
+ 0002:00002d7c       _IID_IDirectDrawClipper    00473d7c     dxguid:dxguid.obj
+ 0002:00002d8c       _IID_IDirectDrawPalette    00473d8c     dxguid:dxguid.obj
+ 0002:00002d9c       _IID_IDirectDrawPalette2   00473d9c     dxguid:dxguid.obj
+ 0002:00002dac       _IID_IDirectDrawOptSurface 00473dac     dxguid:dxguid.obj
+ 0002:00002dbc       _GUID_DirectDrawPaletteStream 00473dbc     dxguid:dxguid.obj
+ 0002:00002dcc       _GUID_DirectDrawSurfaceStream 00473dcc     dxguid:dxguid.obj
+ 0002:00002ddc       _IID_IDirectDrawFactory2   00473ddc     dxguid:dxguid.obj
+ 0002:00002dec       _CLSID_DirectDrawFactory2  00473dec     dxguid:dxguid.obj
+ 0002:00002dfc       _IID_IDirectDrawSurfaceNew 00473dfc     dxguid:dxguid.obj
+ 0002:00002e0c       _IID_IDirectDrawSurface7   00473e0c     dxguid:dxguid.obj
+ 0002:00002e1c       _IID_IDirectDrawSurface4   00473e1c     dxguid:dxguid.obj
+ 0002:00002e2c       _IID_IDirectDrawSurface3   00473e2c     dxguid:dxguid.obj
+ 0002:00002e3c       _IID_IDirectDrawSurface2   00473e3c     dxguid:dxguid.obj
+ 0002:00002e4c       _IID_IDirectDrawSurface    00473e4c     dxguid:dxguid.obj
+ 0002:00002e5c       _IID_IDirectDraw7          00473e5c     dxguid:dxguid.obj
+ 0002:00002e6c       _IID_IDirectDraw4          00473e6c     dxguid:dxguid.obj
+ 0002:00002e7c       _IID_IDirectDraw2          00473e7c     dxguid:dxguid.obj
+ 0002:00002e8c       _IID_IDirectDraw           00473e8c     dxguid:dxguid.obj
+ 0002:00002e9c       _CLSID_DirectDrawClipper   00473e9c     dxguid:dxguid.obj
+ 0002:00002eac       _CLSID_DirectDraw7         00473eac     dxguid:dxguid.obj
+ 0002:00002ebc       _CLSID_DirectDraw          00473ebc     dxguid:dxguid.obj
+ 0003:00000000       ___xc_a                    00476000     MSVCRTD:cinitexe.obj
+ 0003:000004a0       ___xc_z                    004764a0     MSVCRTD:cinitexe.obj
+ 0003:000005a4       ___xi_a                    004765a4     MSVCRTD:cinitexe.obj
+ 0003:000006a8       ___xi_z                    004766a8     MSVCRTD:cinitexe.obj
+ 0003:00000dd8       ??_C@_0BC@GPGP@?4?4?1xcore?2xclass?4h?$AA@ 00476dd8     con_man.obj
+ 0003:00000f74       ??_C@_0CC@FGJO@Simpleframe_t?3?5Unacceptable?5inde@ 00476f74     file_imp.obj
+ 0003:00000f9c       ??_C@_0BE@OMCC@Invalid?5MDL?5Version?$AA@ 00476f9c     file_imp.obj
+ 0003:00000fb4       ??_C@_0BD@KCJD@Invalid?5MDL?5Marker?$AA@ 00476fb4     file_imp.obj
+ 0003:00000fd0       ?KeyDefs@@3PAUkeydefs_s@@A 00476fd0     in_main.obj
+ 0003:0000127c       ?in_keyDelay@@3MA          0047727c     in_main.obj
+ 0003:00001280       ?in_defaultKeyDelay@@3MA   00477280     in_main.obj
+ 0003:000020a4       ??_C@_0BJ@DHPM@pool_t?3?5Pool?5?$CFs?5is?5empty?$AA@ 004780a4     ovl_cc.obj
+ 0003:000020c4       ??_C@_0BI@GKEO@pool_t?3?5Pool?5is?5invalid?$AA@ 004780c4     ovl_cc.obj
+ 0003:000020e0       ??_C@_09EIJD@OMenuItem?$AA@ 004780e0     ovl_cc.obj
+ 0003:000020ec       ??_C@_0DF@MLMI@pool_t?3?5Pool?5?$CFs?5received?5Free?5re@ 004780ec     ovl_cc.obj
+ 0003:0000212c       ??_C@_0DL@DNM@pool_t?3?5Pool?5?$CFs?5received?5Free?5re@ 0047812c     ovl_cc.obj
+ 0003:00002174       ?ovlFlagNames@@3PAPADA     00478174     ovl_defs.obj
+ 0003:0000245c       ?mdl_moveSpeed@@3MA        0047845c     ovl_frm.obj
+ 0003:00002460       ?mdl_turnSpeed@@3MA        00478460     ovl_frm.obj
+ 0003:00002f88       ??_C@_0BA@IEJE@OSpinBoxControl?$AA@ 00478f88     ovl_frm.obj
+ 0003:00002f9c       ??_C@_0L@ELHG@TransAlpha?$AA@ 00478f9c     ovl_frm.obj
+ 0003:00002fac       ??_C@_05MDOA@LateZ?$AA@    00478fac     ovl_frm.obj
+ 0003:00002fb4       ??_C@_05DFBC@Blend?$AA@    00478fb4     ovl_frm.obj
+ 0003:00002fbc       ??_C@_0L@ICNA@NonCollide?$AA@ 00478fbc     ovl_frm.obj
+ 0003:00002fcc       ??_C@_05BHJP@Unlit?$AA@    00478fcc     ovl_frm.obj
+ 0003:00002fd4       ??_C@_09CECN@Two?9sided?$AA@ 00478fd4     ovl_frm.obj
+ 0003:00002fe0       ??_C@_0M@BPCH@Transparent?$AA@ 00478fe0     ovl_frm.obj
+ 0003:00002ff0       ??_C@_08FLEK@Specular?$AA@ 00478ff0     ovl_frm.obj
+ 0003:00002ffc       ??_C@_0M@CBIP@NoVertLight?$AA@ 00478ffc     ovl_frm.obj
+ 0003:0000300c       ??_C@_09ODFN@Modulated?$AA@ 0047900c     ovl_frm.obj
+ 0003:00003018       ??_C@_07ECIL@Masking?$AA@  00479018     ovl_frm.obj
+ 0003:00003024       ??_C@_06OCEO@Hidden?$AA@   00479024     ovl_frm.obj
+ 0003:0000302c       ??_C@_0M@KGPB@Environment?$AA@ 0047902c     ovl_frm.obj
+ 0003:0000303c       ??_C@_0BB@BLJB@OCheckBoxControl?$AA@ 0047903c     ovl_frm.obj
+ 0003:00003050       ??_C@_0O@EOPG@SpinBoxUpdate?$AA@ 00479050     ovl_frm.obj
+ 0003:00003060       ??_C@_0P@MMKG@CheckBoxUpdate?$AA@ 00479060     ovl_frm.obj
+ 0003:00003074       ??_C@_0L@LEIO@NoFunction?$AA@ 00479074     ovl_frm.obj
+ 0003:00003084       ??_C@_06DJIJ@select?$AA@   00479084     ovl_frm.obj
+ 0003:0000308c       ??_C@_0N@GKPC@UnnamedFrame?$AA@ 0047908c     ovl_frm.obj
+ 0003:0000309c       ??_C@_0BA@GDBJ@UnnamedSequence?$AA@ 0047909c     ovl_frm.obj
+ 0003:000030b0       ??_C@_0BL@MPOI@DeleteSkin?3?5Skin?5not?5inuse?$AA@ 004790b0     ovl_frm.obj
+ 0003:000030d0       ??_C@_0BN@DHHF@DeleteMount?3?5Mount?5not?5inuse?$AA@ 004790d0     ovl_frm.obj
+ 0003:00003770       ?frameImports@@3PAUframeImport_t@@A 00479770     ovl_mdl.obj
+ 0003:00004540       ??_C@_0BM@MLPL@AddSkin?3?5Skin?5already?5inuse?$AA@ 0047a540     ovl_mdl.obj
+ 0003:00004778       ?skin_zoomSpeed@@3MA       0047a778     ovl_skin.obj
+ 0003:0000477c       ?skin_panSpeed@@3MA        0047a77c     ovl_skin.obj
+ 0003:00004780       ?skin_hsvMode@@3KA         0047a780     ovl_skin.obj
+ 0003:00005aa8       ?img_ext_list@@3PAUFileExtensionTypes@@A 0047baa8     sys_main.obj
+ 0003:000065f0       ___defaultmatherr          0047c5f0     MSVCRTD:merr.obj
+ 0003:00008af8       ?Help_cf@@3VCConFunc@@A    0047eaf8     con_man.obj
+ 0003:00008c08       ?Echo_cf@@3VCConFunc@@A    0047ec08     con_man.obj
+ 0003:00008c18       ?Exec_cf@@3VCConFunc@@A    0047ec18     con_man.obj
+ 0003:00008c28       ?Listtypes_cf@@3VCConFunc@@A 0047ec28     con_man.obj
+ 0003:00008c38       ?Listcmds_cf@@3VCConFunc@@A 0047ec38     con_man.obj
+ 0003:00008c48       ?Listvars_cf@@3VCConFunc@@A 0047ec48     con_man.obj
+ 0003:00008c58       ?handler_vector_t_cf@@3VCConFunc@@A 0047ec58     con_man.obj
+ 0003:00008c68       ?handler_boolean_cf@@3VCConFunc@@A 0047ec68     con_man.obj
+ 0003:00008c78       ?handler_int_cf@@3VCConFunc@@A 0047ec78     con_man.obj
+ 0003:00008c88       ?handler_float_cf@@3VCConFunc@@A 0047ec88     con_man.obj
+ 0003:00008c98       ?CON@@3PAVCConsoleManager@@A 0047ec98     con_man.obj
+ 0003:00008de0       ?AddButton_cf@@3VCConFunc@@A 0047ede0     in_main.obj
+ 0003:00008df0       ?AddCursor_cf@@3VCConFunc@@A 0047edf0     in_main.obj
+ 0003:00008e00       ?in_defaultKeyDelay_convar@@3VCConVar@@A 0047ee00     in_main.obj
+ 0003:00008e28       ?in_keyDelay_convar@@3VCConVar@@A 0047ee28     in_main.obj
+ 0003:00008e4c       ?in_Shifted@@3PAHA         0047ee4c     in_main.obj
+ 0003:00009250       ?in_cursorBackupPos@@3Vvector_t@@A 0047f250     in_main.obj
+ 0003:0000925c       ?in_cursorBackup@@3PAGA    0047f25c     in_main.obj
+ 0003:00009460       ?inButtons@@3PAUinbutton_s@@A 0047f460     in_main.obj
+ 0003:0000fc60       ?inCursors@@3PAUincursor_s@@A 00485c60     in_main.obj
+ 0003:00016c70       ?in_MouseX@@3HA            0048cc70     in_main.obj
+ 0003:00016c74       ?in_MouseY@@3HA            0048cc74     in_main.obj
+ 0003:00016c78       ?in_keyFlags@@3KA          0048cc78     in_main.obj
+ 0003:00016c7c       ?in_cursorBackupPending@@3KA 0048cc7c     in_main.obj
+ 0003:0001aa68       ?vec_BaseVec@@3Vvector_t@@A 00490a68     math_vec.obj
+ 0003:0001aa78       ?_app_error@@3VAppError@@A 00490a78     meshapp.obj
+ 0003:0001aa80       ?mesh_app@@3VMeshApp@@A    00490a80     meshapp.obj
+ 0003:0001ac08       ?vid@@3PAVVidIf@@A         00490c08     meshapp.obj
+ 0003:0001ac0c       ?wnd_default_class@AppWnd@@0PBDB 00490c0c     meshapp.obj
+ 0003:0001ac68       ?OInputBox_ovldecltype@@3VCOvlTypeDecl@@A 00490c68     ovl_cc.obj
+ 0003:0009c478       ?OInputBox_ovlprototype@@3VOInputBox@@A 00512478     ovl_cc.obj
+ 0003:0009c8e0       ?OSelectionBox_ovldecltype@@3VCOvlTypeDecl@@A 005128e0     ovl_cc.obj
+ 0003:0011e0f0       ?OSelectionBox_ovlprototype@@3VOSelectionBox@@A 005940f0     ovl_cc.obj
+ 0003:0011e468       ?OToolWindow_ovldecltype@@3VCOvlTypeDecl@@A 00594468     ovl_cc.obj
+ 0003:0019fc78       ?OToolWindow_ovlprototype@@3VOToolWindow@@A 00615c78     ovl_cc.obj
+ 0003:001a0f88       ?OToolbar_ovldecltype@@3VCOvlTypeDecl@@A 00616f88     ovl_cc.obj
+ 0003:00222798       ?OToolbar_ovlprototype@@3VOToolbar@@A 00698798     ovl_cc.obj
+ 0003:00222900       ?OSpinBoxControl_ovldecltype@@3VCOvlTypeDecl@@A 00698900     ovl_cc.obj
+ 0003:002a4110       ?OSpinBoxControl_ovlprototype@@3VOSpinBoxControl@@A 0071a110     ovl_cc.obj
+ 0003:002a4280       ?OCheckBoxControl_ovldecltype@@3VCOvlTypeDecl@@A 0071a280     ovl_cc.obj
+ 0003:00325a90       ?OCheckBoxControl_ovlprototype@@3VOCheckBoxControl@@A 0079ba90     ovl_cc.obj
+ 0003:00325bf8       ?OMenu_ovldecltype@@3VCOvlTypeDecl@@A 0079bbf8     ovl_cc.obj
+ 0003:003a7408       ?OMenu_ovlprototype@@3VOMenu@@A 0081d408     ovl_cc.obj
+ 0003:003a75f0       ?OMenuItem_ovldecltype@@3VCOvlTypeDecl@@A 0081d5f0     ovl_cc.obj
+ 0003:00428e00       ?OMenuItem_ovlprototype@@3VOMenuItem@@A 0089ee00     ovl_cc.obj
+ 0003:00428fe8       ?ovl_toolPool@@3V?$pool_t@Uovltool_s@@@@A 0089efe8     ovl_cc.obj
+ 0003:004f8a60       ?OConsole_ovldecltype@@3VCOvlTypeDecl@@A 0096ea60     ovl_defs.obj
+ 0003:0057a270       ?OConsole_ovlprototype@@3VOConsole@@A 009f0270     ovl_defs.obj
+ 0003:0057a3e0       ?OWindowScrollable_ovldecltype@@3VCOvlTypeDecl@@A 009f03e0     ovl_defs.obj
+ 0003:005fbbf0       ?OWindowScrollable_ovlprototype@@3VOWindowScrollable@@A 00a71bf0     ovl_defs.obj
+ 0003:005fbd58       ?OWindow_ovldecltype@@3VCOvlTypeDecl@@A 00a71d58     ovl_defs.obj
+ 0003:0067d568       ?OWindow_ovlprototype@@3VOWindow@@A 00af3568     ovl_defs.obj
+ 0003:006cb2e8       ?OFrameView_ovldecltype@@3VCOvlTypeDecl@@A 00b412e8     ovl_frm.obj
+ 0003:0074caf8       ?OFrameView_ovlprototype@@3VOFrameView@@A 00bc2af8     ovl_frm.obj
+ 0003:0074e120       ?OTriFlagsList_ovldecltype@@3VCOvlTypeDecl@@A 00bc4120     ovl_frm.obj
+ 0003:007cf930       ?OTriFlagsList_ovlprototype@@3VOTriFlagsList@@A 00c45930     ovl_frm.obj
+ 0003:007cfb98       ?mdl_turnSpeed_convar@@3VCConVar@@A 00c45b98     ovl_frm.obj
+ 0003:007cfbc0       ?mdl_moveSpeed_convar@@3VCConVar@@A 00c45bc0     ovl_frm.obj
+ 0003:00803ec8       ?Unbind_cf@@3VCConFunc@@A  00c79ec8     ovl_man.obj
+ 0003:008040d8       ?Bind_cf@@3VCConFunc@@A    00c7a0d8     ovl_man.obj
+ 0003:00804ce8       ?CreateWindow_cf@@3VCConFunc@@A 00c7ace8     ovl_man.obj
+ 0003:00804cf8       ?overlay_t_ovlprototype@@3Voverlay_t@@A 00c7acf8     ovl_man.obj
+ 0003:00804e5c       ?ovl_Windows@@3PAVoverlay_t@@A 00c7ae5c     ovl_man.obj
+ 0003:00804e60       ?ovl_lockOverlay@@3PAVoverlay_t@@A 00c7ae60     ovl_man.obj
+ 0003:00804e64       ?ovl_focusOverlay@@3PAVoverlay_t@@A 00c7ae64     ovl_man.obj
+ 0003:00805250       ?ovl_seqPool@@3V?$pool_t@VmodelSequence_t@@@@A 00c7b250     ovl_mdl.obj
+ 0003:00805278       ?ovl_seqTriggerPool@@3V?$pool_t@UseqTrigger_s@@@@A 00c7b278     ovl_mdl.obj
+ 0003:008052a0       ?ovl_seqItemPool@@3V?$pool_t@UseqItem_s@@@@A 00c7b2a0     ovl_mdl.obj
+ 0003:008052c8       ?ovl_skinPool@@3V?$pool_t@VmodelSkin_t@@@@A 00c7b2c8     ovl_mdl.obj
+ 0003:008052f0       ?ovl_framePool@@3V?$pool_t@VmodelFrame_t@@@@A 00c7b2f0     ovl_mdl.obj
+ 0003:00805318       ?ovl_sortPool@@3V?$pool_t@Usortitem_s@@@@A 00c7b318     ovl_mdl.obj
+ 0003:00815170       ?OSequence_ovldecltype@@3VCOvlTypeDecl@@A 00c8b170     ovl_seq.obj
+ 0003:00896980       ?OSequence_ovlprototype@@3VOSequence@@A 00d0c980     ovl_seq.obj
+ 0003:008b3cb0       ?OSkinView_ovldecltype@@3VCOvlTypeDecl@@A 00d29cb0     ovl_skin.obj
+ 0003:009354c0       ?OSkinView_ovlprototype@@3VOSkinView@@A 00dab4c0     ovl_skin.obj
+ 0003:009369e0       ?OPalette_ovldecltype@@3VCOvlTypeDecl@@A 00dac9e0     ovl_skin.obj
+ 0003:009b81f0       ?OPalette_ovlprototype@@3VOPalette@@A 00e2e1f0     ovl_skin.obj
+ 0003:009bb4d0       ?skin_hsvMode_convar@@3VCConVar@@A 00e314d0     ovl_skin.obj
+ 0003:009bb4f8       ?skin_curColor_convar@@3VCConVar@@A 00e314f8     ovl_skin.obj
+ 0003:009bb520       ?skin_curColor@@3Vvector_t@@A 00e31520     ovl_skin.obj
+ 0003:009bb530       ?skin_panSpeed_convar@@3VCConVar@@A 00e31530     ovl_skin.obj
+ 0003:009bb558       ?skin_zoomSpeed_convar@@3VCConVar@@A 00e31558     ovl_skin.obj
+ 0003:009bb57c       ?_draw_front@@3KA          00e3157c     ovl_skin.obj
+ 0003:009f0120       ?OWorkResources_ovldecltype@@3VCOvlTypeDecl@@A 00e66120     ovl_work.obj
+ 0003:00a71930       ?OWorkResources_ovlprototype@@3VOWorkResources@@A 00ee7930     ovl_work.obj
+ 0003:00a71a98       ?ws_vpos_load_cf@@3VCConFunc@@A 00ee7a98     ovl_work.obj
+ 0003:00a71aa8       ?ws_vpos_save_cf@@3VCConFunc@@A 00ee7aa8     ovl_work.obj
+ 0003:00a71ab8       ?OWorkspace_ovldecltype@@3VCOvlTypeDecl@@A 00ee7ab8     ovl_work.obj
+ 0003:00af32c8       ?OWorkspace_ovlprototype@@3VOWorkspace@@A 00f692c8     ovl_work.obj
+ 0003:00af4690       ?LoadProject_cf@@3VCConFunc@@A 00f6a690     ovl_work.obj
+ 0003:00af46a0       ?SaveProject_cf@@3VCConFunc@@A 00f6a6a0     ovl_work.obj
+ 0003:00b28ef0       ?screenshot_cf@@3VCConFunc@@A 00f9eef0     sys_main.obj
+ 0003:00b28f00       ?Quit_cf@@3VCConFunc@@A    00f9ef00     sys_main.obj
+ 0003:00b28f10       ?sys_profPtr@@3PAUsys_prof_s@@A 00f9ef10     sys_main.obj
+ 0003:00b28f18       ?sys_profStop@@3_JA        00f9ef18     sys_main.obj
+ 0003:00b28f20       ?sys_profStart@@3_JA       00f9ef20     sys_main.obj
+ 0003:00b28f28       ?sys_framerate_convar@@3VCConVar@@A 00f9ef28     sys_main.obj
+ 0003:00b28f50       ?sys_polycounts_convar@@3VCConVar@@A 00f9ef50     sys_main.obj
+ 0003:00b293f8       ?sys_polycounts@@3EA       00f9f3f8     sys_main.obj
+ 0003:00b293f9       ?sys_framerate@@3EA        00f9f3f9     sys_main.obj
+ 0003:00b293fc       ?sys_infatalblock@@3HA     00f9f3fc     sys_main.obj
+ 0003:00b29400       ?sys_polysPerFrame@@3HA    00f9f400     sys_main.obj
+ 0003:00b29404       ?sys_linesPerFrame@@3HA    00f9f404     sys_main.obj
+ 0003:00b2a678       ?sys_programPath@@3PADA    00fa0678     sys_win.obj
+ 0003:00b2a778       ?sys_userExceptionString@@3PADA 00fa0778     sys_win.obj
+ 0003:00b2a878       ?sys_exceptionhandler_convar@@3VCConVar@@A 00fa0878     sys_win.obj
+ 0003:00b2a8b8       ?sys_exceptionhandler@@3EA 00fa08b8     sys_win.obj
+ 0003:00b2a8b9       ?sys_userException@@3EA    00fa08b9     sys_win.obj
+ 0003:00b2b460       ?Undo_cf@@3VCConFunc@@A    00fa1460     vcr_man.obj
+ 0003:00b2b470       ?vcr_undoStack@@3PAUaction_s@@A 00fa1470     vcr_man.obj
+ 0003:00b2b474       ?vcr_activeAction@@3PAUaction_s@@A 00fa1474     vcr_man.obj
+ 0003:00b2b478       ?vcr_clipBoardAction@@3PAUaction_s@@A 00fa1478     vcr_man.obj
+ 0003:00b2b47c       ?vcr_localAction@@3PAUaction_s@@A 00fa147c     vcr_man.obj
+ 0003:00b2b624       ?_winapp@@3PAVXWinApp@@A   00fa1624     xcore_winapp:winapp.obj
+ 0003:00b2b628       __dowildcard               00fa1628     MSVCRTD:wildcard.obj
+ 0003:00b2b62c       __newmode                  00fa162c     MSVCRTD:_newmode.obj
+ 0003:00b2b630       __commode                  00fa1630     MSVCRTD:xncommod.obj
+ 0003:00b2b634       __fmode                    00fa1634     MSVCRTD:xtxtmode.obj
+ 0003:00b2b638       __adjust_fdiv              00fa1638     <common>
+ 0003:00b2b644       ___onexitend               00fa1644     <common>
+ 0003:00b2b654       ___onexitbegin             00fa1654     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_xcore  00fa2000     xcore:xcore.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_DINPUT8 00fa2014     dinput8:DINPUT8.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 00fa2028     kernel32:KERNEL32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_USER32 00fa203c     user32:USER32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_comdlg32 00fa2050     comdlg32:comdlg32.dll
+ 0004:00000064       __IMPORT_DESCRIPTOR_WINMM  00fa2064     winmm:WINMM.dll
+ 0004:00000078       __IMPORT_DESCRIPTOR_MSVCRTD 00fa2078     MSVCRTD:MSVCRTD.dll
+ 0004:0000008c       __NULL_IMPORT_DESCRIPTOR   00fa208c     xcore:xcore.dll
+ 0004:00000448       __imp__DirectInput8Create@20 00fa2448     dinput8:DINPUT8.dll
+ 0004:0000044c       \177DINPUT8_NULL_THUNK_DATA 00fa244c     dinput8:DINPUT8.dll
+ 0004:00000478       __imp__ExitProcess@4       00fa2478     kernel32:KERNEL32.dll
+ 0004:0000047c       __imp__GetLastError@0      00fa247c     kernel32:KERNEL32.dll
+ 0004:00000480       __imp__LoadLibraryA@4      00fa2480     kernel32:KERNEL32.dll
+ 0004:00000484       __imp__GetProcAddress@8    00fa2484     kernel32:KERNEL32.dll
+ 0004:00000488       __imp__GetModuleHandleA@4  00fa2488     kernel32:KERNEL32.dll
+ 0004:0000048c       __imp__GetVersionExA@4     00fa248c     kernel32:KERNEL32.dll
+ 0004:00000490       __imp__GetCurrentDirectoryA@8 00fa2490     kernel32:KERNEL32.dll
+ 0004:00000494       __imp__QueryPerformanceFrequency@4 00fa2494     kernel32:KERNEL32.dll
+ 0004:00000498       __imp__QueryPerformanceCounter@4 00fa2498     kernel32:KERNEL32.dll
+ 0004:0000049c       __imp__GetStartupInfoA@4   00fa249c     kernel32:KERNEL32.dll
+ 0004:000004a0       __imp__Sleep@4             00fa24a0     kernel32:KERNEL32.dll
+ 0004:000004a4       \177KERNEL32_NULL_THUNK_DATA 00fa24a4     kernel32:KERNEL32.dll
+ 0004:000004d8       __imp_?terminate@@YAXXZ    00fa24d8     MSVCRTD:MSVCRTD.dll
+ 0004:000004dc       __imp___except_handler3    00fa24dc     MSVCRTD:MSVCRTD.dll
+ 0004:000004e0       __imp___onexit             00fa24e0     MSVCRTD:MSVCRTD.dll
+ 0004:000004e4       __imp____dllonexit         00fa24e4     MSVCRTD:MSVCRTD.dll
+ 0004:000004e8       __imp____p___argc          00fa24e8     MSVCRTD:MSVCRTD.dll
+ 0004:000004ec       __imp____p___argv          00fa24ec     MSVCRTD:MSVCRTD.dll
+ 0004:000004f0       __imp__exit                00fa24f0     MSVCRTD:MSVCRTD.dll
+ 0004:000004f4       __imp___purecall           00fa24f4     MSVCRTD:MSVCRTD.dll
+ 0004:000004f8       __imp___vsnprintf          00fa24f8     MSVCRTD:MSVCRTD.dll
+ 0004:000004fc       __imp__strrchr             00fa24fc     MSVCRTD:MSVCRTD.dll
+ 0004:00000500       __imp__fwrite              00fa2500     MSVCRTD:MSVCRTD.dll
+ 0004:00000504       __imp__floor               00fa2504     MSVCRTD:MSVCRTD.dll
+ 0004:00000508       __imp__abs                 00fa2508     MSVCRTD:MSVCRTD.dll
+ 0004:0000050c       __imp__sprintf             00fa250c     MSVCRTD:MSVCRTD.dll
+ 0004:00000510       __imp__strncpy             00fa2510     MSVCRTD:MSVCRTD.dll
+ 0004:00000514       __imp__cos                 00fa2514     MSVCRTD:MSVCRTD.dll
+ 0004:00000518       __imp__sin                 00fa2518     MSVCRTD:MSVCRTD.dll
+ 0004:0000051c       __imp__sqrt                00fa251c     MSVCRTD:MSVCRTD.dll
+ 0004:00000520       __imp__toupper             00fa2520     MSVCRTD:MSVCRTD.dll
+ 0004:00000524       __imp__fread               00fa2524     MSVCRTD:MSVCRTD.dll
+ 0004:00000528       __imp__memcpy              00fa2528     MSVCRTD:MSVCRTD.dll
+ 0004:0000052c       __imp__vsprintf            00fa252c     MSVCRTD:MSVCRTD.dll
+ 0004:00000530       __imp__strchr              00fa2530     MSVCRTD:MSVCRTD.dll
+ 0004:00000534       __imp__fopen               00fa2534     MSVCRTD:MSVCRTD.dll
+ 0004:00000538       __imp__fseek               00fa2538     MSVCRTD:MSVCRTD.dll
+ 0004:0000053c       __imp__ftell               00fa253c     MSVCRTD:MSVCRTD.dll
+ 0004:00000540       __imp__fclose              00fa2540     MSVCRTD:MSVCRTD.dll
+ 0004:00000544       __imp__memset              00fa2544     MSVCRTD:MSVCRTD.dll
+ 0004:00000548       __imp__strcpy              00fa2548     MSVCRTD:MSVCRTD.dll
+ 0004:0000054c       __imp__strcat              00fa254c     MSVCRTD:MSVCRTD.dll
+ 0004:00000550       __imp___exit               00fa2550     MSVCRTD:MSVCRTD.dll
+ 0004:00000554       __imp___XcptFilter         00fa2554     MSVCRTD:MSVCRTD.dll
+ 0004:00000558       __imp___acmdln             00fa2558     MSVCRTD:MSVCRTD.dll
+ 0004:0000055c       __imp____getmainargs       00fa255c     MSVCRTD:MSVCRTD.dll
+ 0004:00000560       __imp___initterm           00fa2560     MSVCRTD:MSVCRTD.dll
+ 0004:00000564       __imp____setusermatherr    00fa2564     MSVCRTD:MSVCRTD.dll
+ 0004:00000568       __imp___adjust_fdiv        00fa2568     MSVCRTD:MSVCRTD.dll
+ 0004:0000056c       __imp____p__commode        00fa256c     MSVCRTD:MSVCRTD.dll
+ 0004:00000570       __imp____p__fmode          00fa2570     MSVCRTD:MSVCRTD.dll
+ 0004:00000574       __imp____set_app_type      00fa2574     MSVCRTD:MSVCRTD.dll
+ 0004:00000578       __imp___controlfp          00fa2578     MSVCRTD:MSVCRTD.dll
+ 0004:0000057c       __imp____CxxFrameHandler   00fa257c     MSVCRTD:MSVCRTD.dll
+ 0004:00000580       __imp__fabs                00fa2580     MSVCRTD:MSVCRTD.dll
+ 0004:00000584       __imp___chkesp             00fa2584     MSVCRTD:MSVCRTD.dll
+ 0004:00000588       __imp__atof                00fa2588     MSVCRTD:MSVCRTD.dll
+ 0004:0000058c       __imp__strcmp              00fa258c     MSVCRTD:MSVCRTD.dll
+ 0004:00000590       __imp___stricmp            00fa2590     MSVCRTD:MSVCRTD.dll
+ 0004:00000594       __imp__atoi                00fa2594     MSVCRTD:MSVCRTD.dll
+ 0004:00000598       __imp___strlwr             00fa2598     MSVCRTD:MSVCRTD.dll
+ 0004:0000059c       __imp___strnicmp           00fa259c     MSVCRTD:MSVCRTD.dll
+ 0004:000005a0       __imp___ftol               00fa25a0     MSVCRTD:MSVCRTD.dll
+ 0004:000005a4       \177MSVCRTD_NULL_THUNK_DATA 00fa25a4     MSVCRTD:MSVCRTD.dll
+ 0004:000005f8       __imp__CreateWindowExA@48  00fa25f8     user32:USER32.dll
+ 0004:000005fc       __imp__DefWindowProcA@16   00fa25fc     user32:USER32.dll
+ 0004:00000600       __imp__ShowWindow@8        00fa2600     user32:USER32.dll
+ 0004:00000604       __imp__MessageBoxA@16      00fa2604     user32:USER32.dll
+ 0004:00000608       __imp__DialogBoxParamA@20  00fa2608     user32:USER32.dll
+ 0004:0000060c       __imp__GetDlgItemTextA@16  00fa260c     user32:USER32.dll
+ 0004:00000610       __imp__EndDialog@8         00fa2610     user32:USER32.dll
+ 0004:00000614       __imp__SetDlgItemTextA@12  00fa2614     user32:USER32.dll
+ 0004:00000618       __imp__SetWindowTextA@8    00fa2618     user32:USER32.dll
+ 0004:0000061c       __imp__SetWindowPos@28     00fa261c     user32:USER32.dll
+ 0004:00000620       __imp__GetSystemMetrics@4  00fa2620     user32:USER32.dll
+ 0004:00000624       __imp__GetWindowRect@8     00fa2624     user32:USER32.dll
+ 0004:00000628       __imp__SendDlgItemMessageA@20 00fa2628     user32:USER32.dll
+ 0004:0000062c       __imp__GetSysColorBrush@4  00fa262c     user32:USER32.dll
+ 0004:00000630       __imp__RegisterClassExA@4  00fa2630     user32:USER32.dll
+ 0004:00000634       __imp__PeekMessageA@20     00fa2634     user32:USER32.dll
+ 0004:00000638       __imp__TranslateMessage@4  00fa2638     user32:USER32.dll
+ 0004:0000063c       __imp__DispatchMessageA@4  00fa263c     user32:USER32.dll
+ 0004:00000640       __imp__PostQuitMessage@4   00fa2640     user32:USER32.dll
+ 0004:00000644       __imp__DestroyWindow@4     00fa2644     user32:USER32.dll
+ 0004:00000648       __imp__SetCursor@4         00fa2648     user32:USER32.dll
+ 0004:0000064c       __imp__GetForegroundWindow@0 00fa264c     user32:USER32.dll
+ 0004:00000650       __imp__LoadCursorA@8       00fa2650     user32:USER32.dll
+ 0004:00000654       \177USER32_NULL_THUNK_DATA 00fa2654     user32:USER32.dll
+ 0004:00000690       __imp__PlaySoundA@12       00fa2690     winmm:WINMM.dll
+ 0004:00000694       \177WINMM_NULL_THUNK_DATA  00fa2694     winmm:WINMM.dll
+ 0004:000006c0       __imp__GetSaveFileNameA@4  00fa26c0     comdlg32:comdlg32.dll
+ 0004:000006c4       __imp__GetOpenFileNameA@4  00fa26c4     comdlg32:comdlg32.dll
+ 0004:000006c8       __imp__CommDlgExtendedError@0 00fa26c8     comdlg32:comdlg32.dll
+ 0004:000006cc       \177comdlg32_NULL_THUNK_DATA 00fa26cc     comdlg32:comdlg32.dll
+ 0004:000006f8       __imp_?WinMessage@@YAXPAUHWND__@@PBD@Z 00fa26f8     xcore:xcore.dll
+ 0004:000006fc       __imp_?_xapp@@3PAVXApp@@A  00fa26fc     xcore:xcore.dll
+ 0004:00000700       __imp_??0XFile@@QAE@XZ     00fa2700     xcore:xcore.dll
+ 0004:00000704       __imp_?open@XFile@@QAEKPBD0@Z 00fa2704     xcore:xcore.dll
+ 0004:00000708       __imp_??1XFile@@QAE@XZ     00fa2708     xcore:xcore.dll
+ 0004:0000070c       __imp_?copy@StrGrow@@QAEKPBDK@Z 00fa270c     xcore:xcore.dll
+ 0004:00000710       __imp_??6StrGrow@@QAEAAV0@D@Z 00fa2710     xcore:xcore.dll
+ 0004:00000714       __imp_@fget_extension@4    00fa2714     xcore:xcore.dll
+ 0004:00000718       __imp_@fset_extension@8    00fa2718     xcore:xcore.dll
+ 0004:0000071c       __imp_@file_exist@4        00fa271c     xcore:xcore.dll
+ 0004:00000720       __imp_??0CStr@@QAE@PBD@Z   00fa2720     xcore:xcore.dll
+ 0004:00000724       __imp_??BCStr@@QBEPADXZ    00fa2724     xcore:xcore.dll
+ 0004:00000728       __imp_@fget_filename@4     00fa2728     xcore:xcore.dll
+ 0004:0000072c       __imp_?reset@StrGrow@@QAEXXZ 00fa272c     xcore:xcore.dll
+ 0004:00000730       __imp_??6StrGrow@@QAEAAV0@PBD@Z 00fa2730     xcore:xcore.dll
+ 0004:00000734       __imp_??BStrGrow@@QAEPADXZ 00fa2734     xcore:xcore.dll
+ 0004:00000738       __imp_?release@autochar@@QAEPBDXZ 00fa2738     xcore:xcore.dll
+ 0004:0000073c       __imp_?assert@WinMsgDef@@UAEXPBDK@Z 00fa273c     xcore:xcore.dll
+ 0004:00000740       __imp_?throw_msg@WinMsgDef@@UAEXKPBD@Z 00fa2740     xcore:xcore.dll
+ 0004:00000744       __imp_?message@WinMsgDef@@UAEXKPBD@Z 00fa2744     xcore:xcore.dll
+ 0004:00000748       __imp_@xxx_message@8       00fa2748     xcore:xcore.dll
+ 0004:0000074c       __imp_??0StrGrow@@QAE@KK@Z 00fa274c     xcore:xcore.dll
+ 0004:00000750       __imp_?set_error@XGlobal@@QAEXPAVCError@@@Z 00fa2750     xcore:xcore.dll
+ 0004:00000754       __imp_??1StrGrow@@QAE@XZ   00fa2754     xcore:xcore.dll
+ 0004:00000758       __imp_??0WinMsgDef@@QAE@XZ 00fa2758     xcore:xcore.dll
+ 0004:0000075c       __imp_?set_window@WinMsgDef@@UAEXPAUHWND__@@@Z 00fa275c     xcore:xcore.dll
+ 0004:00000760       __imp_?no_window@WinMsgDef@@UAEXXZ 00fa2760     xcore:xcore.dll
+ 0004:00000764       __imp_@xxx_throw@4         00fa2764     xcore:xcore.dll
+ 0004:00000768       __imp_@xlist_free_nodes@4  00fa2768     xcore:xcore.dll
+ 0004:0000076c       __imp_@xlist_new_node@8    00fa276c     xcore:xcore.dll
+ 0004:00000770       __imp_?get_ptr@autochar@@QAEPAXXZ 00fa2770     xcore:xcore.dll
+ 0004:00000774       __imp_@fstrcpy@8           00fa2774     xcore:xcore.dll
+ 0004:00000778       __imp_??0autochar@@QAE@PAD@Z 00fa2778     xcore:xcore.dll
+ 0004:0000077c       __imp_??0autochar@@QAE@XZ  00fa277c     xcore:xcore.dll
+ 0004:00000780       __imp_@xxx_fatal@4         00fa2780     xcore:xcore.dll
+ 0004:00000784       __imp_??4autochar@@QAEAAV0@PAD@Z 00fa2784     xcore:xcore.dll
+ 0004:00000788       __imp_??Bautochar@@QAEPADXZ 00fa2788     xcore:xcore.dll
+ 0004:0000078c       __imp_??1autochar@@QAE@XZ  00fa278c     xcore:xcore.dll
+ 0004:00000790       __imp_@fstrlen@4           00fa2790     xcore:xcore.dll
+ 0004:00000794       __imp_?_global@@3PAVXGlobal@@A 00fa2794     xcore:xcore.dll
+ 0004:00000798       __imp_?assert@XGlobal@@QAEXPBDK@Z 00fa2798     xcore:xcore.dll
+ 0004:0000079c       __imp_@xfree@4             00fa279c     xcore:xcore.dll
+ 0004:000007a0       __imp_@xmalloc@4           00fa27a0     xcore:xcore.dll
+ 0004:000007a4       \177xcore_NULL_THUNK_DATA  00fa27a4     xcore:xcore.dll
+
+ entry point at        0001:0006c910
+

@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vidd3d - Win32 Debug--------------------
+</h3>
+
+
+Microsoft (R) Program Maintenance Utility   Version 6.00.8168.0
+Copyright (C) Microsoft Corp 1988-1998. All rights reserved.
+
+-------VIDD3D.DLL BUILD STARTING (DEBUG)--------
+ "C:\Program Files (x86)\Microsoft Visual Studio\VC98\Bin\cl.exe" -Z7 -DDEBUG  -FAs -W3 -WX -c -D__MSC__ -DWIN32 -D__WIN32__ -nologo -ID:\Games\duke_nukem_forever\Hacked\core\inc  -ID:\Games\duke_nukem_forever\Hacked\xcore  -ID:\Games\duke_nukem_forever\Hacked\ximage  -ID:\Games\duke_nukem_forever\Hacked\DirectX8\Inc  -ID:\Games\duke_nukem_forever\Hacked\MeshEd -FR -MD -D_AFXDLL -D_AFX_NOFORCE_LIBS -Yd -DXCORE_PURE -Fovidif.obj D:\Games\duke_nukem_forever\Hacked\MeshEd\vidd3d\vidif.cpp
+vidif.cpp
+Installing VIDD3D.DLL BUILD...
+Copied file "D:\Games\duke_nukem_forever\Hacked\MeshEd\vidd3d\obj\vidd3d.dll" to "D:\Games\duke_nukem_forever\Hacked\MeshEd\drivers\vidd3d.dll".
+-------VIDD3D.DLL BUILD COMPLETE (DEBUG)--------
+
+
+
+<h3>Results</h3>
+vidd3d.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,291 @@
+Log: Log file open, 05/12/22 23:11:01
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 400
+Init: Compiled: Apr 22 2022 03:39:04
+Init: Command line: Autoplay.dnf HWND=3739028 -log
+Init: Base directory: S:\DNF\Original files\October 26\System\
+Init: Character set: Unicode
+Init: Profile: Duke
+Log: Bound to Engine.dll
+Init: Object subsystem initialized.
+Init: Computer: PAULPC
+Init: User: ErrorMacro
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=4274.996604 MHz
+Init: CPU Page size=4096, Processors=16
+Init: CPU Detected: Unknown processor (AuhenicAD)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Log: Loading: Package Engine
+Init: Unreal engine initialized.  Lincoln is pleased.
+Init: DirectInput initialized successfully.
+Init: Win32 client initialized.
+Init: Lighting manager initialized.
+Init: Render core initialized.
+Log: LoadMap: Entry
+Log: Loading: Package Entry
+Log: Loading: Package dnWindow
+Log: Loading: Package UWindow
+Log: Loading: Package dnGame
+Log: Loading: Package hud_effects
+Log: Loading: Package dnParticles
+Log: Loading: Package t_generic
+Log: Bound to Fire.dll
+Log: Loading: Package Fire
+Log: Loading: Package t_detail
+Log: Loading: Package t_firefx
+Log: Loading: Package a_impact
+Log: Loading: Package m_dnWeapon
+Log: Loading: Package palettes
+Log: Loading: Package m_vehicles
+Log: Loading: Package c_FX
+Log: Loading: Package t_explosionFx
+Log: Loading: Package dnModulation
+Log: Loading: Package afbproship
+Log: Loading: Package a_generic
+Log: Loading: Package mario
+Log: Loading: Package dnsWeapn
+Log: Loading: Package a_transport
+Log: Loading: Package t_test
+Log: Loading: Package m_generic
+Log: Loading: Package a_edf
+Log: Loading: Package c_generic
+Log: Loading: Package m_zone1_vegas
+Log: Loading: Package a_ambient
+Log: Loading: Package c_zone1_vegas
+Log: Loading: Package petalumahouse
+Log: Loading: Package powerpuzzle1
+Log: Loading: Package c_dnWeapon
+Log: Loading: Package a_dukevoice
+Log: Loading: Package circuitpuzzle1
+Log: Loading: Package ezmail
+Log: Loading: Package c_characters
+Log: Loading: Package ezvend
+Log: Loading: Package EZPhone
+Log: Loading: Package c_dukeitems
+Log: Loading: Package a_zone1_vegas
+Log: Loading: Package keypads
+Log: Loading: Package m_turretfx
+Log: Loading: Package m_characters
+Log: Loading: Package a_switch
+Log: Loading: Package a_inventory
+Log: Loading: Package c_hands
+Log: Loading: Package a_creatures
+Log: Loading: Package m_hands
+Log: Loading: Package dnsMaterials
+Log: Loading: Package SMK6
+Log: Loading: Package crane
+Log: Loading: Package ts01
+Log: Loading: Package SMK5
+Log: Loading: Package dukeED_gfx
+Log: Loading: Package canvasfx
+Log: Loading: Package arcadeFX
+Log: Loading: Package ShieldFX
+Log: Loading: Package SMK4
+Log: Loading: Package vegas
+Log: Loading: Package smk8
+Log: Loading: Package a_npcvoice
+Log: Loading: Package modelfx
+Log: Loading: Package c_vehicles
+Log: Loading: Package D3DSounds
+Log: Loading: Package UBrowser
+Log: Loading: Package SMK3
+Log: Loading: Package SMK7
+Log: EndLoadMap
+Log: LoadMap NumPreloads: 11973
+Log: LoadMap PreloadSize: 929059
+Log: LoadMap TexturePreloadSize: 413792
+Log: LoadMap SerializeTime: 0.171886
+Log: Setting Actor Collision.
+Log: Entered SetActorCollision.
+Log: Entering Actor collision loop 1.
+Log: Created new collision hash.
+Log: Exited SetActorCollision.
+Log: Setting up sound damping table.
+Log: Updating the level info's time.
+Log: Init the game info.
+Log: Get the GameInfo clas.
+Log: Game class is 'DukeIntro'
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: GameInfo::InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator___0
+ScriptLog: Using GameReplicationInfo class:GameReplicationInfo
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
+Log: DnExec: Seconds: 43867.674497 CrossfadeStart:43867.674497
+Log: LoadMap TotalTime: 0.944789
+Log: URL: Original URL: Autoplay.dnf
+Log: URL: Escaped URL: Autoplay.dnf
+Log: Browse: Autoplay.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
+Log: LoadMap: Autoplay.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
+Log: Loading: Package Autoplay
+Log: Loading: Package a51_base1
+Log: Loading: Package Area51_Level2
+Log: Loading: Package dnMaterial
+Log: Loading: Package computer
+Log: Loading: Package Penthouse
+Log: Loading: Package airforcebase
+Log: Loading: Package Airforcebase2
+Log: Loading: Package Dam
+Log: Loading: Package area51
+Log: Loading: Package Area51_gen
+Log: Loading: Package stratosfear
+Log: Loading: Package c_zone5_area51
+Log: Loading: Package AirforceFlics
+Log: Loading: Package Airforcebase3
+Log: Loading: Package U_Zone5_Area51
+Log: Loading: Package m_zone5_area51
+Log: Loading: Package dcasino
+Log: Loading: Package c_zone2_dam
+Log: Loading: Package U_Generic
+Log: Loading: Package c_zone3_canyon
+Log: Loading: Package a_doors
+Log: Loading: Package c_zone4_afb
+Log: Loading: Package RocketFX
+Log: EndLoadMap
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Log: LoadMap NumPreloads: 5464
+Log: LoadMap PreloadSize: 12556289
+Log: LoadMap TexturePreloadSize: 8421871
+Log: LoadMap SerializeTime: 0.311263
+Log: Purging Unused Objects.
+Log: Collecting garbage
+Log: Purging garbage - DispatchDestroy
+Log: Purging garbage - DeleteGarbage
+Log: Purging garbage - DeleteNames
+Log: Garbage: objects: 17832->17806; refs: 391383
+Log: Garbage collection complete.
+Log: Unused Objects Purged.
+Log: Setting Actor Collision.
+Log: Entered SetActorCollision.
+Log: Entering Actor collision loop 1.
+Log: Created new collision hash.
+Log: Loading: Package m_zone2_dam
+Log: Exited SetActorCollision.
+Log: Setting up sound damping table.
+Log: Updating the level info's time.
+Log: Init the game info.
+Log: Get the GameInfo clas.
+Log: Game class is 'dnSinglePlayer'
+Log: Bringing Level Autoplay.MyLevel up for play (0)...
+ScriptLog: GameInfo::InitGame: ?Name=Duke Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
+ScriptLog: Base Mutator is Autoplay.Mutator___1
+ScriptLog: Using GameReplicationInfo class:GameReplicationInfo
+Log: Loading: Package dnai
+Log: Loading: Package m_zone3_canyon
+Log: Loading: Package TEMPVOICE
+Log: Loading: Package m_fx
+Log: Loading: Package dnMountables
+Init: Initialized moving brush tracker for Level Autoplay.MyLevel
+DevAudio: Galaxy SetViewport: NULL
+Log: LoadMap TotalTime: 0.858868
+Warning: Property Material of Texture is not serialiable
+Warning: Skipping 1 bytes of type 5
+Log: Loading: Package m_dukeitems
+ScriptLog: Console: Duke Nukem Forever
+ScriptLog: Console: Copyright 2000-2001 3D Realms, Inc.
+ScriptLog: Console:  
+ScriptLog: Console:  
+ScriptLog: GameInfo::Login: Duke Nukem
+ScriptLog: LOGIN:Spawning New Player Class dnGame.DukePlayer
+Log: Loading: Package p_portraiticons
+Init: Input system initialized for WindowsViewport___0
+Log: Trying D3DDrv.D3DRenderDevice
+Log: Bound to D3DDrv.dll
+Init: Direct3D adapters detected:
+Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Init: DukeForever Direct3D support initializing.
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0fd70000);
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: Rendertarget format: D3DFMT_X8R8G8B8
+Init: Clipper texture created
+Init: GetDeviceState Failed: DIERR_NOTACQUIRED
+DevAudio: Galaxy SetViewport: WindowsViewport___0
+Init: Game engine initialized
+Log: Startup time: 15.915510 seconds
+Init: GetDeviceState Failed: DIERR_NOTACQUIRED
+Log: DnExec: OpenNextMP3 NextJumpPattern: ChosenFilename:..\Music\
+Log: DnExec: Failed to open stream: ..\Music\
+ScriptLog: Attaching HUD:dnGame.DukeHUD
+Log: Created 16 shadowcaster render targets
+Log: Loading: Package mtheme_cobaltblue
+ScriptLog: Theme doesn't implement sunglassesTL reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTL reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTR reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTR reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBL reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBL reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBR reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBR reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTLglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTLglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTRglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTRglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBLglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBLglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBRglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBRglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_tleft reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_tleft reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_tright reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_tright reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_bleft reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_bleft reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_bright reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_bright reverting to hud_effects.
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0fd70000);
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports specular gouraud
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: Rendertarget format: D3DFMT_X8R8G8B8
+Init: Clipper texture created
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0fd70000);
