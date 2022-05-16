@@ -1,10 +1,10 @@
-Log: Log file open, 05/13/22 16:13:56
+Log: Log file open, 05/15/22 19:32:34
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
 Init: Compiled: Apr 22 2022 03:39:04
 Init: Command line: 
-Init: Base directory: S:\DNF\October26DXVK\System\
+Init: Base directory: S:\DukeRepo\DukeNukem2001\October26DXVK\System\
 Init: Character set: Unicode
 Init: Profile: DukeEd
 Log: Bound to Editor.dll
@@ -14,7 +14,7 @@ Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4274.992356 MHz
+Init: CPU Speed=4274.975221 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
@@ -123,7 +123,7 @@ Init: Win32 client initialized.
 Init: Lighting manager initialized.
 Init: Render core initialized.
 Init: Editor engine initialized
-Log: Startup time: 0.692809 seconds
+Log: Startup time: 0.850257 seconds
 Cmd: MODE MAPEXT=dnf
 Init: Input system initialized for U2Viewport0
 Localization: No localization: Engine.General.ViewXY (int)
@@ -134,22 +134,22 @@ Init: Direct3D adapters detected:
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:0f450000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:100e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewXY (int)
-Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:0f450000);
+Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:100e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:0f450000);
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:0f450000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:100e0000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:100e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -162,7 +162,7 @@ Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:0f450000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:100e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -173,22 +173,22 @@ Localization: No localization: Engine.General.ViewXY (int)
 Localization: No localization: Engine.General.ViewXZ (int)
 Localization: No localization: Engine.General.ViewXZ (int)
 Log: Trying D3DDrv.D3DRenderDevice
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:22b10000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:22310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewXZ (int)
-Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:22b10000);
+Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:22310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:22b10000);
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:22b10000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:22310000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:22310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -201,7 +201,7 @@ Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:22b10000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:22310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -212,22 +212,22 @@ Localization: No localization: Engine.General.ViewXZ (int)
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
 Log: Trying D3DDrv.D3DRenderDevice
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:388f0000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:25310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:388f0000);
+Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:25310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:388f0000);
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:388f0000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:25310000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:25310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -240,7 +240,7 @@ Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:10f00000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:25310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -285,8 +285,8 @@ Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:0f450000);
+Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:100e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXY (
+Localization: No localization: Engi

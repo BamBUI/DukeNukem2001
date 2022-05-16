@@ -1,4 +1,4 @@
-Log: Log file open, 05/15/22 18:31:53
+Log: Log file open, 05/16/22 10:33:36
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
@@ -6,18 +6,17 @@ Init: Compiled: Apr 22 2022 03:39:04
 Init: Command line: 
 Init: Base directory: S:\October 26\System\
 Init: Character set: Unicode
-Init: Profile: DukeTemp
+Init: Profile: Duke
 Log: Bound to Engine.dll
 Init: Object subsystem initialized.
 Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4275.035071 MHz
+Init: CPU Speed=4274.988010 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
-Localization: No localization: Startup.IDDIALOG_WizardDialog.IDC_WizardDialog (int)
 Log: Loading: Package Engine
 Init: Unreal engine initialized.  Lincoln is pleased.
 Init: DirectInput initialized successfully.
@@ -97,7 +96,7 @@ Log: EndLoadMap
 Log: LoadMap NumPreloads: 11978
 Log: LoadMap PreloadSize: 929644
 Log: LoadMap TexturePreloadSize: 413792
-Log: LoadMap SerializeTime: 0.114188
+Log: LoadMap SerializeTime: 0.112999
 Log: Setting Actor Collision.
 Log: Entered SetActorCollision.
 Log: Entering Actor collision loop 1.
@@ -116,8 +115,8 @@ Log: Bound to Galaxy.dll
 Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 16352.740428 CrossfadeStart:16352.740428
-Log: LoadMap TotalTime: 0.273942
+Log: DnExec: Seconds: 4564.511064 CrossfadeStart:4564.511064
+Log: LoadMap TotalTime: 0.278732
 Log: URL: Original URL: Entry.dnf
 Log: URL: Escaped URL: Entry.dnf
 Log: Browse: Entry.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
@@ -135,14 +134,14 @@ Log: Updating the level info's time.
 Log: Init the game info.
 DevAudio: Galaxy SetViewport: NULL
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 16352.742471 CrossfadeStart:16352.742471
-Log: LoadMap TotalTime: 0.001814
+Log: DnExec: Seconds: 4564.513294 CrossfadeStart:4564.513294
+Log: LoadMap TotalTime: 0.001850
 ScriptLog: Console: Duke Nukem Forever
 ScriptLog: Console: Copyright 2000-2001 3D Realms, Inc.
 ScriptLog: Console:  
 ScriptLog: Console:  
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 16352.878908 CrossfadeStart:16352.878908
+Log: DnExec: Seconds: 4564.651480 CrossfadeStart:4564.651480
 ScriptLog: GameInfo::Login: Duke Nukem
 ScriptLog: LOGIN:Spawning New Player Class dnGame.DukePlayer
 Log: Loading: Package p_portraiticons
@@ -150,10 +149,11 @@ Init: Input system initialized for WindowsViewport___0
 Log: Trying D3DDrv.D3DRenderDevice
 Log: Bound to D3DDrv.dll
 Init: Direct3D adapters detected:
-Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
-Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
+Log: SetRes(NewX=1440,NewY=1080,NewColorBytes=4,Fullscreen1) (this:0dc90000);
+Init: Best-match display mode: 1440x900x32 (Error=180)
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -161,19 +161,146 @@ Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 DevAudio: Galaxy SetViewport: WindowsViewport___0
 Init: Game engine initialized
-Log: Startup time: 26.920626 seconds
+Log: Startup time: 0.908289 seconds
 Log: DnExec: OpenNextMP3 NextJumpPattern:DukeNukemTheme.mp3 ChosenFilename:..\Music\DukeNukemTheme.mp3
 Log: Created 16 shadowcaster render targets
-Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:0e230000);
+Log: DukePlayer___0 fell out of the world!
+Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
+Log: DnExec: Seconds: 4565.117744 CrossfadeStart:4565.117744
+Log: DnExec: *** MusicPlay: Filename:stinger
+Log: DnExec: Seconds: 4565.117757 CrossfadeStart:4565.117757
+Log: DnExec: OpenNextMP3 NextJumpPattern:stinger ChosenFilename:..\Music\stinger
+Log: Loading: Package mtheme_cobaltblue
+ScriptLog: Theme doesn't implement sunglassesTL reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTL reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTR reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTR reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBL reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBL reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBR reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBR reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTLglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTLglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesTRglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesTRglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBLglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBLglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement sunglassesBRglo reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement sunglassesBRglo reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_tleft reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_tleft reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_tright reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_tright reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_bleft reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_bleft reverting to hud_effects.
+ScriptLog: Theme doesn't implement mover_bright reverting to mtheme_cobaltblue.
+ScriptLog: Cobalt Blue theme doesn't implement mover_bright reverting to hud_effects.
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: I am PaulPC (192.168.1.118)
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+Log: Resolving shadowmavericks.com...
+Log: Resolved shadowmavericks.com (64.74.97.177)
+ScriptLog: UBrowserGSpyLink: Master Server is shadowmavericks.com:28900
+ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___0 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
+ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___0 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
+ScriptLog: Saving GRI defaults 
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage - DispatchDestroy
+Log: Unbound to Engine.dll
+Log: Unloading: Package Engine
+Exit: Game engine shut down
+Log: Cannibal shutdown...
+Log: ...Cannibal shutdown complete.
+Exit: Windows client shut down
+Exit: Rendering shut down
+Log: Unloading: Package Entry
+Log: Unloading: Package dnWindow
+Log: Unloading: Package UWindow
+Log: Unloading: Package dnGame
+Log: Unloading: Package hud_effects
+Log: Unloading: Package dnParticles
+Log: Unloading: Package t_generic
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unloading: Package t_detail
+Log: Unloading: Package t_firefx
+Log: Unloading: Package a_impact
+Log: Unloading: Package m_dnWeapon
+Log: Unloading: Package palettes
+Log: Unloading: Package m_vehicles
+Log: Unloading: Package c_FX
+Log: Unloading: Package t_explosionFx
+Log: Unloading: Package dnModulation
+Log: Unloading: Package afbproship
+Log: Unloading: Package a_generic
+Log: Unloading: Package mario
+Log: Unloading: Package dnsWeapn
+Log: Unloading: Package a_transport
+Log: Unloading: Package t_test
+Log: Unloading: Package m_generic
+Log: Unloading: Package a_edf
+Log: Unloading: Package c_generic
+Log: Unloading: Package m_zone1_vegas
+Log: Unloading: Package a_ambient
+Log: Unloading: Package c_zone1_vegas
+Log: Unloading: Package petalumahouse
+Log: Unloading: Package powerpuzzle1
+Log: Unloading: Package c_dnWeapon
+Log: Unloading: Package a_dukevoice
+Log: Unloading: Package circuitpuzzle1
+Log: Unloading: Package ezmail
+Log: Unloading: Package c_characters
+Log: Unloading: Package ezvend
+Log: Unloading: Package EZPhone
+Log: Unloading: Package c_dukeitems
+Log: Unloading: Package a_zone1_vegas
+Log: Unloading: Package keypads
+Log: Unloading: Package m_turretfx
+Log: Unloading: Package m_characters
+Log: Unloading: Package a_switch
+Log: Unloading: Package a_inventory
+Log: Unloading: Package c_hands
+Log: Unloading: Package a_creatures
+Log: Unloading: Package m_hands
+Log: Unloading: Package dnsMaterials
+Log: Unloading: Package SMK6
+Log: Unloading: Package crane
+Log: Unloading: Package ts01
+Log: Unloading: Package dukeED_gfx
+Log: Unloading: Package SMK5
+Log: Unloading: Package SMK4
+Log: Unloading: Package ShieldFX
+Log: Unloading: Package vegas
+Log: Unloading: Package canvasfx
+Log: Unloading: Package arcadeFX
+Log: Unloading: Package smk8
+Log: Unloading: Package a_npcvoice
+Log: Unloading: Package modelfx
+Log: Unloading: Package c_vehicles
+Log: Unloading: Package D3DSounds
+Log: Unloading: Package UBrowser
+Log: Unloading: Package SMK3
+Log: Unloading: Package SMK7
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+Exit: Galaxy shut down
+Log: Unloading TrueType fonts.
+Log: Unloading: Package p_portraiticons
+Log: Unbound to D3DDrv.dll
+Log: Unloading: Package mtheme_cobaltblue
+Log: Purging garbage - DeleteGarbage
+Log: Purging garbage - DeleteNames
+Log: Garbage: objects: 24285->0; refs: 0
+Exit: Object subsystem successfully closed.
+Log: Terminating main loop
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.145M /  3.684M
+Uninitialized: Peak Memory  25.117M /  26.762M
+Uninitialized: Allocs        2657 Current /  1292072 Total
+Uninitialized: Log file closed, 05/16/22 10:33:48

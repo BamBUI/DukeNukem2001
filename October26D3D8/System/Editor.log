@@ -1,10 +1,10 @@
-Log: Log file open, 05/12/22 22:45:00
+Log: Log file open, 05/16/22 10:31:41
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
 Init: Compiled: Apr 22 2022 03:39:04
 Init: Command line: 
-Init: Base directory: S:\DNF\Original files\October 26\System\
+Init: Base directory: S:\October 26\System\
 Init: Character set: Unicode
 Init: Profile: DukeEd
 Log: Bound to Editor.dll
@@ -14,7 +14,7 @@ Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4274.983761 MHz
+Init: CPU Speed=4274.765892 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
@@ -123,7 +123,7 @@ Init: Win32 client initialized.
 Init: Lighting manager initialized.
 Init: Render core initialized.
 Init: Editor engine initialized
-Log: Startup time: 1.000987 seconds
+Log: Startup time: 0.785698 seconds
 Cmd: MODE MAPEXT=dnf
 Init: Input system initialized for U2Viewport0
 Localization: No localization: Engine.General.ViewXY (int)
@@ -135,10 +135,10 @@ Localization: No localization: Engine.General.ViewXY (int)
 Localization: No localization: Engine.General.ViewXY (int)
 Log: Bound to D3DDrv.dll
 Init: Direct3D adapters detected:
-Log: Adaptor Detected: D3D9on12.dll/AMD Radeon RX 5700 XT
-Log: Adaptor Detected: D3D9on12.dll/AMD Radeon RX 5700 XT
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:10110000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -152,7 +152,7 @@ Log: Trying SoftDrv.SoftwareRenderDevice
 Localization: No localization: Engine.General.ViewXZ (int)
 Localization: No localization: Engine.General.ViewXZ (int)
 Localization: No localization: Engine.General.ViewXZ (int)
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:227f0000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:24010000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -166,7 +166,7 @@ Log: Trying SoftDrv.SoftwareRenderDevice
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:22910000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:24210000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -180,34 +180,34 @@ Log: Trying SoftDrv.SoftwareRenderDevice
 Localization: No localization: Engine.General.ViewYZ (int)
 Localization: No localization: Engine.General.ViewYZ (int)
 Localization: No localization: Engine.General.ViewYZ (int)
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:22a30000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:24310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
+Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:10110000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=449,NewColorBytes=4,Fullscreen0) (this:227f0000);
+Log: SetRes(NewX=948,NewY=449,NewColorBytes=4,Fullscreen0) (this:24010000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:22910000);
+Log: SetRes(NewX=874,NewY=449,NewColorBytes=4,Fullscreen0) (this:24210000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=449,NewColorBytes=4,Fullscreen0) (this:22a30000);
+Log: SetRes(NewX=948,NewY=449,NewColorBytes=4,Fullscreen0) (this:24310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -224,26 +224,15 @@ Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 
 Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
 Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
 Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=460,NewY=356,NewColorBytes=4,Fullscreen0) (this:24110000);
+Log: SetRes(NewX=460,NewY=356,NewColorBytes=4,Fullscreen0) (this:24710000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Log: 4.00 216.00 488.00 104.00
-Localization: No localization: Engine.General.ViewOther (int)
 Log: 4.00 216.00 488.00 104.00
 Log: 4.00 216.00 488.00 104.00
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
+Log: 4.00 216.00 488.00 104.00
 Init: Input system initialized for TextureBrowser
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
@@ -251,717 +240,59 @@ Localization: No localization: Engine.General.ViewOther (int)
 Log: Trying SoftDrv.SoftwareRenderDevice
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
 Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="afbproship" GROUP="WMD" NAMEFILTER=""
 Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
+Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:10110000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:227f0000);
+Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:24010000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:22910000);
+Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:24210000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:22a30000);
+Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:24310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewYZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
+Localization: No localization: Engine.General.ViewOther (int)
+Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:10110000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:227f0000);
+Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:24010000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:22910000);
+Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:24210000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:22a30000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewYZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXY (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:227f0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:22910000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewOther (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:22a30000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewYZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: Unloading TrueType fonts.
-Init: Input system initialized for TextureBrowser
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Log: Trying SoftDrv.SoftwareRenderDevice
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="afbproship" GROUP="WMD" NAMEFILTER=""
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: OBJ LOAD FILE="S:\DNF\Original files\October 26\Textures\duke.dtx"
-Log: Loading: Package Duke
-Log: Matched Viewport U2Viewport0
-Log: Matched Viewport U2Viewport1
-Log: Matched Viewport U2Viewport2
-Log: Matched Viewport U2Viewport3
-Log: Matched Viewport MeshViewer
-Log: Matched Viewport TextureBrowser
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="afbproship" GROUP="WMD" NAMEFILTER=""
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="Duke" GROUP="Skins" NAMEFILTER=""
-Cmd: OBJ LOAD FILE="S:\DNF\Original files\October 26\Textures\m_characters.Dtx"
-Log: Resetting loader for package (../Textures/m_characters.dtx, S:\DNF\Original files\October 26\Textures\m_characters.Dtx)
-Log: Unloading: Package m_characters
-Log: Loading: Package m_characters
-Log: Matched Viewport U2Viewport0
-Log: Matched Viewport U2Viewport1
-Log: Matched Viewport U2Viewport2
-Log: Matched Viewport U2Viewport3
-Log: Matched Viewport MeshViewer
-Log: Matched Viewport TextureBrowser
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="Duke" GROUP="Skins" NAMEFILTER=""
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=64 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=128 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=192 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=256 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=320 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -240 -2
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=384 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -240 -2
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=448 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -240 -2
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=512 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=576 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -240 -2
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=640 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=704 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -240 -2
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=768 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=832 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=896 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=960 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1024 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1088 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1152 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1216 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1280 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1344 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1408 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1472 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: POLY DEFAULT TEXTURE=TEMPDuke1
-Cmd: POLY SET TEXTURE=TEMPDuke1
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Init: Input system initialized for TextureProp0
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Log: Trying SoftDrv.SoftwareRenderDevice
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Log: Unloading TrueType fonts.
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: OBJ EXPORT TYPE=TEXTURE NAME="TEMPDuke1" FILE="S:\DNF\Original files\October 26\Textures\TEMPDuke1.bmp"
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1410 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1346 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1282 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1218 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1154 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1090 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1026 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=962 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=898 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=834 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=898 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=962 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1026 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1090 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1154 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1090 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1026 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=962 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=898 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=834 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=770 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=706 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=770 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=834 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=898 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=962 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1026 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1090 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1154 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1218 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1282 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1346 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1410 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: NextWeaponAction
-Log: WM_MOUSEWHEEL -120 -1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1474 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1410 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1346 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1282 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1218 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1154 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1090 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=1026 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=962 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=898 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=834 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=770 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=706 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=642 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=578 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=514 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=450 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=386 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=322 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=258 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=194 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=130 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=66 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=2 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Cmd: PrevWeaponAction
-Log: WM_MOUSEWHEEL 120 1
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="m_characters" GROUP="" NAMEFILTER=""
-Localization: No localization: Engine.General.ViewOther (int)
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: MAP LOAD FILE="S:\DNF\Original files\October 26\maps\ks_E3_CasinoGirl.dnf"
-Log: New File, Existing Package (Package MyLevel, Package ks_E3_CasinoGirl)
-Log: Loading: Package MyLevel
-Log: Loading: Package Penthouse
-Log: Loading: Package dcasino
-Log: Loading: Package smk2
-Log: Loading: Package stratosfear
-Log: Loading: Package area51
-Log: Loading: Package E3Voice
-Log: Loading: Package smk1
-Log: Created 16 shadowcaster render targets
-Log: Collecting garbage
-Log: Purging garbage - DispatchDestroy
-Log: Purging garbage - DeleteGarbage
-Log: Purging garbage - DeleteNames
-Log: Garbage: objects: 51659->51611; refs: 819754
-Log: Garbage collection complete.
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="ezvend" GROUP="descriptions" NAMEFILTER=""
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: SETPAUSE 1
-Localization: No localization: Engine.General.ViewOther (int)
-Cmd: SETPAUSE 0
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: SETPAUSE 1
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: SETPAUSE 0
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: Jetpack
-Cmd: DoEMPPulse
-Cmd: Talk
-Cmd: Talk
-Cmd: DoEMPPulse
-Cmd: PrevItem
-Cmd: AltFireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: ZoomDown 
-Cmd: OnRelease ZoomUp
-Cmd: ZoomUp
-Cmd: POLY SET SETFLAGS=524288 CLEARFLAGS=217100247 SURFACETAG=None
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: POLY SET SETFLAGS=0 CLEARFLAGS=217624535 SURFACETAG=None
-Cmd: POLY SET SETFLAGS=0 CLEARFLAGS=217624535 SURFACETAG=None
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Log: ***** RtClickWindowCanADD
-Log: GEditor->CurrentClass not set
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: POLY SET SETFLAGS=0 CLEARFLAGS=217624535 SURFACETAG=None
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: POLY SET SETFLAGS=32768 CLEARFLAGS=217591767 SURFACETAG=None
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: DoZoomDown
-Cmd: DuckDown 
-Cmd: OnRelease DuckUp
-Cmd: DuckUp
-Cmd: JumpDown 
-Cmd: OnRelease JumpUp
-Cmd: JumpUp
-Cmd: Type
-Cmd: AltFireUp
-Cmd: QuickKick
-Cmd: InventoryAction 0
-Cmd: InventoryAction 1
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: SETPAUSE 1
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: MAP LOAD FILE="S:\DNF\Original files\October 26\maps\ks_show_automap.dnf"
-Log: Unloading: Package MyLevel
-Log: New File, Existing Package (Package MyLevel, Package ks_show_automap)
-Log: Loading: Package MyLevel
-Log: Loading: Package a51_base1
-Log: Loading: Package Area51_Level2
-Log: Loading: Package Dam
-Log: Loading: Package Area51_gen
-Log: Loading: Package compflcs
-Log: Loading: Package AirforceFlics
-Log: Loading: Package Airforcebase3
-Log: Replacing G_SecurityCam2 (Class) with Engine.DeleteMe.
-Warning: Type mismatch in FogDistance of ZoneInfo: file 1, class 2
-Warning: Skipping 1 bytes of type 1
-Warning: Property DamagePerSec of Class dnGame.WaterZone not found
-Warning: Skipping 4 bytes of type 2
-Warning: Property bPainZone of Class dnGame.WaterZone not found
-Warning: Skipping 0 bytes of type 3
-Warning: Type mismatch in FogDistance of WaterZone: file 1, class 2
-Warning: Skipping 1 bytes of type 1
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Warning: Property Material of Texture is not serialiable
-Warning: Skipping 1 bytes of type 5
-Log: Loading: Package m_zone2_dam
-Log: Collecting garbage
-Log: Purging garbage - DispatchDestroy
-Log: Purging garbage - DeleteGarbage
-Log: Purging garbage - DeleteNames
-Log: Garbage: objects: 55753->54140; refs: 985519
-Log: Garbage collection complete.
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24749 MISC2=0
-Cmd: CAMERA UPDATE FLAGS=8832 MISC1=128 MISC2=0 REN=17 NAME=TextureBrowser PACKAGE="dukeED_gfx" GROUP="" NAMEFILTER=""
-Cmd: SETPAUSE 0
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Cmd: SETPAUSE 1
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: HOOK PLAYMAP
-Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXY (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:227f0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=51,NewY=0,NewColorBytes=4,Fullscreen0) (this:22910000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewOther (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:22a30000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewYZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Cmd: MAP SAVE FILE=..\Maps\Autoplay.dnf
-Log: Unloading: Package MyLevel
-Log: Save=171.323028
-Log: Moving '..\Maps\Save.tmp' to '..\Maps\Autoplay.dnf'
-Log: LaunchURL DukeForever.exe Autoplay.dnf HWND=3739028 -log
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:0f4b0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXY (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:227f0000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewXZ (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=874,NewY=439,NewColorBytes=4,Fullscreen0) (this:22910000);
-Init: D3D Driver: Supports trilinear
-Init: D3D Driver: Supports specular gouraud
-Init: D3D Driver: Supports BLENDDIFFUSEALPHA
-Localization: No localization: Engine.General.ViewOther (int)
-Init: Rendertarget format: D3DFMT_X8R8G8B8
-Init: Clipper texture created
-Log: SetRes(NewX=948,NewY=439,NewColorBytes=4,Fullscreen0) (this:22a30000);
+Log: SetRes(NewX=56,NewY=0,NewColorBytes=4,Fullscreen0) (this:24310000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -981,10 +312,6 @@ Log: Unbound to Editor.dll
 Log: Unbound to Engine.dll
 Log: Unloading: Package Editor
 Log: Unloading: Package Engine
-Log: Unloading: Package Airforcebase3
-Log: Unloading: Package AirforceFlics
-Log: Unloading: Package compflcs
-Log: Unloading: Package Area51_gen
 Exit: Editor shut down
 Log: Cannibal shutdown...
 Log: ...Cannibal shutdown complete.
@@ -1088,28 +415,16 @@ Log: Unloading: Package dnMaterial
 Log: Unloading: Package U_Fragment
 Exit: Windows client shut down
 Exit: Rendering shut down
-Log: Unloading: Package Dam
-Log: Unloading: Package Area51_Level2
-Log: Unloading: Package a51_base1
 Log: Unbound to SoftDrv.dll
 Log: Unbound to D3DDrv.dll
-Log: Unloading: Package Duke
-Log: Unloading: Package Penthouse
-Log: Unloading: Package dcasino
-Log: Unloading: Package smk2
-Log: Unloading: Package stratosfear
-Log: Unloading: Package area51
-Log: Unloading: Package E3Voice
-Log: Unloading: Package smk1
-Log: Unloading: Package m_zone2_dam
 Log: Purging garbage - DeleteGarbage
 Log: Purging garbage - DeleteNames
-Log: Garbage: objects: 54105->0; refs: 985519
+Log: Garbage: objects: 48119->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Uninitialized: Name subsystem shut down
 Uninitialized: Memory Allocation Status
 Uninitialized: Curr Memory  0.251M /  3.496M
-Uninitialized: Peak Memory  105.086M /  106.824M
-Uninitialized: Allocs        6342 Current /  551175 Total
-Uninitialized: Log file closed, 05/12/22 23:11:43
+Uninitialized: Peak Memory  54.119M /  55.883M
+Uninitialized: Allocs        6342 Current /  232845 Total
+Uninitialized: Log file closed, 05/16/22 10:33:29
