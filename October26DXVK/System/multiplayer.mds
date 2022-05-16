@@ -223,22 +223,6 @@ Object=(Name=c_characters.EDF_Sniper, Class=DukeMesh,Description="Rodriguez",Par
 Object=(Name=p_portraiticons.p_edfsniper1,Class=Texture,Description="Rodriguez Icon",  Category=MeshIcon, Parent="c_characters.EDF_Sniper")
 
 /--------------------------
-/ Civ Female
-Object=(Name=c_characters.NPC_F_civilian1,Class=DukeMesh,Description="Civ Female",Parent="dnGame.dnFemalePlayer")
-
-/--------------------------
-/ Schoolgirl
-Object=(Name=c_characters.NPC_F_Schlgirl,Class=DukeMesh,Description="Schoolgirl",Parent="dnGame.dnFemalePlayer")
-
-/--------------------------
-/ French Maid
-Object=(Name=c_characters.NPC_F_Frenchmaid,Class=DukeMesh,Description="French Maid",Parent="dnGame.dnFemalePlayer")
-
-/--------------------------
-/ Stripper
-Object=(Name=c_characters.Stripper_Jenny,Class=DukeMesh,Description="Stripper",Parent="dnGame.dnFemalePlayer")
-
-/--------------------------
 / General Graves
 Object=(Name=c_characters.General_Graves, Class=DukeMesh,Description="General Graves",Parent="dnGame.dnMalePlayer")
 // Icons
@@ -275,61 +259,3 @@ Object=(Name=p_portraiticons.p_damguide1,Class=Texture,Description="Tim Icon",  
 /--------------------------
 / LizTrooper
 Object=(Name=c_characters.alien_Liztrooper, Class=DukeMesh,Description="Liztrooper",Parent="dnGame.dnMalePlayer")
-
-// Duke Nukem
-Object=(Name=c_characters.Duke, Class=DukeMesh, Description="Duke Nukem", Parent="dnGame.dnMalePlayer")
-
-// Duke Group
-Group=(Name="AllDukeMeshes",Members="c_characters.Duke")
-Group=(Name="AllDukeTorsos",Members="m_characters.TempDuke2 DukeColor.DukeFace_1 DukeColor.DukeFace_Brook DukeColor.DukeFace_98")
-Group=(Name="AllDukeFaces",Members="m_characters.TempDuke3 DukeColor.DukeBlue DukeColor.DukeGreen DukeColor.DukeYellow DukeColor.DukePurple DukeColor.DukeBlack DukeColor.DukeOrange DukeColor.DukePink DukeColor.DukeTeal")
-Group=(Name="AllDukePants",Members="m_characters.malepants2aRC DukeColor.DukeRed_P DukeColor.DukeGreen_P DukeColor.DukeYellow_P DukeColor.DukePurple_P DukeColor.DukeOrange_P DukeColor.DukePink_P DukeTeal_P DukeBlack_P")
-Group=(Name="Normal",Members="m_characters.TempDuke3")
-Group=(Name="Blue Tanktop",Members="DukeColor.DukeBlue")
-Group=(Name="Green Tanktop",Members="DukeColor.DukeGreen")
-Group=(Name="Yellow Tanktop",Members="DukeColor.DukeYellow")
-Group=(Name="Purple Tanktop",Members="DukeColor.DukePurple")
-Group=(Name="Black Tanktop",Members="DukeColor.DukeBlack")
-Group=(Name="Orange Tanktop",Members="DukeColor.DukeOrange")
-Group=(Name="Pink Tanktop",Members="DukeColor.DukePink")
-Group=(Name="Teal Tanktop",Members="DukeColor.DukeTeal")
-Group=(Name="Red Pants",Members="DukeColor.DukeRed_P")
-Group=(Name="Green Pants",Members="DukeColor.DukeGreen_P")
-Group=(Name="Yellow Pants",Members="DukeColor.DukeYellow_P")
-Group=(Name="Purple Pants",Members="DukeColor.DukePurple_P")
-Group=(Name="Orange Pants",Members="DukeColor.DukeOrange_P")
-Group=(Name="Pink Pants",Members="DukeColor.DukePink_P")
-Group=(Name="Teal Pants",Members="DukeColor.DukeTeal_P")
-Group=(Name="Black Pants",Members="DukeColor.DukeBlack_P")
-Group=(Name="No Glasses",Members="DukeColor.DukeFace_1")
-Group=(Name="Brook Duke",Members="DukeColor.DukeFace_Brook")
-Group=(Name="Duke 1998",Members="DukeColor.DukeFace_98")
-
-// Torso
-Object=(Name=m_characters.TempDuke3,Class=Texture,Description="Normal",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeBlue,Class=Texture,Description="Blue Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeGreen,Class=Texture,Description="Green Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeYellow,Class=Texture,Description="Yellow Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukePurple,Class=Texture,Description="Purple Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeBlack,Class=Texture,Description="Black Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeOrange,Class=Texture,Description="Orange Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukePink,Class=Texture,Description="Pink Tanktop",Category=Face,Parent="AllDukeMeshes")
-Object=(Name=DukeColor.DukeTeal,Class=Texture,Description="Teal Tanktop",Category=Face,Parent="AllDukeMeshes")
-
-// Faces
-Object=(Name=m_characters.TempDuke2,Class=Texture,Description="Default",Category=Torso,Parent="AllDukeMeshes AllDukeFaces")
-Object=(Name=DukeColor.DukeFace_1,Class=Texture,Description="No Glasses",Category=Torso,Parent="AllDukeMeshes AllDukeFaces")
-Object=(Name=DukeColor.DukeFace_Brook,Class=Texture,Description="Brook Duke",Category=Torso,Parent="AllDukeMeshes AllDukeFaces")
-Object=(Name=DukeColor.DukeFace_98,Class=Texture,Description="Duke 1998",Category=Torso,Parent="AllDukeMeshes AllDukeFaces")
-
-
-// Pants
-Object=(Name=m_characters.malepants2aRC,Class=Texture,Description="Normal",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeRed_P,Class=Texture,Description="Red Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeGreen_P,Class=Texture,Description="Green Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeYellow_P,Class=Texture,Description="Yellow Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukePurple_P,Class=Texture,Description="Purple Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeBlack_P,Class=Texture,Description="Black Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeOrange_P,Class=Texture,Description="Orange Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukePink_P,Class=Texture,Description="Pink Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
-Object=(Name=DukeColor.DukeTeal_P,Class=Texture,Description="Teal Pants",Category=Legs, Parent="AllDukeMeshes AllDukeFaces AllDukeTorsos")
