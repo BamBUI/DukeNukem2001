@@ -1,4 +1,4 @@
-Log: Log file open, 05/16/22 11:20:51
+Log: Log file open, 05/16/22 11:25:59
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
@@ -13,7 +13,7 @@ Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4275.278524 MHz
+Init: CPU Speed=4275.018035 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
@@ -100,7 +100,7 @@ Log: EndLoadMap
 Log: LoadMap NumPreloads: 11978
 Log: LoadMap PreloadSize: 929644
 Log: LoadMap TexturePreloadSize: 413792
-Log: LoadMap SerializeTime: 0.112185
+Log: LoadMap SerializeTime: 0.115127
 Log: Setting Actor Collision.
 Log: Entered SetActorCollision.
 Log: Entering Actor collision loop 1.
@@ -119,8 +119,8 @@ Log: Bound to Galaxy.dll
 Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 7399.941061 CrossfadeStart:7399.941061
-Log: LoadMap TotalTime: 0.269402
+Log: DnExec: Seconds: 7707.399401 CrossfadeStart:7707.399401
+Log: LoadMap TotalTime: 0.308740
 Log: URL: Original URL: Entry.dnf
 Log: URL: Escaped URL: Entry.dnf
 Log: Browse: Entry.dnf?Name=Duke%20Nukem?Class=dnGame.DukePlayer?team=0?Mesh=c_characters.duke?Face=?Torso=?Arms=?Legs=?Voice=dngame.MalePlayerSounds?Icon=p_portraiticons.p_NukeSymbol1?Spectate=
@@ -138,15 +138,15 @@ Log: Updating the level info's time.
 Log: Init the game info.
 DevAudio: Galaxy SetViewport: NULL
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 7399.943062 CrossfadeStart:7399.943062
-Log: LoadMap TotalTime: 0.001798
+Log: DnExec: Seconds: 7707.401437 CrossfadeStart:7707.401437
+Log: LoadMap TotalTime: 0.001824
 Warning: ImportText: Bad termination
 ScriptLog: Console: Duke Nukem Forever
 ScriptLog: Console: Copyright 2000-2001 3D Realms, Inc.
 ScriptLog: Console:  
 ScriptLog: Console:  
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 7400.079275 CrossfadeStart:7400.079275
+Log: DnExec: Seconds: 7707.597470 CrossfadeStart:7707.597470
 ScriptLog: GameInfo::Login: Duke Nukem
 ScriptLog: LOGIN:Spawning New Player Class dnGame.DukePlayer
 Log: Loading: Package p_portraiticons
@@ -157,7 +157,7 @@ Init: Direct3D adapters detected:
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:19610000);
+Log: SetRes(NewX=1280,NewY=720,NewColorBytes=4,Fullscreen0) (this:18e30000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -165,14 +165,14 @@ Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 DevAudio: Galaxy SetViewport: WindowsViewport___0
 Init: Game engine initialized
-Log: Startup time: 1.026389 seconds
+Log: Startup time: 1.074586 seconds
 Log: DnExec: OpenNextMP3 NextJumpPattern:DukeNukemTheme.mp3 ChosenFilename:..\Music\DukeNukemTheme.mp3
 Log: Created 16 shadowcaster render targets
 Log: DukePlayer___0 fell out of the world!
 Log: DnExec: *** MusicPlay: Filename:DukeNukemTheme.mp3
-Log: DnExec: Seconds: 7400.369227 CrossfadeStart:7400.369227
+Log: DnExec: Seconds: 7707.941442 CrossfadeStart:7707.941442
 Log: DnExec: *** MusicPlay: Filename:stinger
-Log: DnExec: Seconds: 7400.369239 CrossfadeStart:7400.369239
+Log: DnExec: Seconds: 7707.941455 CrossfadeStart:7707.941455
 Log: DnExec: OpenNextMP3 NextJumpPattern:stinger ChosenFilename:..\Music\stinger
 Log: Loading: Package mtheme_cobaltblue
 ScriptLog: Theme doesn't implement sunglassesTL reverting to mtheme_cobaltblue.
@@ -199,9 +199,16 @@ ScriptLog: Theme doesn't implement mover_bleft reverting to mtheme_cobaltblue.
 ScriptLog: Cobalt Blue theme doesn't implement mover_bleft reverting to hud_effects.
 ScriptLog: Theme doesn't implement mover_bright reverting to mtheme_cobaltblue.
 ScriptLog: Cobalt Blue theme doesn't implement mover_bright reverting to hud_effects.
-Log: Loading: Package Screenshots
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: I am PaulPC (192.168.1.118)
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
+ScriptWarning: UDukeServerBrowserCW Transient.UDukeServerBrowserCW___0 (Function dnWindow.UDukeServerBrowserCW.ApplyFilter:028D) Accessed None
 ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___0 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
 ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___0 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
+ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___1 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
+ScriptWarning: UWindowMessageBoxCW Transient.UWindowMessageBoxCW___1 (Function UWindow.UWindowMessageBoxCW.Resized:0030) Accessed None
 ScriptLog: Saving GRI defaults 
 Log: appRequestExit(0)
 Exit: Preparing to exit.
@@ -291,16 +298,15 @@ Log: Unloading TrueType fonts.
 Log: Unloading: Package p_portraiticons
 Log: Unbound to D3DDrv.dll
 Log: Unloading: Package mtheme_cobaltblue
-Log: Unloading: Package Screenshots
 Log: Purging garbage - DeleteGarbage
 Log: Purging garbage - DeleteNames
-Log: Garbage: objects: 24336->0; refs: 0
+Log: Garbage: objects: 24429->0; refs: 0
 Exit: Object subsystem successfully closed.
 Log: Terminating main loop
 Exit: Exiting.
 Uninitialized: Name subsystem shut down
 Uninitialized: Memory Allocation Status
-Uninitialized: Curr Memory  0.145M /  3.746M
-Uninitialized: Peak Memory  37.993M /  39.637M
-Uninitialized: Allocs        2669 Current /  1367320 Total
-Uninitialized: Log file closed, 05/16/22 11:21:02
+Uninitialized: Curr Memory  0.146M /  3.746M
+Uninitialized: Peak Memory  29.599M /  31.203M
+Uninitialized: Allocs        2677 Current /  2569190 Total
+Uninitialized: Log file closed, 05/16/22 11:26:18
