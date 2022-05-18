@@ -2,8 +2,7 @@ info:  Game: DukeEd.exe
 info:  DXVK: v1.10.1
 info:  Found config file: dxvk.conf
 info:  Effective configuration:
-info:    dxvk.hud = 0
-info:    d3d9.maxFrameRate = 60
+info:    d3d9.maxFrameRate = 165
 info:  Built-in extension providers:
 info:    Win32 WSI
 info:    OpenVR
@@ -149,7 +148,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -302,7 +301,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -453,7 +452,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -604,7 +603,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -719,7 +718,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -890,7 +889,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -1019,7 +1018,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
@@ -1134,7 +1133,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 19 valid state cache entries
+info:  DXVK: Read 20 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters

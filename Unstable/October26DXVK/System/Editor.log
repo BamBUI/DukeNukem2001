@@ -1,10 +1,10 @@
-Log: Log file open, 05/16/22 10:37:55
+Log: Log file open, 05/19/22 00:15:20
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
 Init: Compiled: Apr 22 2022 03:39:04
 Init: Command line: 
-Init: Base directory: S:\DukeRepo\DukeNukem2001\October26DXVK\System\
+Init: Base directory: S:\DukeRepo\DukeNukem2001\Unstable\October26DXVK\System\
 Init: Character set: Unicode
 Init: Profile: DukeEd
 Log: Bound to Editor.dll
@@ -14,7 +14,7 @@ Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4275.022281 MHz
+Init: CPU Speed=4275.000899 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
@@ -44,13 +44,13 @@ Log: Loading: Package c_FX
 Log: Loading: Package t_explosionFx
 Log: Loading: Package dnModulation
 Log: Loading: Package afbproship
-Log: Loading: Package a_generic
 Log: Loading: Package mario
+Log: Loading: Package a_generic
 Log: Loading: Package dnsWeapn
 Log: Loading: Package a_transport
+Log: Loading: Package a_edf
 Log: Loading: Package t_test
 Log: Loading: Package m_generic
-Log: Loading: Package a_edf
 Log: Loading: Package c_generic
 Log: Loading: Package m_zone1_vegas
 Log: Loading: Package a_ambient
@@ -75,18 +75,18 @@ Log: Loading: Package a_switch
 Log: Loading: Package a_inventory
 Log: Loading: Package c_hands
 Log: Loading: Package a_creatures
-Log: Loading: Package m_hands
 Log: Loading: Package dnsMaterials
+Log: Loading: Package m_hands
 Log: Loading: Package SMK6
 Log: Loading: Package crane
 Log: Loading: Package ts01
-Log: Loading: Package dukeED_gfx
 Log: Loading: Package SMK5
-Log: Loading: Package SMK4
-Log: Loading: Package ShieldFX
-Log: Loading: Package vegas
+Log: Loading: Package dukeED_gfx
 Log: Loading: Package canvasfx
 Log: Loading: Package arcadeFX
+Log: Loading: Package ShieldFX
+Log: Loading: Package SMK4
+Log: Loading: Package vegas
 Log: Loading: Package smk8
 Log: Loading: Package a_npcvoice
 Log: Loading: Package modelfx
@@ -123,7 +123,7 @@ Init: Win32 client initialized.
 Init: Lighting manager initialized.
 Init: Render core initialized.
 Init: Editor engine initialized
-Log: Startup time: 0.670946 seconds
+Log: Startup time: 0.821354 seconds
 Cmd: MODE MAPEXT=dnf
 Init: Input system initialized for U2Viewport0
 Localization: No localization: Engine.General.ViewXY (int)
@@ -134,22 +134,22 @@ Init: Direct3D adapters detected:
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:0efd0000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:10090000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewXY (int)
-Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:0efd0000);
+Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:10090000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXY (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:0efd0000);
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:0efd0000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:10090000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:10090000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -168,22 +168,22 @@ Localization: No localization: Engine.General.ViewXY (int)
 Localization: No localization: Engine.General.ViewXZ (int)
 Localization: No localization: Engine.General.ViewXZ (int)
 Log: Trying D3DDrv.D3DRenderDevice
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:1c370000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:1f3e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewXZ (int)
-Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:1c370000);
+Log: SetRes(NewX=314,NewY=173,NewColorBytes=4,Fullscreen0) (this:1f3e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Localization: No localization: Engine.General.ViewXZ (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
-Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:1c370000);
-Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:1c370000);
+Log: SetRes(NewX=4,NewY=0,NewColorBytes=4,Fullscreen0) (this:1f3e0000);
+Log: SetRes(NewX=4,NewY=1,NewColorBytes=4,Fullscreen0) (this:1f3e0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -290,9 +290,9 @@ Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewOther (int)
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24759 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24759 MISC2=0
-Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24759 MISC2=0
+Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24762 MISC2=0
+Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24762 MISC2=0
+Cmd: CAMERA UPDATE NAME=MeshViewer MESH="alien_Adultsnatcher" FLAGS=8832 REN=18 MISC1=24762 MISC2=0
 Log: SetRes(NewX=527,NewY=427,NewColorBytes=4,Fullscreen0) (this:439b0000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
@@ -314,14 +314,14 @@ Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
 Localization: No localization: Engine.General.ViewOther (int)
 Log: Trying D3DDrv.D3DRenderDevice
-Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:54050000);
+Log: SetRes(NewX=320,NewY=200,NewColorBytes=4,Fullscreen0) (this:54f70000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewOther (int)
-Log: SetRes(NewX=468,NewY=899,NewColorBytes=4,Fullscreen0) (this:54050000);
+Log: SetRes(NewX=468,NewY=899,NewColorBytes=4,Fullscreen0) (this:54f70000);
 Init: D3D Driver: Supports trilinear
 Init: D3D Driver: Supports specular gouraud
 Init: D3D Driver: Supports BLENDDIFFUSEALPHA
@@ -339,22 +339,10 @@ Localization: No localization: Engine.General.ViewOther (int)
 Init: Rendertarget format: D3DFMT_X8R8G8B8
 Init: Clipper texture created
 Localization: No localization: Engine.General.ViewYZ (int)
-Localization: No localization: Engine.General.ViewOther (int)
 Cmd: SETPAUSE 0
-Localization: No localization: DukeEd.General.Product (int)
-Cmd: AltFireDown 
-Cmd: OnRelease AltFireUp
-Cmd: AltFireUp
-Log: ***** RtClickWindowCanADD
-Log: GEditor->CurrentClass not set
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
-Cmd: FireDown 
-Cmd: OnRelease FireUp
-Cmd: FireUp
+Localization: No localization: Engine.General.ViewOther (int)
 Cmd: SETPAUSE 1
-Localization: No localization: DukeEd.General.Product (int)
+Localization: No localization: Engine.General.ViewOther (int)
 Log: Unloading TrueType fonts.
 Log: Unloading TrueType fonts.
 Log: Unloading TrueType fonts.
@@ -394,13 +382,13 @@ Log: Unloading: Package c_FX
 Log: Unloading: Package t_explosionFx
 Log: Unloading: Package dnModulation
 Log: Unloading: Package afbproship
-Log: Unloading: Package a_generic
 Log: Unloading: Package mario
+Log: Unloading: Package a_generic
 Log: Unloading: Package dnsWeapn
 Log: Unloading: Package a_transport
+Log: Unloading: Package a_edf
 Log: Unloading: Package t_test
 Log: Unloading: Package m_generic
-Log: Unloading: Package a_edf
 Log: Unloading: Package c_generic
 Log: Unloading: Package m_zone1_vegas
 Log: Unloading: Package a_ambient
@@ -425,18 +413,18 @@ Log: Unloading: Package a_switch
 Log: Unloading: Package a_inventory
 Log: Unloading: Package c_hands
 Log: Unloading: Package a_creatures
-Log: Unloading: Package m_hands
 Log: Unloading: Package dnsMaterials
+Log: Unloading: Package m_hands
 Log: Unloading: Package SMK6
 Log: Unloading: Package crane
 Log: Unloading: Package ts01
-Log: Unloading: Package dukeED_gfx
 Log: Unloading: Package SMK5
-Log: Unloading: Package SMK4
-Log: Unloading: Package ShieldFX
-Log: Unloading: Package vegas
+Log: Unloading: Package dukeED_gfx
 Log: Unloading: Package canvasfx
 Log: Unloading: Package arcadeFX
+Log: Unloading: Package ShieldFX
+Log: Unloading: Package SMK4
+Log: Unloading: Package vegas
 Log: Unloading: Package smk8
 Log: Unloading: Package a_npcvoice
 Log: Unloading: Package modelfx
@@ -475,12 +463,12 @@ Log: Unbound to D3DDrv.dll
 Log: Unbound to SoftDrv.dll
 Log: Purging garbage - DeleteGarbage
 Log: Purging garbage - DeleteNames
-Log: Garbage: objects: 48160->0; refs: 0
+Log: Garbage: objects: 48189->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Uninitialized: Name subsystem shut down
 Uninitialized: Memory Allocation Status
-Uninitialized: Curr Memory  0.251M /  3.434M
-Uninitialized: Peak Memory  52.591M /  54.301M
-Uninitialized: Allocs        6343 Current /  232283 Total
-Uninitialized: Log file closed, 05/16/22 10:38:17
+Uninitialized: Curr Memory  0.260M /  3.430M
+Uninitialized: Peak Memory  52.608M /  54.227M
+Uninitialized: Allocs        6271 Current /  232639 Total
+Uninitialized: Log file closed, 05/19/22 00:15:33

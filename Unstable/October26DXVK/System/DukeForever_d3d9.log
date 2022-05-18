@@ -148,7 +148,7 @@ info:    bufferDeviceAddress                    : 0
 info:  Queue families:
 info:    Graphics : 0
 info:    Transfer : 2
-info:  DXVK: Read 321 valid state cache entries
+info:  DXVK: Read 322 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
