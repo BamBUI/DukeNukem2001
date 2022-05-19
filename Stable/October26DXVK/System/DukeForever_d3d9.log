@@ -152,8 +152,8 @@ info:  DXVK: Read 321 valid state cache entries
 info:  DXVK: Using 10 compiler threads
 info:  D3D9DeviceEx::ResetSwapChain:
 info:    Requested Presentation Parameters
-info:      - Width:              1280
-info:      - Height:             720
+info:      - Width:              1440
+info:      - Height:             900
 info:      - Format:             D3D9Format::A8R8G8B8
 info:      - Auto Depth Stencil: true
 info:                  ^ Format: D3D9Format::D24S8
@@ -161,7 +161,7 @@ info:      - Windowed:           true
 info:  Presenter: Actual swap chain properties:
 info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
 info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
-info:    Buffer size:  1280x720
+info:    Buffer size:  1440x900
 info:    Image count:  2
 info:    Exclusive FS: 0
 info:  Setting timer interval to 500 us
@@ -169,7 +169,7 @@ warn:  D3D9DeviceEx::SetRenderState: Unhandled render state D3DRS_DITHERENABLE
 info:  Presenter: Actual swap chain properties:
 info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
 info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
-info:    Buffer size:  1280x720
+info:    Buffer size:  1440x900
 info:    Image count:  2
 info:    Exclusive FS: 0
 warn:  D3D9DeviceEx::SetRenderState: Unhandled render state D3DRS_CLIPPING

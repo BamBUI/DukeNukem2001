@@ -1,10 +1,10 @@
-Log: Log file open, 05/16/22 19:15:21
+Log: Log file open, 05/19/22 01:18:51
 Init: Name subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Init: Version: 400
 Init: Compiled: Apr 22 2022 03:39:04
 Init: Command line: testrendev=D3DDrv.D3DRenderDevice log=Detected.log
-Init: Base directory: S:\DukeRepo\DukeNukem2001\October26DXVK\System\
+Init: Base directory: S:\DukeRepo\DukeNukem2001\Stable\October26DXVK\System\
 Init: Character set: Unicode
 Init: Profile: DukeTemp
 Log: Bound to Engine.dll
@@ -13,17 +13,17 @@ Init: Computer: PAULPC
 Init: User: ErrorMacro
 Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
 Init: Working set: 32000 / 159000
-Init: CPU Speed=4275.013738 MHz
+Init: CPU Speed=4274.808661 MHz
 Init: CPU Page size=4096, Processors=16
 Init: CPU Detected: Unknown processor (AuhenicAD)
 Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
 Log: Detecting D3DDrv.D3DRenderDevice
 Log: Bound to D3DDrv.dll
 Init: Direct3D adapters detected:
-Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
-Log: Adaptor Detected: atiumdag.dll/ATI Radeon HD 5600 Series
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
+Log: Adaptor Detected: aticfx32.dll/AMD Radeon RX 5700 XT
 Init: DukeForever Direct3D support initializing.
-Log: SetRes(NewX=0,NewY=0,NewColorBytes=0,Fullscreen0) (this:083e0000);
+Log: SetRes(NewX=0,NewY=0,NewColorBytes=0,Fullscreen0) (this:083b0000);
 Init: Successfully tested Direct3D presence (S_OK)
 Log: Successfully detected D3DDrv.D3DRenderDevice
 Exit: Preparing to exit.
@@ -38,7 +38,7 @@ Log: Terminating main loop
 Exit: Exiting.
 Uninitialized: Name subsystem shut down
 Uninitialized: Memory Allocation Status
-Uninitialized: Curr Memory  0.014M /  0.934M
+Uninitialized: Curr Memory  0.014M /  0.871M
 Uninitialized: Peak Memory  1.891M /  4.137M
-Uninitialized: Allocs          35 Current /   7389 Total
-Uninitialized: Log file closed, 05/16/22 19:15:31
+Uninitialized: Allocs          35 Current /   7410 Total
+Uninitialized: Log file closed, 05/19/22 01:18:52

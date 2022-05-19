@@ -35,6 +35,7 @@
 
 // Themes
 Object=(Name="mtheme_cobaltblue",Class="Theme",Parent="Theme",Description="Cobalt Fusion",ExtraData="flag_background=Blue Noise")
+Object=(Name="mtheme_fullcolor",Class="Theme",Parent="Theme",Description="Full Color",ExtraData="flag_background=Blue Noise")
 Object=(Name="mtheme_blackwhite",Class="Theme",Parent="Theme",Description="Custom Color",ExtraData="flag_colorizable,flag_background=White Noise")
 
 // Backgrounds
