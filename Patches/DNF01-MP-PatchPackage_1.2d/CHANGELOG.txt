@@ -1,0 +1,85 @@
+THE Aforementioned Multiplayer Patch Package v1.2d for Duke Nukem Forever 2001!
+by THEBaratusII
+I also give credits to those fixing this game.
+
+NOTE : If you have any problems I'd advise everyone to check DukeForever.log first.
+
+Changelogs
+
+v1.2d (Rollback Patch)
+- Reverted to Ch0wW's fixes due to instability with servers for the time being.
+- Added in the following usermap:
+DM-AdversityV1.dnf (Conversion from Rune) (by Slade)
+Added DukeColors & p_PortraitIcons2 to ServerPackages in DukeForever.ini to ensure the skins/icons were working.
+
+v1.2c
+- Crosshair grows slightly more subtle.
+- Pissing mechanics is re-enabled,  
+- The defaults for viewmodels sway/lag is more subtle, and max value is clamped.
+- Temporary fix for the sniper scope. Stretches in widescreen.
+- New Hitsounds added by BathySalts. (TF2, Quake III and COD)
+- Removed DM-DNFdust2_RC.dnf and replaced it with DM-Dust2_v1.dnf (by slade)
+- Added in the following usermaps :
+DM-FamilyGuyV1.dnf (by slade)
+DM-DNFBodies.dnf
+DM-WonderlandV1.dnf (by slade)
+DM-SmugglerV1.dnf (by slade) (Conversion from Deus Ex)
+DM-KitchenV1.dnf (by slade) (Original by Drider)
+- Tweaked DukeForever.ini to enable Trilinear and Precache to reduce stuttering
+- 6 New Icons for Multiplayer
+*KNOWN ISSUE* - Hitsounds reset to Wookie sound in a map change. (This might be address in the next patch)
+
+v1.2b (Hotfix)
+- Added the new dnsWeapn.dfx (because I forgot to add it in for v1.2a)
+- Added 333networks master server for uplinking (I need a way to fetch multiple master servers.)
+- Included the usermap :
+DM-Field.dnf (by Damin72)
+
+v1.2a
+- Replaced Ch0wW's fixes with the ones from the DNF '01 Restoration Team, adding in the following:
+  * HUD Scaling & Improvements (However the Sniper Rifle's zoom graphics are still need fixing.)
+  * FOV Slider
+  * Streamlined Hitsound support + New Hitsounds (hitsounds.mds)
+  * Adding in missing sounds for the RPG.
+  * Fixed Flamethrower ammo & pickup sounds. etc
+  * Pissing mechanics disabled for the time-being.
+  * Weapon Swaying & Weapon Lag sliders
+  * Crosshair grows when firing.
+- Added in the Full Color theme for SOS
+- Included the following usermaps :
+DM-WolfGrid (by Novak/YeOldeFellerNoob)
+DM-DNFMaleVolence.dnf (Conversion from Unreal Tournament)
+- Included fixed versions (by Tamamo-no-Bae) of the following :
+DM-FullHouse.dnf
+DM-EDFTrainingGrounds.dnf
+DM-e1l1.dnf
+Dm-Gibtown.dnf
+DM-DNFMorbias.dnf
+DM-Duke16.dnf (That one was by me!)
+
+v1.2
+- Included all the .U files from my install to hope that will fix the package mismatch problems
+- Included the following usermaps :
+DM-Area16 (My recreation of Area 15 from Blood originally for remade for Unreal)
+DM-DNFLiandri_v2.dnf (Conversion from Unreal Tournament)
+DM-DNFTempest338_RC.dnf (Conversion from Unreal Tournament Demo v338)
+DM-DNFdust2_RC.dnf (Conversion from Counter Strike) (by slade)
+DM-DNFMorbias.dnf (Conversion from Unreal)
+DM-DNFTundra.dnf (Conversion from Unreal)
+- Included the renamed maps of DM-FullHouse.dnf, DM-Codex][.dnf and DM_BellTollRemix.dnf
+- Female player models added to multiplayer.mds thanks to BathySalts!
+
+
+v1.1b (Hotfix)
+- Included Ch0wW's dnf01_mp_120521_hotfix.zip
+
+
+v1.1
+- Included Ch0wW's dnf01_mp_120521.zip
+- Included Engine.dll fix (fixes unstable framerates)
+- Included DukeColors v1 Skin Pack (Change Duke Nukem's Tanktop and Pants + Faces)
+- Added in a Renderers folder for swapping between the Direct3D8 & DXVK Vulkan methods.
+
+v1.0
+- Included Ch0wW's dnf01_mp_110521.zip
+- Included a tweaked DukeForever.ini with adjustments that improves the game
